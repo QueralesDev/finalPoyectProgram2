@@ -4,26 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bd996a8-f17f-472a-be49-7f9a76024462" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/enums/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/enums/TypeMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/enums/TypeSpeciality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/AbstractPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/DidacticMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Evaluation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Progress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Teacher.java" afterDir="false" />
+    <list default="true" id="842db90a-6654-4d9b-8240-a2cb2e44af56" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/management/ManagementSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/PersonGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/utilities/FileDataManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/utilities/JsonGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/enums/TypeSpeciality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/enums/TypeSpeciality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/AbstractPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/AbstractPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/DidacticMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/DidacticMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Evaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Evaluation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -42,34 +42,51 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2nUbiniJZCHpt3Ch2IYWwhvZDNJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="2nnDMyQY1I1Kkj3sW1uuwjqSeqI" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/lquerales/Desktop/TUP/SEGUNDO CUATRIMESTRE/PROGRAMACION 2/proyectosJava/SistemaGestionClasesOnline/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lquerales/Desktop/finalPoyectProgram2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="finalPoyectProgram2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="finalPoyectProgram2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7bd996a8-f17f-472a-be49-7f9a76024462" name="Changes" comment="" />
-      <created>1729030735888</created>
+      <changelist id="842db90a-6654-4d9b-8240-a2cb2e44af56" name="Changes" comment="" />
+      <created>1729599904500</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1729030735888</updated>
+      <updated>1729599904500</updated>
     </task>
     <servers />
   </component>

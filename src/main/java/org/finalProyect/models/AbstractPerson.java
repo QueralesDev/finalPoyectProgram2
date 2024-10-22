@@ -64,4 +64,12 @@ public abstract class AbstractPerson {
     public UUID getId() {
         return id;
     }
+
+    public void show(){
+        System.out.println("id...................: " + id);
+        System.out.println("Nombre...............: " + name);
+        System.out.println("Apellido.............: " + lastName);
+        System.out.println("dni..................: " + dni);
+        System.out.println("email................: " + email);
+    }
 }
