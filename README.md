@@ -1,9 +1,9 @@
 # finalPoyectProgram2
 ## Repositorio del proyecto final de programación 2.
 
-### Este repositorio fue creado con la finalidad de registra tods los avances acerca del proyecto final de la materia programacion 2, a continuacion se describen una serie de pasos a cumplir antes de comenzar a trabar en el proyecto con la finalidad de mantener un buen flujo de trabajo.
+### Este repositorio fue creado con la finalidad de registrar todos los avances acerca del proyecto final de la materia programacion 2, a continuacion se describen una serie de pasos a cumplir antes de comenzar a trabar en el proyecto con la finalidad de mantener un buen flujo de trabajo.
 
-###Para mantener un flujo de trabajo organizado y evitar la creación de ramas innecesarias, utilizamos la siguiente convención de nombres para las ramas:
+### Para mantener un flujo de trabajo organizado y evitar la creación de ramas innecesarias, utilizamos la siguiente convención de nombres para las ramas:
 
 > Development/tu-nombre
 
