@@ -7,6 +7,10 @@ public class DidacticMaterial {
     private TypeMaterial typeMaterial;
     private String link;
 
+    public DidacticMaterial(){
+
+    }
+
     public DidacticMaterial(String name, TypeMaterial typeMaterial, String link) {
         setName(name);
         setTypeMaterial(typeMaterial);

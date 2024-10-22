@@ -10,6 +10,10 @@ public class Course {
     private Level level;
     private List<DidacticMaterial> didacticMaterialList;
 
+    public Course(){
+
+    }
+
     public Course(String name, Level level) {
         setName(name);
         setLevel(level);

@@ -12,9 +12,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-class JSONGenerator {
+public class GeneratorJson {
 
-    public static void generateStudents(int count) {
+    public void generateStudents(int count) {
         List<Student> students = new ArrayList<>();
         Level[] levels = Level.values();
 
@@ -32,7 +32,7 @@ class JSONGenerator {
         saveToFile(students, "students.json");
     }
 
-    public static void generateTeachers(int count) {
+    public void generateTeachers(int count) {
         List<Teacher> teachers = new ArrayList<>();
         TypeSpeciality[] specialties = TypeSpeciality.values();
 
@@ -50,7 +50,7 @@ class JSONGenerator {
         saveToFile(teachers, "teachers.json");
     }
 
-    public static void generateCourses(int count) {
+    public void generateCourses(int count) {
         List<Course> courses = new ArrayList<>();
         String[] courseNames = { "Introduction to Classical Piano",
                 "Jazz Guitar Essentials",
@@ -73,12 +73,13 @@ class JSONGenerator {
                 "String Quartet Performance",
                 "Film Scoring and Composition"};
         Level[] levels = Level.values();
+        TypeMaterial[] typeMaterials = TypeMaterial.values();
         String[] plinks = {"https://cursosonline.com/video", "https://cursosonline.com/audio", "https://cursosonline.com/partitura"};
 
         for (int i = 0; i < count; i++) {
             String courseName = courseNames[PersonGenerator.random.nextInt(courseNames.length)];
             Level level = Level.valueOf(String.valueOf(levels[PersonGenerator.random.nextInt(levels.length)]));
-            TypeMaterial typeMaterial = TypeMaterial.valueOf(String.valueOf(levels[PersonGenerator.random.nextInt(levels.length)]));
+            TypeMaterial typeMaterial = TypeMaterial.valueOf(String.valueOf(typeMaterials[PersonGenerator.random.nextInt(typeMaterials.length)]));
             String links = plinks[PersonGenerator.random.nextInt(plinks.length)];
 
             Course course = new Course(courseName, level);
@@ -89,7 +90,7 @@ class JSONGenerator {
         saveToFile(courses, "courses.json");
     }
 
-    private static <T> void saveToFile(List<T> data, String fileName) {
+    private <T> void saveToFile(List<T> data, String fileName) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try (FileWriter writer = new FileWriter(fileName)) {
             gson.toJson(data, writer);
@@ -99,4 +100,3 @@ class JSONGenerator {
         }
     }
 }
-

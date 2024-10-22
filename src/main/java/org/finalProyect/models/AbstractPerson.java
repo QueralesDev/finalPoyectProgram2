@@ -17,6 +17,10 @@ public abstract class AbstractPerson {
         setEmail(email);
     }
 
+    public AbstractPerson() {
+
+    }
+
     public String getName() {
         return name;
     }

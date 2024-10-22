@@ -5,6 +5,10 @@ import org.finalProyect.enums.TypeSpeciality;
 public class Teacher extends AbstractPerson {
     private TypeSpeciality speciality;
 
+    public Teacher(){
+        super();
+    }
+
     public Teacher(String name, String lastName, String dni, String email, TypeSpeciality speciality) {
         super(name, lastName, dni, email);
         setSpeciality(speciality);

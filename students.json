@@ -1,0 +1,43 @@
+[ {
+  "id" : "eacbfb5d-3fd8-4c27-9a05-8dc23056938c",
+  "name" : "Juliana",
+  "lastName" : "Vega",
+  "dni" : "72719013",
+  "email" : "juliana.vega@domain.com",
+  "level" : "AVANZADO"
+}, {
+  "id" : "56c41f53-0172-4c4c-baa6-b824a69b7998",
+  "name" : "Olga",
+  "lastName" : "Lopez",
+  "dni" : "56149975",
+  "email" : "olga.lopez@fastmail.com",
+  "level" : "AVANZADO"
+}, {
+  "id" : "9161f5ff-831b-4287-b845-05def9518caa",
+  "name" : "Miguel",
+  "lastName" : "Mora",
+  "dni" : "79601935",
+  "email" : "miguel.mora@optonline.net",
+  "level" : "PRINCIPIANTE"
+}, {
+  "id" : "c622f5fa-e3ec-4718-8846-f64ffee04c7a",
+  "name" : "Alicia",
+  "lastName" : "Rosales",
+  "dni" : "42653220",
+  "email" : "alicia.rosales@posteo.net",
+  "level" : "PRINCIPIANTE"
+}, {
+  "id" : "ec9ab41f-77cd-4119-bb62-fa2063dc8a59",
+  "name" : "Laura",
+  "lastName" : "Castillo",
+  "dni" : "84691494",
+  "email" : "laura.castillo@mail.com",
+  "level" : "INTERMEDIO"
+}, {
+  "id" : "2be68f20-580e-4dab-902a-96be02797125",
+  "name" : "luis",
+  "lastName" : "querales",
+  "dni" : "96006057",
+  "email" : "luis.alberto31.66@gmail.com",
+  "level" : "INTERMEDIO"
+} ]

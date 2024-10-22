@@ -1,0 +1,36 @@
+[ {
+  "id" : "14c8864e-712b-44e0-9dfe-d69473e48392",
+  "name" : "Adriana",
+  "lastName" : "Santana",
+  "dni" : "58795563",
+  "email" : "adriana.santana@runbox.com",
+  "speciality" : "VIOLA"
+}, {
+  "id" : "a503929d-e39e-4994-af57-9778df511b25",
+  "name" : "Enrique",
+  "lastName" : "Valencia",
+  "dni" : "15868389",
+  "email" : "enrique.valencia@q.com",
+  "speciality" : "GUITARRA"
+}, {
+  "id" : "dcd4f987-97bb-4ac6-81d1-f455776f5f5c",
+  "name" : "Felipe",
+  "lastName" : "Ibarra",
+  "dni" : "54697988",
+  "email" : "felipe.ibarra@seznam.cz",
+  "speciality" : "MARIMBA"
+}, {
+  "id" : "c267701f-2d41-4fdf-8e19-619909711eb5",
+  "name" : "Pedro",
+  "lastName" : "Bermudez",
+  "dni" : "44503947",
+  "email" : "pedro.bermudez@rocketmail.com",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "1d6f475b-cae4-40cc-bb54-9eea55118b1a",
+  "name" : "Nicolas",
+  "lastName" : "Herrera",
+  "dni" : "87891692",
+  "email" : "nicolas.herrera@icloud.com",
+  "speciality" : "CONTRABAJO"
+} ]

@@ -1,20 +1,28 @@
 package org.finalProyect;
 
+import com.fasterxml.jackson.core.JsonGenerator;
 import org.finalProyect.enums.Level;
 import org.finalProyect.enums.TypeSpeciality;
 import org.finalProyect.management.ManagementSystem;
 import org.finalProyect.models.Course;
 import org.finalProyect.models.Student;
 import org.finalProyect.models.Teacher;
+import org.finalProyect.utilities.GeneratorJson;
 
 import java.util.Scanner;
 import java.util.UUID;
 
 public class Menu {
+    private GeneratorJson generatorJson;
     private ManagementSystem managementSystem;
     private Scanner scanner;
 
+
     public Menu() {
+        this.generatorJson = new GeneratorJson();
+        generatorJson.generateStudents(5);
+        generatorJson.generateTeachers(5);
+        generatorJson.generateCourses(5);
         this.managementSystem = new ManagementSystem();
         this.scanner = new Scanner(System.in);
     }
