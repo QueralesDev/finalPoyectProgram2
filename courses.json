@@ -1,41 +1,57 @@
-[ {
-  "name" : "Film Scoring and Composition",
-  "level" : "PRINCIPIANTE",
-  "didacticMaterialList" : [ {
-    "name" : "Material0",
-    "typeMaterial" : "AUDIO",
-    "link" : "https://cursosonline.com/partitura"
-  } ]
-}, {
-  "name" : "Advanced Music Theory",
-  "level" : "INTERMEDIO",
-  "didacticMaterialList" : [ {
-    "name" : "Material1",
-    "typeMaterial" : "PARTITURA",
-    "link" : "https://cursosonline.com/audio"
-  } ]
-}, {
-  "name" : "Improvisation for Jazz Musicians",
-  "level" : "PRINCIPIANTE",
-  "didacticMaterialList" : [ {
-    "name" : "Material2",
-    "typeMaterial" : "PARTITURA",
-    "link" : "https://cursosonline.com/video"
-  } ]
-}, {
-  "name" : "Beginner Violin Lessons",
-  "level" : "AVANZADO",
-  "didacticMaterialList" : [ {
-    "name" : "Material3",
-    "typeMaterial" : "VIDEO",
-    "link" : "https://cursosonline.com/partitura"
-  } ]
-}, {
-  "name" : "Improvisation for Jazz Musicians",
-  "level" : "PRINCIPIANTE",
-  "didacticMaterialList" : [ {
-    "name" : "Material4",
-    "typeMaterial" : "PARTITURA",
-    "link" : "https://cursosonline.com/video"
-  } ]
-} ]
+[
+  {
+    "name": "Beginner Violin Lessons",
+    "level": "AVANZADO",
+    "didacticMaterialList": [
+      {
+        "name": "Material0",
+        "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/partitura"
+      }
+    ]
+  },
+  {
+    "name": "Advanced Vocal Techniques",
+    "level": "AVANZADO",
+    "didacticMaterialList": [
+      {
+        "name": "Material1",
+        "typeMaterial": "VIDEO",
+        "link": "https://cursosonline.com/partitura"
+      }
+    ]
+  },
+  {
+    "name": "Beginner Violin Lessons",
+    "level": "INTERMEDIO",
+    "didacticMaterialList": [
+      {
+        "name": "Material2",
+        "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/video"
+      }
+    ]
+  },
+  {
+    "name": "Electronic Music Production",
+    "level": "PRINCIPIANTE",
+    "didacticMaterialList": [
+      {
+        "name": "Material3",
+        "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/video"
+      }
+    ]
+  },
+  {
+    "name": "Rock Drumming Techniques",
+    "level": "INTERMEDIO",
+    "didacticMaterialList": [
+      {
+        "name": "Material4",
+        "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/partitura"
+      }
+    ]
+  }
+]

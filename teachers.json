@@ -1,36 +1,42 @@
-[ {
-  "id" : "14c8864e-712b-44e0-9dfe-d69473e48392",
-  "name" : "Adriana",
-  "lastName" : "Santana",
-  "dni" : "58795563",
-  "email" : "adriana.santana@runbox.com",
-  "speciality" : "VIOLA"
-}, {
-  "id" : "a503929d-e39e-4994-af57-9778df511b25",
-  "name" : "Enrique",
-  "lastName" : "Valencia",
-  "dni" : "15868389",
-  "email" : "enrique.valencia@q.com",
-  "speciality" : "GUITARRA"
-}, {
-  "id" : "dcd4f987-97bb-4ac6-81d1-f455776f5f5c",
-  "name" : "Felipe",
-  "lastName" : "Ibarra",
-  "dni" : "54697988",
-  "email" : "felipe.ibarra@seznam.cz",
-  "speciality" : "MARIMBA"
-}, {
-  "id" : "c267701f-2d41-4fdf-8e19-619909711eb5",
-  "name" : "Pedro",
-  "lastName" : "Bermudez",
-  "dni" : "44503947",
-  "email" : "pedro.bermudez@rocketmail.com",
-  "speciality" : "VIOLONCHELO"
-}, {
-  "id" : "1d6f475b-cae4-40cc-bb54-9eea55118b1a",
-  "name" : "Nicolas",
-  "lastName" : "Herrera",
-  "dni" : "87891692",
-  "email" : "nicolas.herrera@icloud.com",
-  "speciality" : "CONTRABAJO"
-} ]
+[
+  {
+    "speciality": "CONTRABAJO",
+    "id": "75dbb18d-0b0a-4893-8f41-8fb9aa3d2478",
+    "name": "Liliana",
+    "lastName": "Matos",
+    "dni": "51306600",
+    "email": "liliana.matos@rocketmail.com"
+  },
+  {
+    "speciality": "VIOLIN",
+    "id": "c1f584f1-f779-4114-99c8-34fe7113c1a0",
+    "name": "Ignacio",
+    "lastName": "Castillo",
+    "dni": "42157623",
+    "email": "ignacio.castillo@gmx.com"
+  },
+  {
+    "speciality": "GUITARRA",
+    "id": "d204cf2a-2e9d-4a46-8129-bfb9d2a02826",
+    "name": "Alfonso",
+    "lastName": "Paredes",
+    "dni": "68049173",
+    "email": "alfonso.paredes@laposte.net"
+  },
+  {
+    "speciality": "TIMBALES",
+    "id": "45c5bae2-daa4-48bc-89d7-78a49cc66205",
+    "name": "Irene",
+    "lastName": "Sanchez",
+    "dni": "65673173",
+    "email": "irene.sanchez@tutanota.com"
+  },
+  {
+    "speciality": "GUITARRA",
+    "id": "858c74ad-a12c-4d8b-be05-965e346543f9",
+    "name": "Raul",
+    "lastName": "Matos",
+    "dni": "83783793",
+    "email": "raul.matos@mail.ru"
+  }
+]

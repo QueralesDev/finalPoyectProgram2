@@ -1,43 +1,42 @@
-[ {
-  "id" : "eacbfb5d-3fd8-4c27-9a05-8dc23056938c",
-  "name" : "Juliana",
-  "lastName" : "Vega",
-  "dni" : "72719013",
-  "email" : "juliana.vega@domain.com",
-  "level" : "AVANZADO"
-}, {
-  "id" : "56c41f53-0172-4c4c-baa6-b824a69b7998",
-  "name" : "Olga",
-  "lastName" : "Lopez",
-  "dni" : "56149975",
-  "email" : "olga.lopez@fastmail.com",
-  "level" : "AVANZADO"
-}, {
-  "id" : "9161f5ff-831b-4287-b845-05def9518caa",
-  "name" : "Miguel",
-  "lastName" : "Mora",
-  "dni" : "79601935",
-  "email" : "miguel.mora@optonline.net",
-  "level" : "PRINCIPIANTE"
-}, {
-  "id" : "c622f5fa-e3ec-4718-8846-f64ffee04c7a",
-  "name" : "Alicia",
-  "lastName" : "Rosales",
-  "dni" : "42653220",
-  "email" : "alicia.rosales@posteo.net",
-  "level" : "PRINCIPIANTE"
-}, {
-  "id" : "ec9ab41f-77cd-4119-bb62-fa2063dc8a59",
-  "name" : "Laura",
-  "lastName" : "Castillo",
-  "dni" : "84691494",
-  "email" : "laura.castillo@mail.com",
-  "level" : "INTERMEDIO"
-}, {
-  "id" : "2be68f20-580e-4dab-902a-96be02797125",
-  "name" : "luis",
-  "lastName" : "querales",
-  "dni" : "96006057",
-  "email" : "luis.alberto31.66@gmail.com",
-  "level" : "INTERMEDIO"
-} ]
+[
+  {
+    "level": "AVANZADO",
+    "id": "349bf576-8989-4b83-90a0-5005c832d93e",
+    "name": "Irene",
+    "lastName": "Reyes",
+    "dni": "24923677",
+    "email": "irene.reyes@outlook.com"
+  },
+  {
+    "level": "AVANZADO",
+    "id": "fcfc8085-8ffe-4fa3-b917-87ce503c83dc",
+    "name": "Lorena",
+    "lastName": "Pena",
+    "dni": "28659407",
+    "email": "lorena.pena@tutanota.com"
+  },
+  {
+    "level": "INTERMEDIO",
+    "id": "fd2fe477-1106-48c5-ac1e-90137a68c8bd",
+    "name": "John",
+    "lastName": "Querales",
+    "dni": "36475458",
+    "email": "john.querales@tutanota.com"
+  },
+  {
+    "level": "PRINCIPIANTE",
+    "id": "d50f628e-1cb2-45de-bf50-e61e323c2317",
+    "name": "Roberto",
+    "lastName": "Castro",
+    "dni": "86829566",
+    "email": "roberto.castro@runbox.com"
+  },
+  {
+    "level": "INTERMEDIO",
+    "id": "b2838307-0535-49b2-b99f-2d2f2f647fd7",
+    "name": "Mateo",
+    "lastName": "Garcia",
+    "dni": "68183657",
+    "email": "mateo.garcia@outlook.com"
+  }
+]

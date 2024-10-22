@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="842db90a-6654-4d9b-8240-a2cb2e44af56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/utilities/GeneratorJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses.json" beforeDir="false" afterPath="$PROJECT_DIR$/courses.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/AbstractPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/AbstractPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/DidacticMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/DidacticMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/utilities/JsonGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/students.json" beforeDir="false" afterPath="$PROJECT_DIR$/students.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teachers.json" beforeDir="false" afterPath="$PROJECT_DIR$/teachers.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

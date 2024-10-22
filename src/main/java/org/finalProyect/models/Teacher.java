@@ -28,6 +28,7 @@ public class Teacher extends AbstractPerson {
     @Override
     public void show() {
         super.show();
-        System.out.println("Especialidad..........: " + speciality);
+        System.out.println("Especialidad.........: " + speciality);
+        System.out.println("________________________________________________________________________");
     }
 }
