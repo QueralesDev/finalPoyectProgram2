@@ -1,7 +1,7 @@
 # finalPoyectProgram2
 ## Repositorio del proyecto final de programación 2.
 
-### Este repositorio fue creado con la finalidad de registra tod sloa avances acerca del proyecto final de la materia programacion 2, a continuacion se describen una serie de pasos a cumplir antes de comenzar a trabar en el proyecto con la finalidad de mantener un buen flujo de trabajo.
+### Este repositorio fue creado con la finalidad de registra tods los avances acerca del proyecto final de la materia programacion 2, a continuacion se describen una serie de pasos a cumplir antes de comenzar a trabar en el proyecto con la finalidad de mantener un buen flujo de trabajo.
 
 ###Para mantener un flujo de trabajo organizado y evitar la creación de ramas innecesarias, utilizamos la siguiente convención de nombres para las ramas:
 
@@ -26,7 +26,7 @@ Cloná el repositorio
 
 Por ejemplo para este repositorio:
 
-> git clone
+> git clone https://github.com/QueralesDev/finalPoyectProgram2.git
 
 Crea una rama local
 
