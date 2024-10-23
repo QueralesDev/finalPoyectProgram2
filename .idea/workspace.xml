@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="842db90a-6654-4d9b-8240-a2cb2e44af56" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses.json" beforeDir="false" afterPath="$PROJECT_DIR$/courses.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/models/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students.json" beforeDir="false" afterPath="$PROJECT_DIR$/students.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teachers.json" beforeDir="false" afterPath="$PROJECT_DIR$/teachers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/management/ManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/management/ManagementSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teachers.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lquerales/Desktop/finalPoyectProgram2&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/lquerales/Desktop/finalPoyectProgram2",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lquerales\Desktop\finalPoyectProgram2\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="finalPoyectProgram2" />

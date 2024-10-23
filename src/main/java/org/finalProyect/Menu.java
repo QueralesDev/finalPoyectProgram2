@@ -61,7 +61,7 @@ public class Menu {
 
             String opcion = scanner.nextLine();
             switch (opcion) {
-                case "1": addStudent(); break;
+                case "1": createStudent(); break;
                 case "2": listStudents(); break;
                 case "3": searchStudent(); break;
                 case "4": updateStudent(); break;
@@ -85,7 +85,7 @@ public class Menu {
 
             String opcion = scanner.nextLine();
             switch (opcion) {
-                case "1": addTeacher(); break;
+                case "1": createTeacher(); break;
                 case "2": listTeachers(); break;
                 case "3": searchTeacher(); break;
                 case "4": updateTeacher(); break;
@@ -167,7 +167,7 @@ public class Menu {
     }
 
     // Métodos CRUD para Estudiantes
-    private void addStudent() {
+    private void createStudent() {
         System.out.print("Ingrese el nombre: ");
         String firstName = scanner.nextLine().trim();
         System.out.print("Ingrese el apellido: ");
@@ -247,7 +247,7 @@ public class Menu {
     }
 
     // Métodos CRUD para Profesores
-    private void addTeacher() {
+    private void createTeacher() {
         System.out.print("Ingrese el nombre: ");
         String firstName = scanner.nextLine().trim();
         System.out.print("Ingrese el apellido: ");

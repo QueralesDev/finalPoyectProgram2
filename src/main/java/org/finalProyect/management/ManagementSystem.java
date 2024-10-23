@@ -16,6 +16,15 @@ public class ManagementSystem {
     private FileDataManager fileDataManager;
 
     // Archivos para la persistencia
+
+    /*private static final String PATH_RESOURCES = System.getProperty("user.dir") + "/src/main/resources";
+    private static final String PATH_STUDENTS = "/students.json";
+    private static final String PATH_TEACHERS = "/teachers.json";
+    private static final String PATH_COURSES = "/courses.json";
+    private static final String STUDENTS_FILE = PATH_RESOURCES + PATH_STUDENTS;
+    private static final String TEACHERS_FILE = PATH_RESOURCES + PATH_TEACHERS;
+    private static final String COURSES_FILE = PATH_RESOURCES + PATH_COURSES;*/
+
     private static final String STUDENTS_FILE = "students.json";
     private static final String TEACHERS_FILE = "teachers.json";
     private static final String COURSES_FILE = "courses.json";

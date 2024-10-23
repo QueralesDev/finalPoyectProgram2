@@ -1,55 +1,55 @@
 [
   {
-    "name": "Beginner Violin Lessons",
+    "name": "Mastering the Clarinet",
     "level": "AVANZADO",
     "didacticMaterialList": [
       {
         "name": "Material0",
-        "typeMaterial": "PARTITURA",
-        "link": "https://cursosonline.com/partitura"
-      }
-    ]
-  },
-  {
-    "name": "Advanced Vocal Techniques",
-    "level": "AVANZADO",
-    "didacticMaterialList": [
-      {
-        "name": "Material1",
         "typeMaterial": "VIDEO",
         "link": "https://cursosonline.com/partitura"
       }
     ]
   },
   {
-    "name": "Beginner Violin Lessons",
-    "level": "INTERMEDIO",
+    "name": "Film Scoring and Composition",
+    "level": "AVANZADO",
     "didacticMaterialList": [
       {
-        "name": "Material2",
+        "name": "Material1",
         "typeMaterial": "PARTITURA",
-        "link": "https://cursosonline.com/video"
+        "link": "https://cursosonline.com/audio"
       }
     ]
   },
   {
-    "name": "Electronic Music Production",
+    "name": "Advanced Vocal Techniques",
+    "level": "PRINCIPIANTE",
+    "didacticMaterialList": [
+      {
+        "name": "Material2",
+        "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/audio"
+      }
+    ]
+  },
+  {
+    "name": "Introduction to Conducting",
     "level": "PRINCIPIANTE",
     "didacticMaterialList": [
       {
         "name": "Material3",
         "typeMaterial": "PARTITURA",
-        "link": "https://cursosonline.com/video"
+        "link": "https://cursosonline.com/partitura"
       }
     ]
   },
   {
-    "name": "Rock Drumming Techniques",
-    "level": "INTERMEDIO",
+    "name": "String Quartet Performance",
+    "level": "PRINCIPIANTE",
     "didacticMaterialList": [
       {
         "name": "Material4",
-        "typeMaterial": "PARTITURA",
+        "typeMaterial": "AUDIO",
         "link": "https://cursosonline.com/partitura"
       }
     ]
