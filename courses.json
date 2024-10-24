@@ -1,56 +1,56 @@
 [
   {
+    "name": "Baroque Harpsichord Performance",
+    "level": "PRINCIPIANTE",
+    "didacticMaterialList": [
+      {
+        "name": "Material0",
+        "typeMaterial": "AUDIO",
+        "link": "https://cursosonline.com/audio"
+      }
+    ]
+  },
+  {
     "name": "Mastering the Clarinet",
     "level": "AVANZADO",
     "didacticMaterialList": [
       {
-        "name": "Material0",
-        "typeMaterial": "VIDEO",
-        "link": "https://cursosonline.com/partitura"
-      }
-    ]
-  },
-  {
-    "name": "Film Scoring and Composition",
-    "level": "AVANZADO",
-    "didacticMaterialList": [
-      {
         "name": "Material1",
-        "typeMaterial": "PARTITURA",
-        "link": "https://cursosonline.com/audio"
+        "typeMaterial": "AUDIO",
+        "link": "https://cursosonline.com/video"
       }
     ]
   },
   {
-    "name": "Advanced Vocal Techniques",
-    "level": "PRINCIPIANTE",
+    "name": "Pop Music Songwriting",
+    "level": "AVANZADO",
     "didacticMaterialList": [
       {
         "name": "Material2",
         "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/video"
+      }
+    ]
+  },
+  {
+    "name": "Music Composition with Piano",
+    "level": "INTERMEDIO",
+    "didacticMaterialList": [
+      {
+        "name": "Material3",
+        "typeMaterial": "VIDEO",
         "link": "https://cursosonline.com/audio"
       }
     ]
   },
   {
-    "name": "Introduction to Conducting",
-    "level": "PRINCIPIANTE",
-    "didacticMaterialList": [
-      {
-        "name": "Material3",
-        "typeMaterial": "PARTITURA",
-        "link": "https://cursosonline.com/partitura"
-      }
-    ]
-  },
-  {
-    "name": "String Quartet Performance",
-    "level": "PRINCIPIANTE",
+    "name": "Advanced Music Theory",
+    "level": "AVANZADO",
     "didacticMaterialList": [
       {
         "name": "Material4",
         "typeMaterial": "AUDIO",
-        "link": "https://cursosonline.com/partitura"
+        "link": "https://cursosonline.com/audio"
       }
     ]
   }
