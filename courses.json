@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Mastering the Clarinet",
+    "level": "AVANZADO",
+    "didacticMaterialList": [
+      {
+        "name": "Material0",
+        "typeMaterial": "VIDEO",
+        "link": "https://cursosonline.com/partitura"
+      }
+    ]
+  },
+  {
+    "name": "Film Scoring and Composition",
+    "level": "AVANZADO",
+    "didacticMaterialList": [
+      {
+        "name": "Material1",
+        "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/audio"
+      }
+    ]
+  },
+  {
+    "name": "Advanced Vocal Techniques",
+    "level": "PRINCIPIANTE",
+    "didacticMaterialList": [
+      {
+        "name": "Material2",
+        "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/audio"
+      }
+    ]
+  },
+  {
+    "name": "Introduction to Conducting",
+    "level": "PRINCIPIANTE",
+    "didacticMaterialList": [
+      {
+        "name": "Material3",
+        "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/partitura"
+      }
+    ]
+  },
+  {
+    "name": "String Quartet Performance",
+    "level": "PRINCIPIANTE",
+    "didacticMaterialList": [
+      {
+        "name": "Material4",
+        "typeMaterial": "AUDIO",
+        "link": "https://cursosonline.com/partitura"
+      }
+    ]
+  }
+]

@@ -12,21 +12,10 @@ public enum TypeSpeciality {
     BANJO,
     PIANO,
     CLAVECIN,
-
-    // Viento madera
     FLAUTA,
-    CLARINETE,
-    OBOE,
-    FAGOT,
     SAXOFON,
-
-    // Viento metal
     TROMPETA,
     TROMBON,
-    TROMPA,
-    TUBA,
-
-    // Percusión de afinación definida
     TIMBALES,
     MARIMBA,
     XILOFONO,

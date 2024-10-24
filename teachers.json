@@ -1,0 +1,42 @@
+[
+  {
+    "speciality": "CAMPANAS_TUBULARES",
+    "id": "5f712b9e-673b-4911-a0df-5dae2dbccd1d",
+    "name": "Rafael",
+    "lastName": "Sanchez",
+    "dni": "90422088",
+    "email": "rafael.sanchez@tutanota.com"
+  },
+  {
+    "speciality": "MARIMBA",
+    "id": "3c750c25-2d1e-47b5-a238-ee13f5aceaa5",
+    "name": "Gustavo",
+    "lastName": "Martinez",
+    "dni": "60771822",
+    "email": "gustavo.martinez@zohomail.com"
+  },
+  {
+    "speciality": "MARIMBA",
+    "id": "73698398-af61-4516-a5d2-8b442dfd8554",
+    "name": "Lucia",
+    "lastName": "Quintero",
+    "dni": "45833084",
+    "email": "lucia.quintero@gmail.com"
+  },
+  {
+    "speciality": "FLAUTA",
+    "id": "9ef0f7bf-45a2-403d-90c6-78fcd8aa35e5",
+    "name": "Valeria",
+    "lastName": "Ortiz",
+    "dni": "48589959",
+    "email": "valeria.ortiz@hushmail.com"
+  },
+  {
+    "speciality": "CLAVECIN",
+    "id": "da33769c-0593-483f-a378-21f01b7a72ef",
+    "name": "Pablo",
+    "lastName": "Diaz",
+    "dni": "43538354",
+    "email": "pablo.diaz@yandex.com"
+  }
+]

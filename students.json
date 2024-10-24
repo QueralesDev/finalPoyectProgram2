@@ -1,0 +1,42 @@
+[
+  {
+    "level": "PRINCIPIANTE",
+    "id": "3756e4a3-a728-4883-947d-c0ab8f9c2ac7",
+    "name": "Sofia",
+    "lastName": "Rosales",
+    "dni": "65905125",
+    "email": "sofia.rosales@runbox.com"
+  },
+  {
+    "level": "AVANZADO",
+    "id": "34648ed1-f9a8-461f-a16e-23f6154ce89a",
+    "name": "Oscar",
+    "lastName": "Castro",
+    "dni": "29784308",
+    "email": "oscar.castro@posteo.net"
+  },
+  {
+    "level": "PRINCIPIANTE",
+    "id": "2c7cf8bd-eacd-497c-aaf4-29a06a28b6aa",
+    "name": "Jorge",
+    "lastName": "Paredes",
+    "dni": "87824323",
+    "email": "jorge.paredes@seznam.cz"
+  },
+  {
+    "level": "AVANZADO",
+    "id": "f7f04208-7c84-49d4-9cef-002e19f37aad",
+    "name": "Sofia",
+    "lastName": "Figueroa",
+    "dni": "18966565",
+    "email": "sofia.figueroa@seznam.cz"
+  },
+  {
+    "level": "AVANZADO",
+    "id": "8a904500-42a0-43dd-abfc-b9fa0e89ed82",
+    "name": "Lorena",
+    "lastName": "Mora",
+    "dni": "30775895",
+    "email": "lorena.mora@mailfence.com"
+  }
+]
