@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="842db90a-6654-4d9b-8240-a2cb2e44af56" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/finalProyect/management/ManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/finalProyect/management/ManagementSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teachers.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +39,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lquerales/Desktop/finalPoyectProgram2",
-    "project.structure.last.edited": "Problems",
+    "last_opened_file_path": "C:/Users/lquerales/Desktop/cosas de programacion/dev-spring-boot/01-spring-boot-overview/02-dev-tools-demo",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
   }
