@@ -52,4 +52,11 @@ public class Course {
         }
         this.didacticMaterialList.add(material);
     }
+
+    public void show(){
+        System.out.println("Nombre............................: " + name);
+        System.out.println("Nivel.............................: " + level);
+        didacticMaterialList.forEach(DidacticMaterial::show);
+        System.out.println("_______________________________________________");
+    }
 }

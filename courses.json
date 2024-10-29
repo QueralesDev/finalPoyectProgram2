@@ -1,28 +1,28 @@
 [
   {
-    "name": "Baroque Harpsichord Performance",
-    "level": "PRINCIPIANTE",
-    "didacticMaterialList": [
-      {
-        "name": "Material0",
-        "typeMaterial": "AUDIO",
-        "link": "https://cursosonline.com/audio"
-      }
-    ]
-  },
-  {
-    "name": "Mastering the Clarinet",
+    "name": "Introducción al Piano Clásico",
     "level": "AVANZADO",
     "didacticMaterialList": [
       {
-        "name": "Material1",
+        "name": "Material0",
         "typeMaterial": "AUDIO",
         "link": "https://cursosonline.com/video"
       }
     ]
   },
   {
-    "name": "Pop Music Songwriting",
+    "name": "Técnicas Vocales Avanzadas",
+    "level": "INTERMEDIO",
+    "didacticMaterialList": [
+      {
+        "name": "Material1",
+        "typeMaterial": "AUDIO",
+        "link": "https://cursosonline.com/audio"
+      }
+    ]
+  },
+  {
+    "name": "Composición de Canciones Pop",
     "level": "AVANZADO",
     "didacticMaterialList": [
       {
@@ -33,24 +33,24 @@
     ]
   },
   {
-    "name": "Music Composition with Piano",
-    "level": "INTERMEDIO",
+    "name": "Composición y Armonización para Cine",
+    "level": "AVANZADO",
     "didacticMaterialList": [
       {
         "name": "Material3",
-        "typeMaterial": "VIDEO",
-        "link": "https://cursosonline.com/audio"
+        "typeMaterial": "AUDIO",
+        "link": "https://cursosonline.com/partitura"
       }
     ]
   },
   {
-    "name": "Advanced Music Theory",
+    "name": "Técnicas de Batería Rock",
     "level": "AVANZADO",
     "didacticMaterialList": [
       {
         "name": "Material4",
         "typeMaterial": "AUDIO",
-        "link": "https://cursosonline.com/audio"
+        "link": "https://cursosonline.com/video"
       }
     ]
   }

@@ -1,10 +1,10 @@
 package org.finalProyect;
 
 import org.finalProyect.enums.Level;
+import org.finalProyect.enums.TypeMaterial;
 import org.finalProyect.enums.TypeSpeciality;
 import org.finalProyect.management.ManagementSystem;
-import org.finalProyect.models.Student;
-import org.finalProyect.models.Teacher;
+import org.finalProyect.models.*;
 import org.finalProyect.utilities.GeneratorJson;
 
 import java.util.Scanner;
@@ -311,16 +311,47 @@ public class Menu {
     }
 
     private void deleteTeacher() {
-        //Similar a deleteStudents()
+        System.out.print("Ingrese el DNI del profesor que desea eliminar: ");
+        String dni = scanner.nextLine().trim();
+        Teacher teacher = managementSystem.getTeachers().stream()
+                .filter(s -> s.getDni().equals(dni))
+                .findFirst()
+                .orElse(null);
+
+        if (teacher == null) {
+            System.out.println("Profesor no encontrado.");
+            return;
+        }
+
+        managementSystem.getStudents().remove(teacher);
+        System.out.println("Profesor Eliminado.");
     }
 
     // Métodos CRUD para Cursos
     private void addCourse() {
-        // Similar a addStudent()
+        System.out.print("Ingrese el nombre: ");
+        String firstName = scanner.nextLine().trim();
+        System.out.print("Enter level (PRINCIPIANTE, INTERMEDIO, AVANZADO): ");
+        String levelStr = scanner.nextLine().trim();
+        TypeMaterial[] typeMaterials = TypeMaterial.values();
+        String[] plinks = {"https://cursosonline.com/video", "https://cursosonline.com/audio", "https://cursosonline.com/partitura"};
+        TypeMaterial typeMaterial = TypeMaterial.valueOf(String.valueOf(typeMaterials[PersonGenerator.random.nextInt(typeMaterials.length)]));
+        String links = plinks[PersonGenerator.random.nextInt(plinks.length)];
+
+        try {
+            Level level = Level.valueOf(levelStr.toUpperCase());
+            Course course = new Course(firstName, level);
+            course.addDidacticMaterial(new DidacticMaterial("Material", typeMaterial, links));
+            managementSystem.addCourse(course);
+            System.out.println("Curso creado: ");
+            course.show();
+        } catch (IllegalArgumentException e) {
+            System.out.println("Nivel invalido. Use: PRINCIPIANTE, INTERMEDIO, or AVANZADO.");
+        }
     }
 
     private void listCourses() {
-        // Similar a listStudents()
+        managementSystem.getCourses().forEach(Course::show);
     }
 
     private void searchCourse() {

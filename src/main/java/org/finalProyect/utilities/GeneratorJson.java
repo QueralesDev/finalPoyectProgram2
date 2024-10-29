@@ -52,26 +52,26 @@ public class GeneratorJson {
 
     public void generateCourses(int count) {
         List<Course> courses = new ArrayList<>();
-        String[] courseNames = { "Introduction to Classical Piano",
-                "Jazz Guitar Essentials",
-                "Advanced Music Theory",
-                "Beginner Violin Lessons",
-                "Rock Drumming Techniques",
-                "Flamenco Guitar for Beginners",
-                "Intermediate Saxophone Practice",
-                "Mastering the Clarinet",
-                "Fundamentals of Songwriting",
-                "Baroque Harpsichord Performance",
-                "Percussion for Beginners",
-                "Music Composition with Piano",
-                "Advanced Vocal Techniques",
-                "Improvisation for Jazz Musicians",
-                "Celtic Harp for Beginners",
-                "Electronic Music Production",
-                "Pop Music Songwriting",
-                "Introduction to Conducting",
-                "String Quartet Performance",
-                "Film Scoring and Composition"};
+        String[] courseNames = { "Introducción al Piano Clásico",
+                "Fundamentos de la Guitarra Jazz",
+                "Teoría Musical Avanzada",
+                "Lecciones de Violín para Principiantes",
+                "Técnicas de Batería Rock",
+                "Guitarra Flamenca para Principiantes",
+                "Práctica Intermedia de Saxofón",
+                "Dominando el Clarinete",
+                "Fundamentos de Composición de Canciones",
+                "Interpretación de Clavecín Barroco",
+                "Percusión para Principiantes",
+                "Composición Musical con Piano",
+                "Técnicas Vocales Avanzadas",
+                "Improvisación para Músicos de Jazz",
+                "Arpa Celta para Principiantes",
+                "Producción de Música Electrónica",
+                "Composición de Canciones Pop",
+                "Introducción a la Dirección Musical",
+                "Interpretación de Cuarteto de Cuerdas",
+                "Composición y Armonización para Cine" };
         Level[] levels = Level.values();
         TypeMaterial[] typeMaterials = TypeMaterial.values();
         String[] plinks = {"https://cursosonline.com/video", "https://cursosonline.com/audio", "https://cursosonline.com/partitura"};
