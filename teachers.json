@@ -1,42 +1,42 @@
 [
   {
-    "speciality": "TIMBALES",
-    "id": "079592ad-6dbb-4828-a1c4-79a0d37d8ccb",
-    "name": "Cecilia",
-    "lastName": "Vargas",
-    "dni": "30548675",
-    "email": "cecilia.vargas@service.com"
+    "speciality": "CLAVECIN",
+    "id": "1312c9d2-80e2-4478-b76c-15f8d1b635b9",
+    "name": "Veronica",
+    "lastName": "Bautista",
+    "dni": "11535753",
+    "email": "veronica.bautista@domain.com"
+  },
+  {
+    "speciality": "CONTRABAJO",
+    "id": "12a52cc4-f095-4179-bfd4-4facef2dbc70",
+    "name": "Diego",
+    "lastName": "Ibarra",
+    "dni": "10523266",
+    "email": "diego.ibarra@posteo.net"
+  },
+  {
+    "speciality": "TROMPETA",
+    "id": "23c6fcb4-1ac6-4ba6-95cd-2ced8230947a",
+    "name": "Francisco",
+    "lastName": "Perez",
+    "dni": "88769251",
+    "email": "francisco.perez@mailfence.com"
   },
   {
     "speciality": "GUITARRA",
-    "id": "1f9773cd-67d1-417e-bb15-6177c736e784",
+    "id": "a496f2b5-9318-4f82-a0a2-f3c7ab71fd7f",
+    "name": "Diego",
+    "lastName": "Romero",
+    "dni": "45386623",
+    "email": "diego.romero@yandex.com"
+  },
+  {
+    "speciality": "CLAVECIN",
+    "id": "9fced1fd-ab18-4afc-b38a-171c212a1f6d",
     "name": "Valeria",
-    "lastName": "Gonzalez",
-    "dni": "13167544",
-    "email": "valeria.gonzalez@posteo.net"
-  },
-  {
-    "speciality": "XILOFONO",
-    "id": "da92558f-04ff-4be4-877c-e30d0d81f739",
-    "name": "Ricardo",
-    "lastName": "Pena",
-    "dni": "76659257",
-    "email": "ricardo.pena@live.com"
-  },
-  {
-    "speciality": "GUITARRA",
-    "id": "4c919b5b-c6d3-463b-b4a6-82875f7a6e68",
-    "name": "Claudia",
-    "lastName": "Pena",
-    "dni": "43554780",
-    "email": "claudia.pena@yandex.com"
-  },
-  {
-    "speciality": "SAXOFON",
-    "id": "6929d17e-ec86-447b-b917-c9b5ab01ed32",
-    "name": "Javier",
-    "lastName": "Matos",
-    "dni": "64086999",
-    "email": "javier.matos@seznam.cz"
+    "lastName": "Cortez",
+    "dni": "69780083",
+    "email": "valeria.cortez@gmx.com"
   }
 ]

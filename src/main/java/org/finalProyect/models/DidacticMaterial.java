@@ -49,4 +49,10 @@ public class DidacticMaterial {
         }
         this.link = link;
     }
+
+    public void show(){
+        System.out.println("Nombre...........: " + name);
+        System.out.println("Tipo de material.: " + typeMaterial);
+        System.out.println("Link.............: " + link);
+    }
 }
