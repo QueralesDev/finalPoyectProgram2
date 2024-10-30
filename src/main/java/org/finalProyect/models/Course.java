@@ -13,6 +13,10 @@ public class Course {
     public Course(){
 
     }
+     public Course(Level level){
+        setLevel(level);
+         this.didacticMaterialList = new ArrayList<>();
+     }
 
     public Course(String name, Level level) {
         setName(name);

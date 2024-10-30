@@ -19,7 +19,7 @@ public class Menu {
         this.generatorJson = new GeneratorJson();
         generatorJson.generateStudents(5);
         generatorJson.generateTeachers(5);
-        generatorJson.generateCourses(5);
+        generatorJson.generateCourses(20);
         this.managementSystem = new ManagementSystem();
         this.scanner = new Scanner(System.in);
     }
@@ -109,7 +109,7 @@ public class Menu {
 
             String opcion = scanner.nextLine();
             switch (opcion) {
-                case "1": addCourse(); break;
+                case "1": createCourse(); break;
                 case "2": listCourses(); break;
                 case "3": searchCourse(); break;
                 case "4": updateCourse(); break;
@@ -134,7 +134,7 @@ public class Menu {
 
             String opcion = scanner.nextLine();
             switch (opcion) {
-                case "1": addClass(); break;
+                case "1": createClass(); break;
                 case "2": listClasses(); break;
                 case "3": searchClass(); break;
                 case "4": updateClass(); break;
@@ -328,7 +328,7 @@ public class Menu {
     }
 
     // Métodos CRUD para Cursos
-    private void addCourse() {
+    private void createCourse() {
         System.out.print("Ingrese el nombre: ");
         String firstName = scanner.nextLine().trim();
         System.out.print("Enter level (PRINCIPIANTE, INTERMEDIO, AVANZADO): ");
@@ -355,20 +355,107 @@ public class Menu {
     }
 
     private void searchCourse() {
-        // Similar a searchStudent()
+        String[] cursos = {
+                "Introducción al Piano Clásico",
+                "Fundamentos de la Guitarra Jazz",
+                "Teoría Musical Avanzada",
+                "Lecciones de Violín para Principiantes",
+                "Técnicas de Batería Rock",
+                "Guitarra Flamenca para Principiantes",
+                "Práctica Intermedia de Saxofón",
+                "Dominando el Clarinete",
+                "Fundamentos de Composición de Canciones",
+                "Interpretación de Clavecín Barroco",
+                "Percusión para Principiantes",
+                "Composición Musical con Piano",
+                "Técnicas Vocales Avanzadas",
+                "Improvisación para Músicos de Jazz",
+                "Arpa Celta para Principiantes",
+                "Producción de Música Electrónica",
+                "Composición de Canciones Pop",
+                "Introducción a la Dirección Musical",
+                "Interpretación de Cuarteto de Cuerdas",
+                "Composición y Armonización para Cine"
+        };
+
+        System.out.println("Seleccione el número del curso que desea buscar de la siguiente lista:");
+        for (int i = 0; i < cursos.length; i++) {
+            System.out.println((i + 1) + ". " + cursos[i]);
+        }
+
+        System.out.print("Ingrese el número del curso: ");
+        int opcion = scanner.nextInt();
+        scanner.nextLine();
+
+        // Validamos la opción ingresada
+        if (opcion < 1 || opcion > cursos.length) {
+            System.out.println("Opción inválida. Intente de nuevo.");
+            return;
+        }
+
+        // Obtenemos el nombre del curso seleccionado
+        String courseName = cursos[opcion - 1];
+
+        // Buscamos el curso en el sistema de gestión
+        managementSystem.getCourses().stream()
+                .filter(s -> s.getName().equalsIgnoreCase(courseName))
+                .forEach(Course::show);
     }
 
+
     private void updateCourse() {
-        // Similar a updateStudent()
+        System.out.println("No tiene los permisos para modificar los cursos existentes");
     }
 
     private void deleteCourse() {
-        // Similar a deleteStudent()
+        System.out.println("No tiene los permisos para eliminar los cursos existentes");
+        String[] cursos = {
+                "Introducción al Piano Clásico",
+                "Fundamentos de la Guitarra Jazz",
+                "Teoría Musical Avanzada",
+                "Lecciones de Violín para Principiantes",
+                "Técnicas de Batería Rock",
+                "Guitarra Flamenca para Principiantes",
+                "Práctica Intermedia de Saxofón",
+                "Dominando el Clarinete",
+                "Fundamentos de Composición de Canciones",
+                "Interpretación de Clavecín Barroco",
+                "Percusión para Principiantes",
+                "Composición Musical con Piano",
+                "Técnicas Vocales Avanzadas",
+                "Improvisación para Músicos de Jazz",
+                "Arpa Celta para Principiantes",
+                "Producción de Música Electrónica",
+                "Composición de Canciones Pop",
+                "Introducción a la Dirección Musical",
+                "Interpretación de Cuarteto de Cuerdas",
+                "Composición y Armonización para Cine"
+        };
+
+        System.out.println("Seleccione el número del curso de la lista que desea eliminar:");
+        for (int i = 0; i < cursos.length; i++) {
+            System.out.println((i + 1) + ". " + cursos[i]);
+        }
+
+        System.out.print("Ingrese el número del curso: ");
+        int opcion = scanner.nextInt();
+        scanner.nextLine();
+
+        // Validamos la opción ingresada
+        if (opcion < 1 || opcion > cursos.length) {
+            System.out.println("Opción inválida. Intente de nuevo.");
+            return;
+        }
+
+        // Eliminamos el curso
+        managementSystem.getCourses().remove(opcion - 1);
+        System.out.println("Curso Eliminado.");
+
     }
 
     // Métodos CRUD para Clases
-    private void addClass() {
-        // Similar a addStudent()
+    private void createClass() {
+        //similar al create students
     }
 
     private void listClasses() {
