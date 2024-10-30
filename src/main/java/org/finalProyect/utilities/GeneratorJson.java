@@ -51,7 +51,23 @@ public class GeneratorJson {
     }
 
     public void generateCourses(int count) {
+
         List<Course> courses = new ArrayList<>();
+        Level[] levels = Level.values();
+        TypeMaterial[] typeMaterials = TypeMaterial.values();
+        String[] plinks = {"https://cursosonline.com/video", "https://cursosonline.com/audio", "https://cursosonline.com/partitura"};
+        for (int i = 0; i < count; i++) {
+            //String courseName = courseNames[PersonGenerator.random.nextInt(courseNames.length)];
+            Level level = Level.valueOf(String.valueOf(levels[PersonGenerator.random.nextInt(levels.length)]));
+            TypeMaterial typeMaterial = TypeMaterial.valueOf(String.valueOf(typeMaterials[PersonGenerator.random.nextInt(typeMaterials.length)]));
+            String links = plinks[PersonGenerator.random.nextInt(plinks.length)];
+
+            Course course = new Course(level);
+            course.addDidacticMaterial(new DidacticMaterial("Material" + i, typeMaterial, links));
+            courses.add(course);
+        }
+
+
         String[] courseNames = { "Introducción al Piano Clásico",
                 "Fundamentos de la Guitarra Jazz",
                 "Teoría Musical Avanzada",
@@ -72,21 +88,10 @@ public class GeneratorJson {
                 "Introducción a la Dirección Musical",
                 "Interpretación de Cuarteto de Cuerdas",
                 "Composición y Armonización para Cine" };
-        Level[] levels = Level.values();
-        TypeMaterial[] typeMaterials = TypeMaterial.values();
-        String[] plinks = {"https://cursosonline.com/video", "https://cursosonline.com/audio", "https://cursosonline.com/partitura"};
+        for (int i = 0; i< courseNames.length; i++){
+            courses.get(i).setName(courseNames[i]);
 
-        for (int i = 0; i < count; i++) {
-            String courseName = courseNames[PersonGenerator.random.nextInt(courseNames.length)];
-            Level level = Level.valueOf(String.valueOf(levels[PersonGenerator.random.nextInt(levels.length)]));
-            TypeMaterial typeMaterial = TypeMaterial.valueOf(String.valueOf(typeMaterials[PersonGenerator.random.nextInt(typeMaterials.length)]));
-            String links = plinks[PersonGenerator.random.nextInt(plinks.length)];
-
-            Course course = new Course(courseName, level);
-            course.addDidacticMaterial(new DidacticMaterial("Material" + i, typeMaterial, links));
-            courses.add(course);
         }
-
         saveToFile(courses, "courses.json");
     }
 
@@ -99,4 +104,5 @@ public class GeneratorJson {
             e.printStackTrace();
         }
     }
+
 }

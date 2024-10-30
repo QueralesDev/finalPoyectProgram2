@@ -5,14 +5,14 @@
     "didacticMaterialList": [
       {
         "name": "Material0",
-        "typeMaterial": "AUDIO",
+        "typeMaterial": "VIDEO",
         "link": "https://cursosonline.com/video"
       }
     ]
   },
   {
-    "name": "Técnicas Vocales Avanzadas",
-    "level": "INTERMEDIO",
+    "name": "Fundamentos de la Guitarra Jazz",
+    "level": "PRINCIPIANTE",
     "didacticMaterialList": [
       {
         "name": "Material1",
@@ -22,18 +22,18 @@
     ]
   },
   {
-    "name": "Composición de Canciones Pop",
-    "level": "AVANZADO",
+    "name": "Teoría Musical Avanzada",
+    "level": "PRINCIPIANTE",
     "didacticMaterialList": [
       {
         "name": "Material2",
-        "typeMaterial": "PARTITURA",
-        "link": "https://cursosonline.com/video"
+        "typeMaterial": "VIDEO",
+        "link": "https://cursosonline.com/partitura"
       }
     ]
   },
   {
-    "name": "Composición y Armonización para Cine",
+    "name": "Lecciones de Violín para Principiantes",
     "level": "AVANZADO",
     "didacticMaterialList": [
       {
@@ -49,7 +49,172 @@
     "didacticMaterialList": [
       {
         "name": "Material4",
+        "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/partitura"
+      }
+    ]
+  },
+  {
+    "name": "Guitarra Flamenca para Principiantes",
+    "level": "AVANZADO",
+    "didacticMaterialList": [
+      {
+        "name": "Material5",
+        "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/video"
+      }
+    ]
+  },
+  {
+    "name": "Práctica Intermedia de Saxofón",
+    "level": "INTERMEDIO",
+    "didacticMaterialList": [
+      {
+        "name": "Material6",
         "typeMaterial": "AUDIO",
+        "link": "https://cursosonline.com/video"
+      }
+    ]
+  },
+  {
+    "name": "Dominando el Clarinete",
+    "level": "INTERMEDIO",
+    "didacticMaterialList": [
+      {
+        "name": "Material7",
+        "typeMaterial": "VIDEO",
+        "link": "https://cursosonline.com/audio"
+      }
+    ]
+  },
+  {
+    "name": "Fundamentos de Composición de Canciones",
+    "level": "PRINCIPIANTE",
+    "didacticMaterialList": [
+      {
+        "name": "Material8",
+        "typeMaterial": "AUDIO",
+        "link": "https://cursosonline.com/video"
+      }
+    ]
+  },
+  {
+    "name": "Interpretación de Clavecín Barroco",
+    "level": "INTERMEDIO",
+    "didacticMaterialList": [
+      {
+        "name": "Material9",
+        "typeMaterial": "VIDEO",
+        "link": "https://cursosonline.com/partitura"
+      }
+    ]
+  },
+  {
+    "name": "Percusión para Principiantes",
+    "level": "AVANZADO",
+    "didacticMaterialList": [
+      {
+        "name": "Material10",
+        "typeMaterial": "VIDEO",
+        "link": "https://cursosonline.com/audio"
+      }
+    ]
+  },
+  {
+    "name": "Composición Musical con Piano",
+    "level": "AVANZADO",
+    "didacticMaterialList": [
+      {
+        "name": "Material11",
+        "typeMaterial": "VIDEO",
+        "link": "https://cursosonline.com/audio"
+      }
+    ]
+  },
+  {
+    "name": "Técnicas Vocales Avanzadas",
+    "level": "INTERMEDIO",
+    "didacticMaterialList": [
+      {
+        "name": "Material12",
+        "typeMaterial": "VIDEO",
+        "link": "https://cursosonline.com/audio"
+      }
+    ]
+  },
+  {
+    "name": "Improvisación para Músicos de Jazz",
+    "level": "INTERMEDIO",
+    "didacticMaterialList": [
+      {
+        "name": "Material13",
+        "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/audio"
+      }
+    ]
+  },
+  {
+    "name": "Arpa Celta para Principiantes",
+    "level": "PRINCIPIANTE",
+    "didacticMaterialList": [
+      {
+        "name": "Material14",
+        "typeMaterial": "PARTITURA",
+        "link": "https://cursosonline.com/audio"
+      }
+    ]
+  },
+  {
+    "name": "Producción de Música Electrónica",
+    "level": "PRINCIPIANTE",
+    "didacticMaterialList": [
+      {
+        "name": "Material15",
+        "typeMaterial": "AUDIO",
+        "link": "https://cursosonline.com/audio"
+      }
+    ]
+  },
+  {
+    "name": "Composición de Canciones Pop",
+    "level": "INTERMEDIO",
+    "didacticMaterialList": [
+      {
+        "name": "Material16",
+        "typeMaterial": "VIDEO",
+        "link": "https://cursosonline.com/video"
+      }
+    ]
+  },
+  {
+    "name": "Introducción a la Dirección Musical",
+    "level": "INTERMEDIO",
+    "didacticMaterialList": [
+      {
+        "name": "Material17",
+        "typeMaterial": "VIDEO",
+        "link": "https://cursosonline.com/video"
+      }
+    ]
+  },
+  {
+    "name": "Interpretación de Cuarteto de Cuerdas",
+    "level": "PRINCIPIANTE",
+    "didacticMaterialList": [
+      {
+        "name": "Material18",
+        "typeMaterial": "AUDIO",
+        "link": "https://cursosonline.com/video"
+      }
+    ]
+  },
+  {
+    "name": "Composición y Armonización para Cine",
+    "level": "PRINCIPIANTE",
+    "didacticMaterialList": [
+      {
+        "name": "Material19",
+        "typeMaterial": "PARTITURA",
         "link": "https://cursosonline.com/video"
       }
     ]
