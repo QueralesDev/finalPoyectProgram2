@@ -1,42 +1,42 @@
 [
   {
-    "speciality": "VIOLIN",
-    "id": "25402bab-8312-473a-a467-7b2679bce318",
+    "speciality": "VIOLONCHELO",
+    "id": "27060787-c37a-47d6-8fc1-644dfff81912",
+    "name": "Gustavo",
+    "lastName": "Villarreal",
+    "dni": "21929369",
+    "email": "gustavo.villarreal@orange.fr"
+  },
+  {
+    "speciality": "TIMBALES",
+    "id": "f78f4156-6e33-4777-a386-ba75567730cd",
+    "name": "Cecilia",
+    "lastName": "Bermudez",
+    "dni": "24594564",
+    "email": "cecilia.bermudez@runbox.com"
+  },
+  {
+    "speciality": "CONTRABAJO",
+    "id": "d05ad58d-5f5e-40b6-97ea-f471d631bfd1",
     "name": "Claudia",
-    "lastName": "Sanchez",
-    "dni": "93538103",
-    "email": "claudia.sanchez@q.com"
+    "lastName": "Vega",
+    "dni": "76533345",
+    "email": "claudia.vega@icloud.com"
   },
   {
-    "speciality": "CLAVECIN",
-    "id": "4132ffa6-8eed-4c9d-a2dd-018b380bec96",
-    "name": "Fernando",
-    "lastName": "Villalobos",
-    "dni": "95929594",
-    "email": "fernando.villalobos@aol.com"
-  },
-  {
-    "speciality": "CLAVECIN",
-    "id": "1d016cc7-6ae4-40b9-a62e-fe222081f952",
-    "name": "Lucia",
-    "lastName": "Luna",
-    "dni": "30559907",
-    "email": "lucia.luna@inbox.com"
+    "speciality": "TROMBON",
+    "id": "9f1c169f-20ff-45f1-b80a-a07729738437",
+    "name": "Elena",
+    "lastName": "Valencia",
+    "dni": "54207693",
+    "email": "elena.valencia@runbox.com"
   },
   {
     "speciality": "MARIMBA",
-    "id": "9d66a44d-3f91-47e0-9ffb-1e5aa11d02e3",
-    "name": "Gabriel",
-    "lastName": "Quintero",
-    "dni": "55674966",
-    "email": "gabriel.quintero@webmail.com"
-  },
-  {
-    "speciality": "PIANO",
-    "id": "d20ccdb4-b0e4-41f9-a02f-b7809aaaf89d",
-    "name": "Nicolas",
-    "lastName": "Aguirre",
-    "dni": "13086201",
-    "email": "nicolas.aguirre@gmail.com"
+    "id": "fa3a654f-f6b6-4660-9b39-64d8bfe5a734",
+    "name": "Isabel",
+    "lastName": "Paredes",
+    "dni": "66581733",
+    "email": "isabel.paredes@mailfence.com"
   }
 ]

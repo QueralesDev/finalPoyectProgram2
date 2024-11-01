@@ -2,15 +2,20 @@ package org.finalProyect.models;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
-public class Class {
+public class Clase {
     private String name;
-    private LocalDateTime date;
+    private String date;
     private Teacher teacher;
     private List<Student> enrolledStudents;
 
-    public Class(String name, LocalDateTime date, Teacher teacher) {
+    public Clase() {
+        this.enrolledStudents = new ArrayList<>();
+    }
+
+    public Clase(String name, String date, Teacher teacher) {
         setName(name);
         setDate(date);
         setTeacher(teacher);
@@ -28,13 +33,13 @@ public class Class {
         this.name = name;
     }
 
-    public LocalDateTime getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(LocalDateTime date) {
-        if (date == null || date.isBefore(LocalDateTime.now())) {
-            throw new IllegalArgumentException("Fecha de clase invalida");
+    public void setDate(String date) {
+        if (date == null) {
+            throw new IllegalArgumentException("La fecha de la clase no puede ser nula");
         }
         this.date = date;
     }
@@ -58,6 +63,21 @@ public class Class {
         if (student == null) {
             throw new IllegalArgumentException("Student no puede ser nulo");
         }
+        if (this.enrolledStudents.contains(student)) {
+            System.out.println("El estudiante ya está inscrito en la clase.");
+            return;
+        }
         this.enrolledStudents.add(student);
+    }
+
+    public void show(){
+        System.out.println("<<<<<<<<<<<<<<<<<Clase>>>>>>>>>>>>>>");
+        System.out.println("Nombre.........................: " + name);
+        System.out.println("Fecha de la clase..............: " + date);
+        System.out.println("Profesor.......................: " + teacher.getName()+ " " + teacher.getLastName());
+        System.out.println("Lista de Alumnos Inscritos : ");
+        for (Student student : enrolledStudents) {
+            System.out.println("Alumno............: " + student.getName() + " " + student.getLastName());
+        }
     }
 }
