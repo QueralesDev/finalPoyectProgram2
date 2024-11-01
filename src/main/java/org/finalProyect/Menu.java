@@ -5,8 +5,10 @@ import org.finalProyect.enums.TypeMaterial;
 import org.finalProyect.enums.TypeSpeciality;
 import org.finalProyect.management.ManagementSystem;
 import org.finalProyect.models.*;
-import org.finalProyect.utilities.GeneratorJson;
+import org.finalProyect.utilities.Generators.GeneratorJson;
+import org.finalProyect.utilities.Generators.PersonGenerator;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Menu {
@@ -15,7 +17,7 @@ public class Menu {
     private Scanner scanner;
 
 
-    public Menu() {
+    public Menu() throws IOException {
         this.generatorJson = new GeneratorJson();
         generatorJson.generateStudents(5);
         generatorJson.generateTeachers(5);

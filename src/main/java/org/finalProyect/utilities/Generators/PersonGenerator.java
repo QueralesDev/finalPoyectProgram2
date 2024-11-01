@@ -1,4 +1,9 @@
-package org.finalProyect.models;
+package org.finalProyect.utilities.Generators;
+
+import org.finalProyect.enums.Level;
+import org.finalProyect.enums.TypeSpeciality;
+import org.finalProyect.models.Student;
+import org.finalProyect.models.Teacher;
 
 import java.util.Random;
 
@@ -19,6 +24,8 @@ public class PersonGenerator {
             "btinternet.com", "rocketmail.com", "mail.ru", "q.com", "comcast.net", "verizon.net", "optonline.net"};
     public static final Random random = new Random();
 
+    private TypeSpeciality[] specialties = TypeSpeciality.values();
+
     public static String generateName() {
         return firstNames[random.nextInt(firstNames.length)];
     }
@@ -33,6 +40,32 @@ public class PersonGenerator {
 
     public static String generateEmail(String name, String lastName) {
         return name.toLowerCase() + "." + lastName.toLowerCase() + "@" + domains[random.nextInt(domains.length)];
+    }
+
+    public Teacher createTeacher(){
+
+            String name = PersonGenerator.generateName();
+            String lastName = PersonGenerator.generateLastName();
+            String dni = PersonGenerator.generateDNI();
+            String email = PersonGenerator.generateEmail(name, lastName);
+            TypeSpeciality specialty = TypeSpeciality.valueOf(String.valueOf(specialties[PersonGenerator.random.nextInt(specialties.length)]));
+
+            Teacher teacher = new Teacher(name, lastName, dni, email, specialty);
+
+        return teacher;
+    }
+
+    public Student createStudent(){
+
+            String name = PersonGenerator.generateName();
+            String lastName = PersonGenerator.generateLastName();
+            String dni = PersonGenerator.generateDNI();
+            String email = PersonGenerator.generateEmail(name, lastName);
+            Level level = Level.valueOf(String.valueOf(Level.values()[PersonGenerator.random.nextInt(Level.values().length)]));
+
+            Student student = new Student(name, lastName, dni, email, level);
+
+        return student;
     }
 }
 

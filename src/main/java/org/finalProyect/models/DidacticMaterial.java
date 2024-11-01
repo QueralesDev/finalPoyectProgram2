@@ -52,8 +52,8 @@ public class DidacticMaterial {
 
     public void show(){
         System.out.println("<<<<<<Material Didactico del Curso>>>>>");
-        System.out.println("Nombre...........: " + name);
-        System.out.println("Tipo de material.: " + typeMaterial);
-        System.out.println("Link del material didactico.............: " + link);
+        System.out.println("Nombre................: " + name);
+        System.out.println("Tipo de material...: " + typeMaterial);
+        System.out.println("Link del material didactico........: " + link);
     }
 }

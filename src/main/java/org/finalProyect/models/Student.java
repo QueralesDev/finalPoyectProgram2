@@ -2,10 +2,12 @@ package org.finalProyect.models;
 
 import org.finalProyect.enums.Level;
 
+import java.util.List;
 import java.util.Random;
 
 public class Student extends AbstractPerson {
     private Level level;
+    private List<Progress> progresses;
 
     public Student(){
         super();
