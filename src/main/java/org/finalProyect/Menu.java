@@ -10,6 +10,7 @@ import org.finalProyect.utilities.Generators.GeneratorJson;
 import org.finalProyect.utilities.Generators.PersonGenerator;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.Scanner;
 
 public class Menu {
@@ -20,8 +21,8 @@ public class Menu {
 
     public Menu() throws IOException {
         this.generatorJson = new GeneratorJson();
-        generatorJson.generateStudents(5);
-        generatorJson.generateTeachers(5);
+        generatorJson.generateStudents(10);
+        generatorJson.generateTeachers(8);
         generatorJson.generateCourses(20);
         this.managementSystem = new ManagementSystem();
         this.scanner = new Scanner(System.in);
@@ -102,20 +103,20 @@ public class Menu {
     private void showCourseMenu() {
         while (true) {
             System.out.println("\n--- Gestión de Cursos ---");
-            System.out.println("1. Agregar Curso");
-            System.out.println("2. Listar Cursos");
-            System.out.println("3. Buscar Curso");
-            System.out.println("4. Actualizar Curso");
+            System.out.println("1. Listar Cursos Disponibles");
+            System.out.println("2. Listar Alumnos Inscritos en los Cursos");
+            System.out.println("3. Listar Clases de Cada Curso");
+            System.out.println("4. Buscar Curso");
             System.out.println("5. Eliminar Curso");
             System.out.println("6. Volver al Menú Principal");
             System.out.print("Elija una opción: ");
 
             String opcion = scanner.nextLine();
             switch (opcion) {
-                case "1": createCourse(); break;
-                case "2": listCourses(); break;
-                case "3": searchCourse(); break;
-                case "4": updateCourse(); break;
+                case "1": listCourses(); break;
+                case "2": listEnrolledStudents(); break;
+                case "3": listCourseClasses(); break;
+                case "4": searchCourse(); break;
                 case "5": deleteCourse(); break;
                 case "6": return;
                 default: System.out.println("Opción inválida. Inténtelo nuevamente.");
@@ -355,6 +356,22 @@ public class Menu {
 
     private void listCourses() {
         managementSystem.getCourses().forEach(Course::show);
+    }
+
+    private void listEnrolledStudents() {
+        managementSystem.getCourses().forEach(course -> {
+            System.out.println("Curso: " + course.getName());
+            List<Student> enrolledStudents = course.getEnrolledStudents();
+            System.out.println("Número de estudiantes inscritos: " + enrolledStudents.size());
+            enrolledStudents.forEach(Student::show);
+        });
+    }
+
+    private void listCourseClasses() {
+        managementSystem.getCourses().forEach(course -> {
+            System.out.println("Curso: " + course.getName());
+            course.getClases().forEach(Clase::show);
+        });
     }
 
     private void searchCourse() {

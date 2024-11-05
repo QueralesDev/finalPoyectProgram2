@@ -1,42 +1,66 @@
 [
   {
-    "speciality": "ARPA",
-    "id": "e85522c0-af2a-4e30-b300-8de7f669cbfd",
-    "name": "Camila",
-    "lastName": "Rosales",
-    "dni": "72429901",
-    "email": "camila.rosales@email.com"
-  },
-  {
-    "speciality": "TROMPETA",
-    "id": "f9dda7e2-6ba5-43e6-991c-54dd2493e67c",
-    "name": "Monica",
-    "lastName": "Castro",
-    "dni": "18472764",
-    "email": "monica.castro@example.com"
-  },
-  {
-    "speciality": "VIOLIN",
-    "id": "8149d449-c8ee-4255-b430-ee9f79ebf752",
-    "name": "Irene",
-    "lastName": "Herrera",
-    "dni": "24408253",
-    "email": "irene.herrera@gmail.com"
+    "speciality": "GUITARRA",
+    "id": "42599db0-8147-4ed0-8252-a905bee09d53",
+    "name": "Miguel",
+    "lastName": "Gonzalez",
+    "dni": "80531046",
+    "email": "miguel.gonzalez@icloud.com"
   },
   {
     "speciality": "TROMBON",
-    "id": "11a9d5bd-aaf4-4f3f-9f9f-479a67b4b4e7",
-    "name": "Gabriela",
-    "lastName": "Guerrero",
-    "dni": "75561614",
-    "email": "gabriela.guerrero@tutanota.com"
+    "id": "37118728-a009-4b32-b95d-bb162dfd019b",
+    "name": "Monica",
+    "lastName": "Fernandez",
+    "dni": "18562929",
+    "email": "monica.fernandez@live.com"
   },
   {
-    "speciality": "VIOLIN",
-    "id": "97ac6398-0899-4a04-9ec7-4f51c50ecf3a",
+    "speciality": "BAJO",
+    "id": "bfb7cc0d-c95e-4e4b-b2ce-d2e3db805efe",
+    "name": "Mateo",
+    "lastName": "Soto",
+    "dni": "45356920",
+    "email": "mateo.soto@btinternet.com"
+  },
+  {
+    "speciality": "BANJO",
+    "id": "0a719068-1598-4813-a303-c29eb5e5ae67",
+    "name": "Enrique",
+    "lastName": "Bautista",
+    "dni": "77401511",
+    "email": "enrique.bautista@verizon.net"
+  },
+  {
+    "speciality": "TROMBON",
+    "id": "d4d63cfd-d009-4fe7-8ef8-f1a34e472d85",
     "name": "Veronica",
-    "lastName": "Blanco",
-    "dni": "86000820",
-    "email": "veronica.blanco@inbox.com"
+    "lastName": "Cortez",
+    "dni": "74916956",
+    "email": "veronica.cortez@laposte.net"
+  },
+  {
+    "speciality": "XILOFONO",
+    "id": "1d265938-d52f-4549-8838-c588b580d4db",
+    "name": "Daniel",
+    "lastName": "Campos",
+    "dni": "80124662",
+    "email": "daniel.campos@fastmail.com"
+  },
+  {
+    "speciality": "BAJO",
+    "id": "263e4eb4-4487-40f7-8480-9d220c66b246",
+    "name": "Paula",
+    "lastName": "Quintero",
+    "dni": "33974617",
+    "email": "paula.quintero@hushmail.com"
+  },
+  {
+    "speciality": "FLAUTA",
+    "id": "aa2b2b67-9cc4-4d5f-b068-eeae40dc2a9c",
+    "name": "Emilio",
+    "lastName": "Querales",
+    "dni": "12002603",
+    "email": "emilio.querales@posteo.net"
   }
 ]
