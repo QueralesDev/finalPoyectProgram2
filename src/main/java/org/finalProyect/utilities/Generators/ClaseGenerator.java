@@ -37,9 +37,7 @@ public class ClaseGenerator {
     public Clase createClase() throws IOException {
         List<Student> students = JsonReader.readStudents("students.json");
         List<Teacher> teachers = JsonReader.readTeachers("teachers.json");
-        Clase clase = new Clase(generateNameClass(), generateDate(), managementSystem.getTeachers().get(PersonGenerator.random.nextInt(managementSystem.getTeachers().size())));
-
-        clase.setTeacher(teachers.get(PersonGenerator.random.nextInt(teachers.size())));
+        Clase clase = new Clase(generateNameClass(), generateDate(), teachers.get(PersonGenerator.random.nextInt(teachers.size())));
 
         for (int i = 0; i < PersonGenerator.random.nextInt(35); i++) {
             clase.addStudent(students.get(PersonGenerator.random.nextInt(students.size())));

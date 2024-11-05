@@ -89,6 +89,6 @@ public class Course {
         System.out.println("Nivel.............................: " + level);
         didacticMaterialList.forEach(DidacticMaterial::show);
         //clases.forEach(Clase::show);
-        System.out.println("_______________________________________________");
+        System.out.println("_____________________________________________________________");
     }
 }

@@ -11,27 +11,6 @@ public class CourseGenerator {
     private ClaseGenerator claseGenerator;
     private Level[] levels;
 
-    String[] courseNames = { "Introducción al Piano Clásico",
-            "Fundamentos de la Guitarra Jazz",
-            "Teoría Musical Avanzada",
-            "Lecciones de Violín para Principiantes",
-            "Técnicas de Batería Rock",
-            "Guitarra Flamenca para Principiantes",
-            "Práctica Intermedia de Saxofón",
-            "Dominando el Clarinete",
-            "Fundamentos de Composición de Canciones",
-            "Interpretación de Clavecín Barroco",
-            "Percusión para Principiantes",
-            "Composición Musical con Piano",
-            "Técnicas Vocales Avanzadas",
-            "Improvisación para Músicos de Jazz",
-            "Arpa Celta para Principiantes",
-            "Producción de Música Electrónica",
-            "Composición de Canciones Pop",
-            "Introducción a la Dirección Musical",
-            "Interpretación de Cuarteto de Cuerdas",
-            "Composición y Armonización para Cine" };
-
     public CourseGenerator() {
         didacticMaterialGenerator = new DidacticMaterialGenerator();
         claseGenerator = new ClaseGenerator();
