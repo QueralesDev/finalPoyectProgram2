@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.collections.FXCollections?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.Controllers.scenes_controllers">
+    <VBox spacing="10" alignment="TOP_CENTER" prefWidth="600" prefHeight="400">
+        <Label text="Lista de Cursos" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+        <ListView fx:id="courseListView">
+            <items>
+                <FXCollections fx:factory="observableArrayList"/>
+            </items>
+        </ListView>
+
+        <Button text="Volver" onAction="#switchToCoursesMenu" />
+    </VBox>
+</AnchorPane>

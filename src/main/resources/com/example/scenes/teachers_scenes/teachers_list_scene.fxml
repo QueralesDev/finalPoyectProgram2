@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controllers.scenes_controllers">
+    <top>
+        <ToolBar>
+            <Button onAction="#switchToTeachersMenu" text="Salir" />
+        </ToolBar>
+    </top>
+    <center>
+        <TableView fx:id="tableViewTeachers">
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID" />
+                <TableColumn fx:id="nameColumn" text="Nombre" />
+                <TableColumn fx:id="lastNameColumn" text="Apellido" />
+                <TableColumn fx:id="dniColumn" text="DNI" />
+                <TableColumn fx:id="emailColumn" text="Email" />
+                <TableColumn fx:id="typeSpecialityColumn" text="Especialidad" />
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>

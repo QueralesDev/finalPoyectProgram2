@@ -1,3 +1,4 @@
+
 package org.finalProyect;
 
 import org.finalProyect.enums.Level;
@@ -203,6 +204,7 @@ public class Menu {
                 .filter(s -> s.getDni().equalsIgnoreCase(dni))
                 .forEach(Student::show);
     }
+
     private void updateStudent() {
         System.out.print("Ingrese el DNI del estudiante que desea actualizar: ");
         String dni = scanner.nextLine().trim();
@@ -248,7 +250,6 @@ public class Menu {
         System.out.println("Estudiante Eliminado.");
     }
 
-    // Métodos CRUD para Profesores
     private void createTeacher() {
         System.out.print("Ingrese el nombre: ");
         String firstName = scanner.nextLine().trim();
@@ -493,4 +494,3 @@ public class Menu {
         // Implementar funcionalidad para mostrar progresos
     }
 }
-

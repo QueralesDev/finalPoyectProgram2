@@ -1,11 +1,19 @@
 package org.finalProyect.management;
 
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import org.finalProyect.models.Course;
 import org.finalProyect.models.Student;
 import org.finalProyect.models.Teacher;
 import org.finalProyect.utilities.FileDataManager;
 
+import java.io.FileReader;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -91,5 +99,31 @@ public class ManagementSystem {
     public List<Course> getCourses() {
         return courses;
     }
+
+    public boolean doesDniExist(String filePath, String dni) {
+        try (FileReader reader = new FileReader(filePath)) {
+            JsonElement jsonElement = JsonParser.parseReader(reader);
+
+            if (jsonElement.isJsonArray()) {
+                JsonArray jsonArray = jsonElement.getAsJsonArray();
+
+                for (JsonElement element : jsonArray) {
+                    if (element.isJsonObject()) {
+                        JsonObject jsonObject = element.getAsJsonObject();
+                        if (jsonObject.has("dni") && jsonObject.get("dni").getAsString().equals(dni)) {
+                            return true;
+                        }
+                    }
+                }
+                return false;
+            }
+
+        } catch (IOException e) {
+            System.out.println(".get = " + e.getMessage());
+            return false;
+        }
+        return true;
+    }
+
 }
 

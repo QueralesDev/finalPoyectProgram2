@@ -17,11 +17,11 @@ public class Course {
         this.clases = new ArrayList<>(10);
     }
 
-     public Course(Level level){
+    public Course(Level level){
         setLevel(level);
-         this.didacticMaterialList = new ArrayList<>();
-         this.clases = new ArrayList<>(10);
-     }
+        this.didacticMaterialList = new ArrayList<>();
+        this.clases = new ArrayList<>(10);
+    }
 
     public Course(String name, Level level) {
         setName(name);
@@ -72,6 +72,16 @@ public class Course {
             throw new IllegalArgumentException("El material didactico no puede ser nulo");
         }
         this.didacticMaterialList.add(material);
+    }
+
+    public Course setClases(List<Clase> clases) {
+        this.clases = clases;
+        return this;
+    }
+
+    public Course setDidacticMaterialList(List<DidacticMaterial> didacticMaterialList) {
+        this.didacticMaterialList = didacticMaterialList;
+        return this;
     }
 
     public void show(){

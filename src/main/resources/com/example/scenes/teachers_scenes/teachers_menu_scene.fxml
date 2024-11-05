@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="257.0" prefWidth="438.0" stylesheets="@../.Styles/styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controllers.scenes_controllers">
+    <children>
+        <ToolBar prefHeight="40.0" prefWidth="438.0" styleClass="tool-bar">
+            <items>
+                <Label alignment="CENTER" prefHeight="27.0" prefWidth="278.0" styleClass="label-menu" text="MENU PROFESORES" />
+            </items>
+        </ToolBar>
+
+        <ButtonBar layoutX="266.0" layoutY="61.0" prefHeight="40.0" prefWidth="127.0" />
+
+        <ButtonBar layoutX="330.0" layoutY="210.0" prefHeight="40.0" prefWidth="90.0" />
+
+        <Button layoutX="14.0" layoutY="106.0" onAction="#switchToUpdateTeacher" mnemonicParsing="false" prefHeight="26.0" styleClass="button" text="Actualizar profesor" />
+        <Button layoutX="14.0" layoutY="143.0" onAction="#switchToDeleteTeacher" mnemonicParsing="false" prefHeight="26.0" prefWidth="127.0" styleClass="button" text="Eliminar profesor" />
+        <Button layoutX="150.0" layoutY="71.0" onAction="#switchToShowTeachers" mnemonicParsing="false" prefHeight="26.0" prefWidth="127.0" styleClass="button" text="Listar profesores" />
+        <Button layoutX="14.0" layoutY="181.0" onAction="#switchToSearchTeacher" mnemonicParsing="false" prefHeight="26.0" prefWidth="127.0" styleClass="button" text="Buscar profesor" />
+        <Button layoutX="14.0" layoutY="71.0"  onAction="#switchToCreateTeacher" mnemonicParsing="false"  prefHeight="26.0" prefWidth="127.0" styleClass="button" text="Agregar profesor" />
+        <Button layoutX="346.0" layoutY="216.0" mnemonicParsing="false" onAction="#switchToScene1" styleClass="button" text="Volver" />
+    </children>
+</AnchorPane>

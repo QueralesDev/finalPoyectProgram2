@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.collections.FXCollections?>
+<VBox alignment="CENTER" prefHeight="336.0" prefWidth="203.0" spacing="10" style="-fx-padding: 20;" stylesheets="@../.Styles/styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controllers.scenes_controllers">
+
+    <Label style="-fx-font-size: 18; -fx-font-weight: bold;" text="Agregar Profesor" focusTraversable="true" />
+
+    <TextField fx:id="firstNameField" promptText="Ingrese el nombre" />
+    <TextField fx:id="lastNameField" promptText="Ingrese el apellido" />
+    <TextField fx:id="dniField" promptText="Ingrese el DNI" />
+    <TextField fx:id="emailField" promptText="Ingrese el email" />
+
+    <ComboBox fx:id="specialityComboBox" promptText="Seleccione la especialidad">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:value="VIOLIN" />
+                <String fx:value="VIOLA" />
+                <String fx:value="VIOLONCHELO" />
+                <String fx:value="CONTRABAJO" />
+                <String fx:value="GUITARRA" />
+                <String fx:value="ARPA" />
+                <String fx:value="BAJO" />
+                <String fx:value="UKELELE" />
+                <String fx:value="BANJO" />
+                <String fx:value="PIANO" />
+                <String fx:value="CLAVECIN" />
+                <String fx:value="FLAUTA" />
+                <String fx:value="SAXOFON" />
+                <String fx:value="TROMPETA" />
+                <String fx:value="TROMBON" />
+                <String fx:value="TIMBALES" />
+                <String fx:value="MARIMBA" />
+                <String fx:value="XILOFONO" />
+                <String fx:value="CAMPANAS_TUBULARES" />
+            </FXCollections>
+        </items>
+    </ComboBox>
+
+    <Button fx:id="btnAgregar" onAction="#createProfessor" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="Agregar Profesor" />
+
+    <Label fx:id="mensajeLabel" style="-fx-text-fill: red;" />
+
+    <Button fx:id="btnVolver" layoutX="52.0" layoutY="260.0" onAction="#switchToTeachersMenu" prefHeight="26.0" prefWidth="66.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="Volver" />
+</VBox>
