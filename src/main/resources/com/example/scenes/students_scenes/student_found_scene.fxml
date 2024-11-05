@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="300.0" spacing="10" style="-fx-padding: 20;" stylesheets="@../.Styles/styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controllers.scenes_controllers">
+    <Label style="-fx-font-size: 18; -fx-font-weight: bold;" text="Detalles del Estudiante" />
+
+    <Label fx:id="firstNameLabel" style="-fx-font-size: 16;" text="Nombre: " />
+    <Label fx:id="lastNameLabel" style="-fx-font-size: 16;" text="Apellido: " />
+    <Label fx:id="dniLabel" style="-fx-font-size: 16;" text="DNI: " />
+    <Label fx:id="emailLabel" style="-fx-font-size: 16;" text="Email: " />
+    <Label fx:id="levelLabel" style="-fx-font-size: 16;" text="Nivel: " />
+
+    <Button fx:id="btnVolver" onAction="#switchToSearchStudent" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="Volver" />
+</VBox>

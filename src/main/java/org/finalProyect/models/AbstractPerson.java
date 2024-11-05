@@ -76,4 +76,7 @@ public abstract class AbstractPerson {
         System.out.println("dni..................: " + dni);
         System.out.println("email................: " + email);
     }
+
+
 }
+

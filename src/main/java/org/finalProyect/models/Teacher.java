@@ -1,3 +1,4 @@
+
 package org.finalProyect.models;
 
 import org.finalProyect.enums.TypeSpeciality;

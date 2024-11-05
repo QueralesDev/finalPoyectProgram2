@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="336.0" prefWidth="203.0" spacing="10" style="-fx-padding: 20;" stylesheets="@../.Styles/styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controllers.scenes_controllers">
+
+    <Label style="-fx-font-size: 18; -fx-font-weight: bold;" text="Agregar Estudiante" focusTraversable="true"/>
+
+    <TextField fx:id="firstNameField" promptText="Ingrese el nombre" />
+    <TextField fx:id="lastNameField" promptText="Ingrese el apellido" />
+    <TextField fx:id="dniField" promptText="Ingrese el DNI" />
+    <TextField fx:id="emailField" promptText="Ingrese el email" />
+
+
+    <ComboBox fx:id="levelComboBox" promptText="Seleccione el nivel">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:value="PRINCIPIANTE" />
+                <String fx:value="INTERMEDIO" />
+                <String fx:value="AVANZADO" />
+            </FXCollections>
+        </items>
+    </ComboBox>
+
+    <Button fx:id="btnAgregar" onAction="#initialize" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="Agregar Estudiante" />
+
+    <Label fx:id="mensajeLabel" style="-fx-text-fill: red;" />
+    <Button fx:id="btnVolver" layoutX="52.0" layoutY="260.0" onAction="#switchToStudentsMenu" prefHeight="26.0" prefWidth="66.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="Volver" />
+
+</VBox>

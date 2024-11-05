@@ -44,28 +44,27 @@ public class PersonGenerator {
 
     public Teacher createTeacher(){
 
-            String name = PersonGenerator.generateName();
-            String lastName = PersonGenerator.generateLastName();
-            String dni = PersonGenerator.generateDNI();
-            String email = PersonGenerator.generateEmail(name, lastName);
-            TypeSpeciality specialty = TypeSpeciality.valueOf(String.valueOf(specialties[PersonGenerator.random.nextInt(specialties.length)]));
+        String name = PersonGenerator.generateName();
+        String lastName = PersonGenerator.generateLastName();
+        String dni = PersonGenerator.generateDNI();
+        String email = PersonGenerator.generateEmail(name, lastName);
+        TypeSpeciality specialty = TypeSpeciality.valueOf(String.valueOf(specialties[PersonGenerator.random.nextInt(specialties.length)]));
 
-            Teacher teacher = new Teacher(name, lastName, dni, email, specialty);
+        Teacher teacher = new Teacher(name, lastName, dni, email, specialty);
 
         return teacher;
     }
 
     public Student createStudent(){
 
-            String name = PersonGenerator.generateName();
-            String lastName = PersonGenerator.generateLastName();
-            String dni = PersonGenerator.generateDNI();
-            String email = PersonGenerator.generateEmail(name, lastName);
-            Level level = Level.valueOf(String.valueOf(Level.values()[PersonGenerator.random.nextInt(Level.values().length)]));
+        String name = PersonGenerator.generateName();
+        String lastName = PersonGenerator.generateLastName();
+        String dni = PersonGenerator.generateDNI();
+        String email = PersonGenerator.generateEmail(name, lastName);
+        Level level = Level.valueOf(String.valueOf(Level.values()[PersonGenerator.random.nextInt(Level.values().length)]));
 
-            Student student = new Student(name, lastName, dni, email, level);
+        Student student = new Student(name, lastName, dni, email, level);
 
         return student;
     }
 }
-

@@ -1,0 +1,97 @@
+/* Estilo general para la aplicación */
+.root {
+    -fx-font-family: "Arial, sans-serif";
+    -fx-background-color: #fff8e1; /* Color de fondo claro cálido */
+}
+
+/* Estilos para el ToolBar */
+.tool-bar {
+    -fx-background-color: #d3d3d3; /* Color de fondo por defecto */
+    -fx-padding: 5px; /* Menor padding para ajustar el tamaño */
+}
+
+/* Estilos para los botones */
+.button {
+    -fx-background-color: #e0e0e0; /* Color de fondo por defecto */
+    -fx-text-fill: #000000; /* Texto negro */
+    -fx-font-size: 12px; /* Tamaño de fuente más pequeño */
+    -fx-padding: 5px 10px; /* Padding reducido */
+    -fx-background-radius: 10; /* Bordes redondeados */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 1); /* Sombra más fuerte */
+    -fx-transition: all 0.3s ease; /* Transición suave */
+}
+
+.button:hover {
+    -fx-background-color: #bdbdbd; /* Color de fondo por defecto al pasar el ratón */
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 10, 0, 0, 1); /* Sombra más clara al pasar el ratón */
+    -fx-scale-x: 1.05; /* Aumentar tamaño en el hover */
+    -fx-scale-y: 1.05; /* Aumentar tamaño en el hover */
+}
+
+.button:pressed {
+    -fx-background-color: #9e9e9e; /* Color de fondo por defecto al presionar */
+    -fx-scale-x: 0.95; /* Disminuir tamaño al presionar */
+    -fx-scale-y: 0.95; /* Disminuir tamaño al presionar */
+}
+
+/* Estilos para los Labels */
+.label-menu {
+    -fx-text-fill: #3e2723; /* Texto oscuro para contraste */
+    -fx-font-size: 16px; /* Tamaño de fuente ajustado */
+    -fx-font-weight: bold;
+}
+
+/* Estilos para los TextFields */
+.text-field {
+    -fx-background-color: #ffffff; /* Blanco para los campos de texto */
+    -fx-border-color: #bcaaa4; /* Color marrón claro para el borde */
+    -fx-border-radius: 5; /* Bordes redondeados */
+    -fx-padding: 5px; /* Padding reducido */
+}
+
+.text-field:focused {
+    -fx-border-color: #d3d3d3; /* Color de borde por defecto al enfocar */
+}
+
+/* Estilo para ComboBox */
+.combo-box {
+    -fx-background-color: #ffffff; /* Blanco */
+    -fx-border-color: #bcaaa4; /* Color marrón claro */
+    -fx-border-radius: 5; /* Bordes redondeados */
+}
+
+/* Estilos para VBox */
+.v-box {
+    -fx-background-color: #fff8e1; /* Color pastel suave cálido */
+    -fx-padding: 10; /* Ajuste de padding */
+    -fx-spacing: 10; /* Espaciado más pequeño */
+}
+
+/* Mensaje de error en el Label */
+#mensajeLabel {
+    -fx-text-fill: #d32f2f; /* Texto rojo para mensajes de error */
+    -fx-font-size: 12px;
+}
+
+/* Estilo para el botón de Volver */
+#btnAgregar1 {
+    -fx-background-color: #e0e0e0; /* Color de fondo por defecto */
+}
+
+
+.border-pane {
+    -fx-background-color: #ffffff; /* Fondo blanco por defecto */
+}
+
+/* Efecto de imagen futurista con rotación lenta */
+.v-box ImageView {
+    -fx-opacity: 0.95;
+    -fx-transition: -fx-opacity 0.3s, -fx-rotate 2s ease-in-out;
+    -fx-rotate: 0;
+}
+
+.v-box ImageView:hover {
+    -fx-opacity: 1;
+    -fx-effect: dropshadow(gaussian, #9f51ff, 12, 0.8, 0, 0);
+}
+
