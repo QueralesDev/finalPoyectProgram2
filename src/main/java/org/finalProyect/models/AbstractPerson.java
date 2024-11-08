@@ -77,6 +77,15 @@ public abstract class AbstractPerson {
         System.out.println("email................: " + email);
     }
 
-
+    @Override
+    public String toString() {
+        return "AbstractPerson{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", dni='" + dni + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }
 

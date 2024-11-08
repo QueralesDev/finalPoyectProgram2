@@ -1,66 +1,57 @@
-[
-  {
-    "speciality": "CAMPANAS_TUBULARES",
-    "id": "b9e127a3-6e11-4438-b761-0b487dd08999",
-    "name": "Emilio",
-    "lastName": "Palacios",
-    "dni": "41097593",
-    "email": "emilio.palacios@outlook.com"
-  },
-  {
-    "speciality": "PIANO",
-    "id": "111727d8-970f-47ea-b113-87e0abbb8603",
-    "name": "Alfonso",
-    "lastName": "Garcia",
-    "dni": "71340779",
-    "email": "alfonso.garcia@outlook.com"
-  },
-  {
-    "speciality": "VIOLIN",
-    "id": "1719dcd3-073c-4fee-8e76-f5d2bbb39abf",
-    "name": "Laura",
-    "lastName": "Aguirre",
-    "dni": "22307825",
-    "email": "laura.aguirre@verizon.net"
-  },
-  {
-    "speciality": "GUITARRA",
-    "id": "5bb7fd4f-b4e8-48ca-91b4-059cb9ebf6bb",
-    "name": "Liliana",
-    "lastName": "Gonzalez",
-    "dni": "14089254",
-    "email": "liliana.gonzalez@example.com"
-  },
-  {
-    "speciality": "ARPA",
-    "id": "448cab95-e698-4328-ae74-b3e92f721611",
-    "name": "Veronica",
-    "lastName": "Garcia",
-    "dni": "32405787",
-    "email": "veronica.garcia@laposte.net"
-  },
-  {
-    "speciality": "GUITARRA",
-    "id": "8a1d57b7-b3e7-45fe-a573-5f81e269d522",
-    "name": "Laura",
-    "lastName": "Maldonado",
-    "dni": "76362053",
-    "email": "laura.maldonado@laposte.net"
-  },
-  {
-    "speciality": "CLAVECIN",
-    "id": "945a40a9-d31f-4952-bfe7-fbd5e554f9d6",
-    "name": "Bianca",
-    "lastName": "Cabrera",
-    "dni": "62668355",
-    "email": "bianca.cabrera@verizon.net"
-  },
-  {
-    "speciality": "GUITARRA",
-    "id": "3fc36d72-d97d-4a7f-a120-7eb03dba6138",
-    "name": "Martin",
-    "lastName": "Martinez",
-    "dni": "12440261",
-    "email": "martin.martinez@mail.ru"
-  }
-]
+[ {
+  "id" : "24325417-fa4d-4d69-a498-11500b3cfa6e",
+  "name" : "Felipe",
+  "lastName" : "Valencia",
+  "dni" : "66352092",
+  "email" : "felipe.valencia@webmail.com",
+  "speciality" : "UKELELE"
+}, {
+  "id" : "434f8af9-113c-4b99-8ecc-7207cdd98788",
+  "name" : "Camila",
+  "lastName" : "Perez",
+  "dni" : "59941011",
+  "email" : "camila.perez@gmx.com",
+  "speciality" : "CAMPANAS_TUBULARES"
+}, {
+  "id" : "f6cd1cda-7e15-4cc6-91e9-ad5c463442dc",
+  "name" : "Roberto",
+  "lastName" : "Mendoza",
+  "dni" : "73023052",
+  "email" : "roberto.mendoza@tutanota.com",
+  "speciality" : "UKELELE"
+}, {
+  "id" : "eede1c54-024b-4ba5-ae7d-4183b510c888",
+  "name" : "Sergio",
+  "lastName" : "Sanchez",
+  "dni" : "45389487",
+  "email" : "sergio.sanchez@yahoo.com",
+  "speciality" : "ARPA"
+}, {
+  "id" : "15dbb06f-f3e5-47d7-984f-334a0500e147",
+  "name" : "Claudia",
+  "lastName" : "Valenzuela",
+  "dni" : "41083722",
+  "email" : "claudia.valenzuela@yahoo.com",
+  "speciality" : "TIMBALES"
+}, {
+  "id" : "7efe481e-baa9-4f7d-b4e2-c536575b84ca",
+  "name" : "Sara",
+  "lastName" : "Reyes",
+  "dni" : "36949827",
+  "email" : "sara.reyes@fastmail.com",
+  "speciality" : "FLAUTA"
+}, {
+  "id" : "a4043439-ad93-42d5-8900-8ad5c795d93f",
+  "name" : "Olga",
+  "lastName" : "Herrera",
+  "dni" : "92552816",
+  "email" : "olga.herrera@posteo.net",
+  "speciality" : "VIOLIN"
+}, {
+  "id" : "79d3f9fc-de25-4a5a-9b30-526b20f544a5",
+  "name" : "Roberto",
+  "lastName" : "Torres",
+  "dni" : "73234390",
+  "email" : "roberto.torres@mail.com",
+  "speciality" : "XILOFONO"
+} ]

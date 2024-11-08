@@ -13,7 +13,7 @@
         </ToolBar>
     </top>
     <center>
-        <TableView fx:id="studentTable">
+        <TableView fx:id="tableView">
             <columns>
                 <TableColumn fx:id="idColumn" text="ID" />
                 <TableColumn fx:id="nameColumn" text="Nombre" />

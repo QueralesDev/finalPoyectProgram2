@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controllers.scenes_controllers">
+    <VBox alignment="TOP_CENTER" prefHeight="683.0" prefWidth="600.0" spacing="10">
+        <Label style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Detalles del Curso" />
+
+        <Label text="Estudiantes Inscritos" />
+        <TableView fx:id="tableView" prefHeight="558.0" prefWidth="600.0">
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID" />
+                <TableColumn fx:id="nameColumn" text="Nombre" />
+                <TableColumn fx:id="lastNameColumn" text="Apellido" />
+                <TableColumn fx:id="dniColumn" text="DNI" />
+                <TableColumn fx:id="emailColumn" text="Email" />
+                <TableColumn fx:id="levelColumn" text="Nivel" />
+            </columns>
+        </TableView>
+
+        <Label text="Clases del Curso" />
+        <ListView fx:id="classesListView" />
+   
+              <Button onAction="#switchToCoursesMenu" prefHeight="26.0" prefWidth="189.0" text="Volver" />
+    </VBox>
+</AnchorPane>
