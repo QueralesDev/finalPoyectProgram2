@@ -1,82 +1,71 @@
-[
-  {
-    "level": "INTERMEDIO",
-    "id": "feeeebb2-d77c-4e00-9aa5-013629711905",
-    "name": "Gabriela",
-    "lastName": "Mora",
-    "dni": "46394745",
-    "email": "gabriela.mora@mail.com"
-  },
-  {
-    "level": "PRINCIPIANTE",
-    "id": "58e624ad-fbb9-45c1-973e-0143f772e497",
-    "name": "Patricia",
-    "lastName": "Mora",
-    "dni": "97775901",
-    "email": "patricia.mora@hushmail.com"
-  },
-  {
-    "level": "PRINCIPIANTE",
-    "id": "6f8616d6-5115-4bf3-850c-e4a9f160f223",
-    "name": "Fernando",
-    "lastName": "Querales",
-    "dni": "64795087",
-    "email": "fernando.querales@fastmail.com"
-  },
-  {
-    "level": "INTERMEDIO",
-    "id": "5277c92b-8f15-4d7f-9cd7-0c86b3b238fc",
-    "name": "Sergio",
-    "lastName": "Castro",
-    "dni": "85745650",
-    "email": "sergio.castro@rocketmail.com"
-  },
-  {
-    "level": "AVANZADO",
-    "id": "9b6a1fc8-c98b-42f2-8f32-fd06720ece1d",
-    "name": "Gustavo",
-    "lastName": "Santana",
-    "dni": "35571197",
-    "email": "gustavo.santana@q.com"
-  },
-  {
-    "level": "PRINCIPIANTE",
-    "id": "1ff9a5c6-7dbf-485e-aaea-b034fcd3b05e",
-    "name": "Valeria",
-    "lastName": "Ibarra",
-    "dni": "11446722",
-    "email": "valeria.ibarra@mailbox.org"
-  },
-  {
-    "level": "PRINCIPIANTE",
-    "id": "68c07f40-b192-4555-990d-65b897e5d8a9",
-    "name": "Rafael",
-    "lastName": "Villarreal",
-    "dni": "83476270",
-    "email": "rafael.villarreal@icloud.com"
-  },
-  {
-    "level": "INTERMEDIO",
-    "id": "d9258fe2-e993-4a80-9ce0-00f49fd61d3b",
-    "name": "Bianca",
-    "lastName": "Miranda",
-    "dni": "67352262",
-    "email": "bianca.miranda@zohomail.com"
-  },
-  {
-    "level": "AVANZADO",
-    "id": "a9fc9d36-ba88-4dfc-a047-df0a80143fa9",
-    "name": "Rosa",
-    "lastName": "Castro",
-    "dni": "20603765",
-    "email": "rosa.castro@live.com"
-  },
-  {
-    "level": "PRINCIPIANTE",
-    "id": "7f3868a6-d481-4a1f-b1a0-27366b47fe0a",
-    "name": "Daniel",
-    "lastName": "Garcia",
-    "dni": "51966156",
-    "email": "daniel.garcia@mailbox.org"
-  }
-]
+[ {
+  "id" : "e33f3678-f2fe-4aba-a1ad-5d5c924a8ffc",
+  "name" : "Hugo",
+  "lastName" : "Soto",
+  "dni" : "99084736",
+  "email" : "hugo.soto@hushmail.com",
+  "level" : "INTERMEDIO"
+}, {
+  "id" : "f4cb07c7-05db-4d19-b9ca-7926a47a07e1",
+  "name" : "Olga",
+  "lastName" : "Perez",
+  "dni" : "40698063",
+  "email" : "olga.perez@hushmail.com",
+  "level" : "AVANZADO"
+}, {
+  "id" : "60307345-bd0f-4895-b36a-a6219612c92c",
+  "name" : "Sergio",
+  "lastName" : "Mora",
+  "dni" : "29473278",
+  "email" : "sergio.mora@mail.ru",
+  "level" : "INTERMEDIO"
+}, {
+  "id" : "bd06fabd-795d-4974-930f-70e95e88dfb6",
+  "name" : "Alberto",
+  "lastName" : "Moreno",
+  "dni" : "32977949",
+  "email" : "alberto.moreno@hotmail.com",
+  "level" : "INTERMEDIO"
+}, {
+  "id" : "f1c77662-6230-4238-9c60-f9abf34fd2b2",
+  "name" : "Adriana",
+  "lastName" : "Fernandez",
+  "dni" : "43230252",
+  "email" : "adriana.fernandez@hotmail.com",
+  "level" : "AVANZADO"
+}, {
+  "id" : "dd72f56a-9118-4e13-b998-389d7e1671c7",
+  "name" : "Victoria",
+  "lastName" : "Villarreal",
+  "dni" : "15866217",
+  "email" : "victoria.villarreal@live.com",
+  "level" : "PRINCIPIANTE"
+}, {
+  "id" : "f6401737-288f-4d3e-8f20-b49d6f6439c0",
+  "name" : "Victoria",
+  "lastName" : "Fernandez",
+  "dni" : "37244413",
+  "email" : "victoria.fernandez@protonmail.com",
+  "level" : "PRINCIPIANTE"
+}, {
+  "id" : "13e879c8-6e10-4b10-87d4-2010db9edc6f",
+  "name" : "Juliana",
+  "lastName" : "Valenzuela",
+  "dni" : "97918324",
+  "email" : "juliana.valenzuela@optonline.net",
+  "level" : "INTERMEDIO"
+}, {
+  "id" : "5ff4f2da-85f6-4f5f-b2f3-fbb0bd2d5958",
+  "name" : "Patricia",
+  "lastName" : "Vega",
+  "dni" : "26588875",
+  "email" : "patricia.vega@rocketmail.com",
+  "level" : "PRINCIPIANTE"
+}, {
+  "id" : "78af9a78-68e8-4284-8793-ca4316211f05",
+  "name" : "Mariana",
+  "lastName" : "Mejia",
+  "dni" : "43908577",
+  "email" : "mariana.mejia@posteo.net",
+  "level" : "INTERMEDIO"
+} ]

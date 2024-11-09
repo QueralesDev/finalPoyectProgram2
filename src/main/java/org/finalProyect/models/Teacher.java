@@ -32,4 +32,11 @@ public class Teacher extends AbstractPerson {
         System.out.println("Especialidad.........: " + speciality);
         System.out.println("________________________________________________________________________");
     }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "speciality=" + speciality +
+                "} " + super.toString();
+    }
 }

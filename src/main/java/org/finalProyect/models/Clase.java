@@ -80,4 +80,24 @@ public class Clase {
             System.out.println("Alumno............: " + student.getName() + " " + student.getLastName());
         }
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Detalles ").append(name).append("\n");
+        sb.append("────────────────────────\n");
+        sb.append("Date: ").append(date).append("\n");
+
+        sb.append("Profesor:\n");
+        if (teacher != null) {
+            sb.append("  - Nombre: ").append(teacher.getName()).append("\n");
+            sb.append("  - Especialidad: ").append(teacher.getSpeciality() != null ? teacher.getSpeciality() : "No disponible").append("\n");
+            sb.append("  - Correo: ").append(teacher.getEmail() != null ? teacher.getEmail() : "No disponible").append("\n");
+        } else {
+            sb.append("  - No disponible\n");
+        }
+
+        return sb.toString();
+    }
+
 }

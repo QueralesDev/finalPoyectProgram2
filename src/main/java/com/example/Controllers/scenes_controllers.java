@@ -15,10 +15,8 @@ import javafx.stage.Stage;
 import org.finalProyect.enums.Level;
 import org.finalProyect.enums.TypeSpeciality;
 import org.finalProyect.management.ManagementSystem;
-import org.finalProyect.models.Course;
-import org.finalProyect.models.JsonReader;
-import org.finalProyect.models.Student;
-import org.finalProyect.models.Teacher;
+import org.finalProyect.models.*;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -374,7 +372,7 @@ public class scenes_controllers {
     @FXML
     private TableColumn<Student, String> levelColumn;
 
-
+    @FXML
     ObservableList<Student> studentList = FXCollections.observableArrayList();
 
     @FXML
@@ -690,6 +688,43 @@ public class scenes_controllers {
             }
         });
 
+        courseListView.setOnMouseClicked(event -> {
+            Course selectedCourse = courseListView.getSelectionModel().getSelectedItem();
+            if (selectedCourse != null) {
+                openCourseDetailsWindow(selectedCourse);
+            }
+        });
+    }
+
+
+    @FXML
+    private TableView<Clase> tableViewClasses = new TableView<>();
+
+    @FXML
+    private ListView<Clase> classesListView = new ListView<>();
+
+    public void setCourse(Course course) {
+        classesListView.getItems().setAll(course.getClases());
+    }
+
+    private void openCourseDetailsWindow(Course course) {
+        try {
+            // Cargar el archivo FXML para la nueva ventana de detalles del curso
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/scenes/courses_scenes/course_details_scene.fxml"));
+            Parent root = loader.load();
+
+            // Obtener el controlador de la nueva ventana y pasar el curso seleccionado
+            scenes_controllers controller = loader.getController();
+            controller.setCourse(course);
+
+            // Configurar la nueva ventana
+            Stage stage = new Stage();
+            stage.setTitle("Detalles del Curso: " + course.getName());
+            stage.setScene(new Scene(root));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @FXML
@@ -745,7 +780,11 @@ public class scenes_controllers {
         }
     }
 
+
 }
+
+
+
 
 
 

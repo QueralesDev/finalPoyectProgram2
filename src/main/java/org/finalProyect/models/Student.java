@@ -37,4 +37,12 @@ public class Student extends AbstractPerson {
         System.out.println("level.................: " + level);
         System.out.println("________________________________________________________________________");
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "level=" + level +
+                ", progresses=" + progresses +
+                "} " + super.toString();
+    }
 }
