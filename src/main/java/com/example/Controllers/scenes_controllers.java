@@ -27,6 +27,9 @@ public class scenes_controllers {
 
     ManagementSystem managementSystem = new ManagementSystem();
 
+    public scenes_controllers() throws IOException {
+    }
+
     @FXML
     public void initialize() {
         initializeColumns();

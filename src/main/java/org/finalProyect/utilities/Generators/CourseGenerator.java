@@ -45,7 +45,7 @@ public class CourseGenerator {
             }
         }
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             Clase clase = claseGenerator.createClase();
             Collections.shuffle(students);
             int randomCount = random.nextInt(students.size()) + 1;

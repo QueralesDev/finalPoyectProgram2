@@ -2,6 +2,7 @@ package org.finalProyect.utilities.Generators;
 
 import org.finalProyect.enums.Level;
 import org.finalProyect.enums.TypeSpeciality;
+import org.finalProyect.management.ManagementSystem;
 import org.finalProyect.models.Student;
 import org.finalProyect.models.Teacher;
 
@@ -64,7 +65,6 @@ public class PersonGenerator {
             Level level = Level.valueOf(String.valueOf(Level.values()[PersonGenerator.random.nextInt(Level.values().length)]));
 
             Student student = new Student(name, lastName, dni, email, level);
-
         return student;
     }
 }
