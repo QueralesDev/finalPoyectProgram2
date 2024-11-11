@@ -6,14 +6,14 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import org.finalProyect.models.Course;
+import org.finalProyect.models.Progress;
 import org.finalProyect.models.Student;
 import org.finalProyect.models.Teacher;
 import org.finalProyect.utilities.FileDataManager;
+import org.finalProyect.utilities.Generators.ProgressGenerator;
 
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,17 +21,8 @@ public class ManagementSystem {
     private List<Student> students;
     private List<Teacher> teachers;
     private List<Course> courses;
+    private List<Progress> progresses;
     private FileDataManager fileDataManager;
-
-    // Archivos para la persistencia
-
-    /*private static final String PATH_RESOURCES = System.getProperty("user.dir") + "/src/main/resources";
-    private static final String PATH_STUDENTS = "/students.json";
-    private static final String PATH_TEACHERS = "/teachers.json";
-    private static final String PATH_COURSES = "/courses.json";
-    private static final String STUDENTS_FILE = PATH_RESOURCES + PATH_STUDENTS;
-    private static final String TEACHERS_FILE = PATH_RESOURCES + PATH_TEACHERS;
-    private static final String COURSES_FILE = PATH_RESOURCES + PATH_COURSES;*/
 
     private static final String STUDENTS_FILE = "students.json";
     private static final String TEACHERS_FILE = "teachers.json";
@@ -41,10 +32,14 @@ public class ManagementSystem {
         this.students = new ArrayList<>();
         this.teachers = new ArrayList<>();
         this.courses = new ArrayList<>();
+        this.progresses = new ArrayList<>();
         this.fileDataManager = new FileDataManager();
+
 
         // Cargar los datos desde archivos al iniciar
         loadData();
+        // Generar datos de progreso de forma aleatoria
+        generateMockProgressData();
     }
 
     // Guardar los datos en archivos JSON
@@ -56,9 +51,12 @@ public class ManagementSystem {
 
     // Cargar los datos desde archivos JSON
     private void loadData() {
-        this.students = fileDataManager.loadFromFile(STUDENTS_FILE, new TypeReference<List<Student>>() {});
-        this.teachers = fileDataManager.loadFromFile(TEACHERS_FILE, new TypeReference<List<Teacher>>() {});
-        this.courses = fileDataManager.loadFromFile(COURSES_FILE, new TypeReference<List<Course>>() {});
+        this.students = fileDataManager.loadFromFile(STUDENTS_FILE, new TypeReference<List<Student>>() {
+        });
+        this.teachers = fileDataManager.loadFromFile(TEACHERS_FILE, new TypeReference<List<Teacher>>() {
+        });
+        this.courses = fileDataManager.loadFromFile(COURSES_FILE, new TypeReference<List<Course>>() {
+        });
     }
 
     public void addStudent(Student student) {
@@ -100,6 +98,21 @@ public class ManagementSystem {
         return courses;
     }
 
+    public void generateMockProgressData() {
+        ProgressGenerator generator = new ProgressGenerator();
+        List<Progress> mockProgresses = generator.generateProgresses(students, courses);
+        for (Progress progress : mockProgresses) {
+            Student student = progress.getStudent();
+            student.addProgress(progress);
+            progresses.add(progress);
+        }
+    }
+
+    public List<Progress> getProgresses() {
+        return progresses;
+    }
+
+
     public boolean doesDniExist(String filePath, String dni) {
         try (FileReader reader = new FileReader(filePath)) {
             JsonElement jsonElement = JsonParser.parseReader(reader);
@@ -126,4 +139,7 @@ public class ManagementSystem {
     }
 
 }
+
+
+
 

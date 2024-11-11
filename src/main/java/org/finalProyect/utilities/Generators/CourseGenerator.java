@@ -7,12 +7,7 @@ import org.finalProyect.models.Student;
 import org.finalProyect.utilities.JsonReader;
 
 import java.io.IOException;
-import java.util.Collections;
-import java.util.List;
-
-import java.util.HashSet;
-import java.util.Random;
-import java.util.Set;
+import java.util.*;
 
 public class CourseGenerator {
 
@@ -33,28 +28,47 @@ public class CourseGenerator {
         Level level = levels[random.nextInt(levels.length)];
         Course course = new Course(level);
 
+        // Agrega material didáctico al curso
         course.addDidacticMaterial(didacticMaterialGenerator.createDidacticMaterial());
 
+        // Crear un mapa para controlar el número de cursos a los que está asignado cada estudiante
+        Map<Student, Integer> studentCourseCounts = new HashMap<>();
+        for (Student student : students) {
+            // Inicializa el contador de cursos asignados para cada estudiante en 0
+            studentCourseCounts.put(student, 0);
+        }
+
+        // Selecciona un número aleatorio de estudiantes para inscribir en el curso
         int randomStudentCount = random.nextInt(students.size()) + 1;
         Set<Student> addedStudents = new HashSet<>();
         while (addedStudents.size() < randomStudentCount) {
             Student student = students.get(random.nextInt(students.size()));
-            if (!addedStudents.contains(student)) {
+
+            // Asegura que el estudiante no esté en más de 5 cursos
+            int currentCount = studentCourseCounts.get(student);
+            if (currentCount < 5 && !addedStudents.contains(student)) {
                 course.addStudent(student);
                 addedStudents.add(student);
+
+                // Incrementa el contador de cursos para el estudiante
+                studentCourseCounts.put(student, currentCount + 1);
             }
         }
 
-        for (int i = 0; i < 10; i++) {
+        // Genera clases y asigna solo estudiantes inscritos en el curso
+        List<Student> enrolledStudents = new ArrayList<>(course.getEnrolledStudents()); // lista de estudiantes inscritos en el curso
+        for (int i = 0; i < 5; i++) {
             Clase clase = claseGenerator.createClase();
-            Collections.shuffle(students);
-            int randomCount = random.nextInt(students.size()) + 1;
+            int randomCount = random.nextInt(enrolledStudents.size()) + 1;
             for (int j = 0; j < randomCount; j++) {
-                clase.addStudent(students.get(j));
+                Student student = enrolledStudents.get(j);
+                clase.addStudent(student); // solo estudiantes inscritos
             }
             course.addClass(clase);
         }
 
         return course;
     }
+
+
 }
