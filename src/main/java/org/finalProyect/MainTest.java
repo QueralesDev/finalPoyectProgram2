@@ -6,9 +6,9 @@ import java.io.IOException;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class   MainTest {
     public static void main(String[] args) throws IOException {
-        Menu menu = new Menu();
-
-        menu.showMenu();
+//        Menu menu = new Menu();
+//
+//        menu.showMenu();
 
     }
 }

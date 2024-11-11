@@ -13,7 +13,7 @@
         <Label style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Detalles del Curso" />
 
         <Label text="Estudiantes Inscritos" />
-        <TableView fx:id="tableView" prefHeight="558.0" prefWidth="600.0">
+        <TableView fx:id="tableViewStudents" prefHeight="558.0" prefWidth="600.0">
             <columns>
                 <TableColumn fx:id="idColumn" text="ID" />
                 <TableColumn fx:id="nameColumn" text="Nombre" />
