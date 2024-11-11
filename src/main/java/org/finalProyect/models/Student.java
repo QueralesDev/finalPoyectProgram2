@@ -4,6 +4,7 @@ import org.finalProyect.enums.Level;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Student extends AbstractPerson {
     private Level level;
@@ -52,9 +53,12 @@ public class Student extends AbstractPerson {
     public void showStudentProgress() {
         System.out.println("Progresos del estudiante " + this.getName() + ":");
         for (Progress progress : this.getProgresses()) {
-            System.out.println("Curso: " + progress.getCourse().getName() + ", Progreso: " + progress.getProgressPercentage() + "%");
+            if (progress.getCourse().getEnrolledStudents().contains(this)) {
+                System.out.println("Curso: " + progress.getCourse().getName() + ", Progreso: " + progress.getProgressPercentage() + "%");
+            }
         }
     }
+
 
     @Override
     public void show() {
@@ -70,5 +74,18 @@ public class Student extends AbstractPerson {
                 "level=" + level +
                 ", progresses=" + progresses +
                 "} " + super.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return level == student.level && Objects.equals(progresses, student.progresses);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(level, progresses);
     }
 }
