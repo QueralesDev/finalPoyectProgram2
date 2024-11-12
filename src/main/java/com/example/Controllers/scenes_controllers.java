@@ -699,28 +699,26 @@ public class scenes_controllers {
         });
     }
 
-
-    @FXML
-    private TableView<Clase> tableViewClasses = new TableView<>();
-
     @FXML
     private ListView<Clase> classesListView = new ListView<>();
 
     public void setCourse(Course course) {
         classesListView.getItems().setAll(course.getClases());
+        ObservableList<Student> enrolledStudents = FXCollections.observableArrayList(course.getEnrolledStudents());
+        tableViewStudents.setItems(enrolledStudents);
     }
+
+    @FXML
+    private TableView<Student> tableViewStudents = new TableView<>();
 
     private void openCourseDetailsWindow(Course course) {
         try {
-            // Cargar el archivo FXML para la nueva ventana de detalles del curso
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/scenes/courses_scenes/course_details_scene.fxml"));
             Parent root = loader.load();
 
-            // Obtener el controlador de la nueva ventana y pasar el curso seleccionado
             scenes_controllers controller = loader.getController();
             controller.setCourse(course);
 
-            // Configurar la nueva ventana
             Stage stage = new Stage();
             stage.setTitle("Detalles del Curso: " + course.getName());
             stage.setScene(new Scene(root));
@@ -729,6 +727,7 @@ public class scenes_controllers {
             e.printStackTrace();
         }
     }
+
 
     @FXML
     private Label messageLabel;

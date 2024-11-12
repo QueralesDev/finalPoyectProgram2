@@ -8,9 +8,9 @@ import java.io.IOException;
 
 public class   MainTest {
     public static void main(String[] args) throws IOException {
-        Menu menu = new Menu();
-
-        menu.showMenu();
+//        Menu menu = new Menu();
+//
+//        menu.showMenu();
 
 //        ManagementSystem managementSystem = new ManagementSystem();
 //

@@ -22,7 +22,7 @@ public class Main extends Application {
         Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/images/icon.png")));
         stage.getIcons().add(icon);
 
-        stage.setTitle("Gestion");
+        stage.setTitle("Sistema Gestión");
         stage.setScene(scene);
         stage.show();
 
