@@ -1,0 +1,29 @@
+[
+  {
+    "level": "INTERMEDIO",
+    "progresses": [],
+    "id": "15a24de5-2809-4449-b196-7d56e469511b",
+    "name": "Martin",
+    "lastName": "Hernandez",
+    "dni": "61801812",
+    "email": "martin.hernandez@tutanota.com"
+  },
+  {
+    "level": "PRINCIPIANTE",
+    "progresses": [],
+    "id": "5aadcf66-ae22-4bd3-9878-f8ccfa5be344",
+    "name": "Esteban",
+    "lastName": "Diaz",
+    "dni": "33610766",
+    "email": "esteban.diaz@provider.com"
+  },
+  {
+    "level": "PRINCIPIANTE",
+    "progresses": [],
+    "id": "79af6f2a-0e8e-4ede-9b85-6f44767af0a4",
+    "name": "Pablo",
+    "lastName": "Paredes",
+    "dni": "97536679",
+    "email": "pablo.paredes@gmail.com"
+  }
+]

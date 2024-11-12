@@ -20,10 +20,10 @@ public class Menu {
 
 
     public Menu() throws IOException {
-//        this.generatorJson = new GeneratorJson();
-//        generatorJson.generateStudents(3);
-//        generatorJson.generateTeachers(5);
-//        generatorJson.generateCourses(20);
+        this.generatorJson = new GeneratorJson();
+        generatorJson.generateStudents(3);
+        generatorJson.generateTeachers(5);
+        generatorJson.generateCourses(20);
         this.managementSystem = new ManagementSystem();
         this.scanner = new Scanner(System.in);
     }

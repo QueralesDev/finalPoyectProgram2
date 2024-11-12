@@ -1,0 +1,42 @@
+[
+  {
+    "speciality": "VIOLA",
+    "id": "4617acf5-b1b4-40a0-9c8c-13b2dcb00e54",
+    "name": "Sandra",
+    "lastName": "Blanco",
+    "dni": "12639945",
+    "email": "sandra.blanco@laposte.net"
+  },
+  {
+    "speciality": "CONTRABAJO",
+    "id": "462d26c3-c98e-4553-9b99-28d2f1175014",
+    "name": "Camila",
+    "lastName": "Bermudez",
+    "dni": "14796328",
+    "email": "camila.bermudez@comcast.net"
+  },
+  {
+    "speciality": "SAXOFON",
+    "id": "9ab9564a-02d7-4abd-a0a1-17596d95d4c0",
+    "name": "Emilio",
+    "lastName": "Soto",
+    "dni": "71768372",
+    "email": "emilio.soto@tutanota.com"
+  },
+  {
+    "speciality": "VIOLIN",
+    "id": "b7fc5897-cc82-44ff-add7-ab37f0410b47",
+    "name": "Esteban",
+    "lastName": "Castillo",
+    "dni": "24912750",
+    "email": "esteban.castillo@comcast.net"
+  },
+  {
+    "speciality": "BAJO",
+    "id": "be1c2d50-d525-452e-954b-1995be9d124b",
+    "name": "Lucia",
+    "lastName": "Guerrero",
+    "dni": "25419102",
+    "email": "lucia.guerrero@icloud.com"
+  }
+]

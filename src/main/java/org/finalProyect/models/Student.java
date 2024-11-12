@@ -53,11 +53,15 @@ public class Student extends AbstractPerson {
     public void showStudentProgress() {
         System.out.println("Progresos del estudiante " + this.getName() + ":");
         for (Progress progress : this.getProgresses()) {
-            if (progress.getCourse().getEnrolledStudents().contains(this)) {
-                System.out.println("Curso: " + progress.getCourse().getName() + ", Progreso: " + progress.getProgressPercentage() + "%");
+            Course course = progress.getCourse();
+
+            // Verificar si el estudiante está inscrito en el curso
+            if (course.getEnrolledStudents().contains(this)) {
+                System.out.println("Curso: " + course.getName() + ", Progreso: " + progress.getProgressPercentage() + "%");
             }
         }
     }
+
 
 
     @Override
@@ -81,11 +85,11 @@ public class Student extends AbstractPerson {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
-        return level == student.level && Objects.equals(progresses, student.progresses);
+        return Objects.equals(getId(), student.getId());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(level, progresses);
+        return Objects.hash(getId());
     }
 }
