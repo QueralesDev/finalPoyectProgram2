@@ -39,7 +39,7 @@ public class ManagementSystem {
         // Cargar los datos desde archivos al iniciar
         loadData();
         // Generar datos de progreso de forma aleatoria
-        generateMockProgressData();
+//        generateMockProgressData();
     }
 
     // Guardar los datos en archivos JSON
@@ -51,21 +51,21 @@ public class ManagementSystem {
 
     // Cargar los datos desde archivos JSON
     private void loadData() {
-        this.students = fileDataManager.loadFromFile(STUDENTS_FILE, new TypeReference<List<Student>>() {
+        this.students = fileDataManager.loadFromFile(STUDENTS_FILE, new TypeReference<>() {
         });
-        this.teachers = fileDataManager.loadFromFile(TEACHERS_FILE, new TypeReference<List<Teacher>>() {
+        this.teachers = fileDataManager.loadFromFile(TEACHERS_FILE, new TypeReference<>() {
         });
-        this.courses = fileDataManager.loadFromFile(COURSES_FILE, new TypeReference<List<Course>>() {
+        this.courses = fileDataManager.loadFromFile(COURSES_FILE, new TypeReference<>() {
         });
     }
 
     public void addStudent(Student student) {
         if (student == null || students.contains(student)) {
-            throw new IllegalArgumentException("Invalid or duplicate student");
+            throw new IllegalArgumentException("Invalido o Estudiante duplicado");
         }
         students.add(student);
         saveData(); // Guardar cambios en archivo
-        System.out.println("Student added: " + student.getName());
+        System.out.println("Estudiante Agregado: " + student.getName());
     }
 
     public List<Student> getStudents() {
@@ -74,11 +74,11 @@ public class ManagementSystem {
 
     public void addTeacher(Teacher teacher) {
         if (teacher == null || teachers.contains(teacher)) {
-            throw new IllegalArgumentException("Invalid or duplicate teacher");
+            throw new IllegalArgumentException("Invalido o Profesor duplicado");
         }
         teachers.add(teacher);
         saveData(); // Guardar cambios en archivo
-        System.out.println("Teacher added: " + teacher.getName());
+        System.out.println("Profesor Agregado: " + teacher.getName());
     }
 
     public List<Teacher> getTeachers() {
@@ -87,14 +87,14 @@ public class ManagementSystem {
 
     public void addCourse(Course course) {
         if (course == null || courses.contains(course)) {
-            throw new IllegalArgumentException("Invalid or duplicate course");
+            throw new IllegalArgumentException("Invalido o Curso duplicado");
         }
         courses.add(course);
         saveData(); // Guardar cambios en archivo
-        System.out.println("Course added: " + course.getName());
+        System.out.println("Curso Agregado: " + course.getName());
     }
 
-    public List<Course> getCourses() {
+    public List<Course> getCourses(){
         return courses;
     }
 
@@ -106,6 +106,7 @@ public class ManagementSystem {
             student.addProgress(progress);
             progresses.add(progress);
         }
+//        fileDataManager.saveToFile(STUDENTS_FILE, students); actualizar los cambios en el archivo
     }
 
     public List<Progress> getProgresses() {
@@ -114,6 +115,17 @@ public class ManagementSystem {
 
 
     public boolean doesDniExist(String filePath, String dni) {
+
+        // Verificar si el dni esta vacio
+        if (dni == null || dni.isEmpty()) {
+            System.out.println("El DNI no puede estar vacío");
+        }
+
+        // Verificar si el dni es numérico
+        if (!dni.matches("\\d+")) {
+            System.out.println("El DNI debe ser numérico");
+        }
+
         try (FileReader reader = new FileReader(filePath)) {
             JsonElement jsonElement = JsonParser.parseReader(reader);
 

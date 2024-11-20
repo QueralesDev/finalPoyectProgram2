@@ -12,14 +12,15 @@ public class ProgressGenerator {
 
     public List<Progress> generateProgresses(List<Student> students, List<Course> courses) {
         List<Progress> progresses = new ArrayList<>();
+        System.out.println("Generando Progresos Aleatorios ");
 
         if (students == null || students.isEmpty()) {
-            System.out.println("No students found.");
+            System.out.println("Lista de estudiantes nula o vacia.");
             return progresses;
         }
 
         if (courses == null || courses.isEmpty()) {
-            System.out.println("No courses found.");
+            System.out.println("Lista de Cursos nula o vacia.");
             return progresses;
         }
 

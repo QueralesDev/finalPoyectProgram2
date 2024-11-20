@@ -14,10 +14,11 @@ public class Initializer {
 
     public Initializer() throws IOException {
         this.generatorJson = new GeneratorJson();
-        generatorJson.generateStudents(500);
+        generatorJson.generateStudents(30);
         generatorJson.generateTeachers(100);
         generatorJson.generateCourses(20);
         this.managementSystem = new ManagementSystem();
+        managementSystem.generateMockProgressData();
         this.scanner = new Scanner(System.in);
     }
 

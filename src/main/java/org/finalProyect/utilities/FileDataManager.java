@@ -20,7 +20,7 @@ public class FileDataManager {
         try {
             objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File(fileName), data);
         } catch (IOException e) {
-            System.err.println("Error saving data to file: " + e.getMessage());
+            System.err.println("Error guardando datos en archivo: " + e.getMessage());
         }
     }
 
@@ -31,11 +31,11 @@ public class FileDataManager {
             if (file.exists()) {
                 return objectMapper.readValue(file, typeReference);
             } else {
-                System.out.println("File not found: " + fileName);
+                System.out.println("Archivo no existe: " + fileName);
                 return List.of();
             }
         } catch (IOException e) {
-            System.err.println("Error loading data from file: " + e.getMessage());
+            System.err.println("Error de carga desde el archivo: " + e.getMessage());
             return List.of();
         }
     }

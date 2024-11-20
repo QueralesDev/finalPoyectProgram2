@@ -1,6 +1,9 @@
 package org.finalProyect.models;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 public class Progress {
+    @JsonBackReference
     private Student student;
     private Course course;
     private double progressPercentage;

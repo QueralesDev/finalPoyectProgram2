@@ -1,5 +1,6 @@
 package org.finalProyect.models;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import org.finalProyect.enums.Level;
 
 import java.util.ArrayList;
@@ -8,6 +9,7 @@ import java.util.Objects;
 
 public class Student extends AbstractPerson {
     private Level level;
+    @JsonManagedReference
     private List<Progress> progresses;
 
     public Student() {

@@ -19,5 +19,5 @@ public enum TypeSpeciality {
     TIMBALES,
     MARIMBA,
     XILOFONO,
-    CAMPANAS_TUBULARES;
+    CAMPANAS_TUBULARES
 }

@@ -39,7 +39,6 @@ public class scenes_controllers {
         updateTeacherButton.setOnAction(event -> updateTeacher());
         courseListView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
         onLoadCourses();
-
     }
 
     @FXML
@@ -333,13 +332,43 @@ public class scenes_controllers {
         String email = emailField.getText().trim();
         String levelStr = levelComboBox.getValue();
 
-        if(managementSystem.doesDniExist("students.json", dni)) {
+        if (firstName.isEmpty()) {
+            mensajeLabel.setText("El nombre no puede estar vacío");
+            return;
+        }
+        if (!firstName.matches("[a-zA-Z]+")) {
+            mensajeLabel.setText("El nombre solo puede contener letras");
+            return;
+        }
+
+        if (lastName.isEmpty()) {
+            mensajeLabel.setText("El apellido no puede estar vacío");
+            return;
+        }
+        if (!lastName.matches("[a-zA-Z]+")) {
+            mensajeLabel.setText("El apellido solo puede contener letras");
+            return;
+        }
+
+        if (dni.isEmpty()){
+            mensajeLabel.setText("El dni no puede estar vacio");
+        }
+
+        if (!dni.matches("\\d+")) {
+            mensajeLabel.setText("El DNI debe contener solo números");
+            return;
+        }
+        if (managementSystem.doesDniExist("students.json", dni)) {
             mensajeLabel.setText("El DNI ya existe. Por favor, ingrese uno diferente.");
             return;
         }
 
-        if (!email.contains("@") && !email.contains(".")) {
-            mensajeLabel.setText("Ingrese un email valido");
+        if (email.isEmpty()) {
+            mensajeLabel.setText("El email no puede estar vacío");
+            return;
+        }
+        if (!email.contains("@") || !email.contains(".")) {
+            mensajeLabel.setText("Ingrese un email válido");
             return;
         }
 
@@ -359,6 +388,7 @@ public class scenes_controllers {
             mensajeLabel.setText("Error al agregar el estudiante: " + e.getMessage().toUpperCase());
         }
     }
+
 
     @FXML
     private TableView<Student> tableView = new TableView<>();
@@ -504,6 +534,7 @@ public class scenes_controllers {
     @FXML
     private ComboBox<String> specialityComboBox;
 
+
     @FXML
     private void createProfessor() {
         String firstName = firstNameField.getText().trim();
@@ -512,18 +543,48 @@ public class scenes_controllers {
         String email = emailField.getText().trim();
         String specialityStr = specialityComboBox.getValue();
 
-        if(managementSystem.doesDniExist("teachers.json", dni)) {
+        if (firstName.isEmpty()) {
+            mensajeLabel.setText("El nombre no puede estar vacío");
+            return;
+        }
+        if (!firstName.matches("[a-zA-Z]+")) {
+            mensajeLabel.setText("El nombre solo puede contener letras");
+            return;
+        }
+
+        if (lastName.isEmpty()) {
+            mensajeLabel.setText("El apellido no puede estar vacío");
+            return;
+        }
+        if (!lastName.matches("[a-zA-Z]+")) {
+            mensajeLabel.setText("El apellido solo puede contener letras");
+            return;
+        }
+
+        if (dni.isEmpty()){
+            mensajeLabel.setText("El dni no puede estar vacio");
+        }
+
+        if (!dni.matches("\\d+")) {
+            mensajeLabel.setText("El DNI debe contener solo números");
+            return;
+        }
+        if (managementSystem.doesDniExist("students.json", dni)) {
             mensajeLabel.setText("El DNI ya existe. Por favor, ingrese uno diferente.");
             return;
         }
 
-        if (!email.contains("@") && !email.contains(".")) {
-            mensajeLabel.setText("Ingrese un email valido");
+        if (email.isEmpty()) {
+            mensajeLabel.setText("El email no puede estar vacío");
+            return;
+        }
+        if (!email.contains("@") || !email.contains(".")) {
+            mensajeLabel.setText("Ingrese un email válido");
             return;
         }
 
         if (specialityStr == null) {
-            mensajeLabel.setText("Por favor, seleccione un nivel.");
+            mensajeLabel.setText("Por favor, seleccione una especialidad");
             return;
         }
         try {

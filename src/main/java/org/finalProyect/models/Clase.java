@@ -50,7 +50,7 @@ public class Clase {
 
     public void setTeacher(Teacher teacher) {
         if (teacher == null) {
-            throw new IllegalArgumentException("Teacher no puede ser nulo");
+            throw new IllegalArgumentException("Profesor no puede ser nulo");
         }
         this.teacher = teacher;
     }

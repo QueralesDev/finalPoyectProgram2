@@ -76,7 +76,7 @@ public class GeneratorJson {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try (FileWriter writer = new FileWriter(fileName)) {
             gson.toJson(data, writer);
-            System.out.println("Saved to " + fileName);
+            System.out.println("Guardado en: " + fileName);
         } catch (IOException e) {
             e.printStackTrace();
         }

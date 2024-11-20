@@ -27,7 +27,10 @@ public abstract class AbstractPerson {
 
     public void setName(String name) {
         if (name == null || name.isEmpty()) {
-            throw new IllegalArgumentException("El nombre no puedes estar vacio");
+            throw new IllegalArgumentException("El nombre no puede estar vacío");
+        }
+        if (!name.matches("[a-zA-Z]+")) {
+            throw new IllegalArgumentException("El nombre solo puede contener letras");
         }
         this.name = name;
     }
@@ -38,8 +41,12 @@ public abstract class AbstractPerson {
 
     public void setLastName(String lastName) {
         if (lastName == null || lastName.isEmpty()) {
-            throw new IllegalArgumentException("El apellido no puede estar vacio");
+            throw new IllegalArgumentException("El Apellido no puede estar vacío");
         }
+        if (!lastName.matches("[a-zA-ZáéíóúÁÉÍÓÚñÑüÜ]+")) {
+            throw new IllegalArgumentException("El Apellido solo puede contener letras");
+        }
+
         this.lastName = lastName;
     }
 
@@ -48,9 +55,15 @@ public abstract class AbstractPerson {
     }
 
     public void setDni(String dni) {
-        if (dni == null || !dni.matches("\\d+")) {
-            throw new IllegalArgumentException("El DNI debe ser numérico y no puede ser nulo ni vacío");
+        if (dni == null || dni.isEmpty()) {
+            throw new IllegalArgumentException("El DNI no puede estar vacío");
         }
+
+        if (!dni.matches("\\d+")) {
+            throw new IllegalArgumentException("El DNI debe ser numérico");
+        }
+
+
         this.dni = dni;
     }
 
