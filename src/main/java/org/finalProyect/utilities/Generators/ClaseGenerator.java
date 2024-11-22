@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class ClaseGenerator {
+    private int classIndex = 0;
 
     ManagementSystem managementSystem = new ManagementSystem();
 
@@ -27,7 +28,9 @@ public class ClaseGenerator {
 
 
     public String generateNameClass(){
-        return nameClass[PersonGenerator.random.nextInt(nameClass.length)];
+        String className = nameClass[classIndex];
+        classIndex = (classIndex + 1) % nameClass.length;
+        return className;
     }
 
     public String generateDate(){

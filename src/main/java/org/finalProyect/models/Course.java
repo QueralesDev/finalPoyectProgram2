@@ -4,6 +4,7 @@ import org.finalProyect.enums.Level;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Course {
     private String name;
@@ -114,5 +115,18 @@ public class Course {
         didacticMaterialList.forEach(DidacticMaterial::show);
         clases.forEach(Clase::show);
         System.out.println("______________________________________________________________________________");
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Course course = (Course) o;
+        return Objects.equals(name, course.name) && level == course.level;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, level);
     }
 }

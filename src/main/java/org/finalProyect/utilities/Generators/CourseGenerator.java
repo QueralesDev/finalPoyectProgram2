@@ -27,7 +27,6 @@ public class CourseGenerator {
     public Course createCourse() throws IOException {
         List<Student> students = JsonReader.readStudents("students.json");
 
-        // Verifica que haya estudiantes disponibles
         if (students.isEmpty()) {
             throw new IllegalArgumentException("No hay estudiantes disponibles para inscribir en el curso.");
         }
@@ -35,49 +34,61 @@ public class CourseGenerator {
         Level level = levels[random.nextInt(levels.length)];
         Course course = new Course(level);
 
-        // Agrega material didáctico al curso
+        // Agregar material didáctico al curso
         course.addDidacticMaterial(didacticMaterialGenerator.createDidacticMaterial());
 
-        // Inicializa el conteo de cursos solo para estudiantes que aún no están en el mapa
+        // Inicializar contador de cursos por estudiante
         for (Student student : students) {
             studentCourseCounts.putIfAbsent(student, 0);
         }
 
-        // Selecciona un número aleatorio de estudiantes para inscribir en el curso
-        int randomStudentCount = random.nextInt(students.size()) + 1;
-        Set<Student> addedStudents = new HashSet<>();
-        List<Student> eligibleStudents = new ArrayList<>(students);
-
-        while (addedStudents.size() < randomStudentCount && !eligibleStudents.isEmpty()) {
-            Student student = eligibleStudents.get(random.nextInt(eligibleStudents.size()));
-
-            // Asegura que el estudiante no esté en más de 5 cursos
-            int currentCount = studentCourseCounts.get(student);
-            if (currentCount < 5 && !course.getEnrolledStudents().contains(student)) {
-                course.addStudent(student);
-                addedStudents.add(student);
-                studentCourseCounts.put(student, currentCount + 1);
-
-                // Si el estudiante ha alcanzado el límite, se elimina de la lista de elegibles
-                if (currentCount + 1 >= 5) {
-                    eligibleStudents.remove(student);
-                }
-            } else {
-                // Eliminar el estudiante de la lista de elegibles si ya está en el curso o ha alcanzado el límite
-                eligibleStudents.remove(student);
+        // Filtrar estudiantes elegibles (aquellos con menos de 5 cursos)
+        List<Student> eligibleStudents = new ArrayList<>();
+        for (Student student : students) {
+            if (studentCourseCounts.get(student) < 5) {
+                eligibleStudents.add(student);
             }
         }
 
-        // Genera clases y asigna solo estudiantes inscritos en el curso
+        if (eligibleStudents.isEmpty()) {
+            System.out.println("No hay estudiantes elegibles para asignar a este curso.");
+            return course; // Retornamos el curso vacío si no hay estudiantes elegibles
+        }
+
+        // Mezclar estudiantes para evitar sesgos
+        Collections.shuffle(eligibleStudents);
+
+        // Garantizar al menos un estudiante en el curso
+        Student initialStudent = eligibleStudents.get(0);
+        course.addStudent(initialStudent);
+        studentCourseCounts.put(initialStudent, studentCourseCounts.get(initialStudent) + 1);
+
+        // Asignar estudiantes adicionales al curso
+        int randomStudentCount = random.nextInt(eligibleStudents.size()) + 1; // Número aleatorio de estudiantes
+        Set<Student> addedStudents = new HashSet<>();
+        addedStudents.add(initialStudent); // Incluimos al estudiante inicial
+
+        for (Student student : eligibleStudents) {
+            if (addedStudents.size() >= randomStudentCount) {
+                break; // Detenemos cuando alcanzamos el límite de estudiantes para este curso
+            }
+
+            if (!addedStudents.contains(student)) {
+                course.addStudent(student);
+                addedStudents.add(student);
+                studentCourseCounts.put(student, studentCourseCounts.get(student) + 1);
+            }
+        }
+
+        // Generar clases para el curso
         List<Student> enrolledStudents = new ArrayList<>(course.getEnrolledStudents());
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 10; i++) {
             Clase clase = claseGenerator.createClase();
-            if (!enrolledStudents.isEmpty()) { // Verifica que haya estudiantes inscritos
-                int randomCount = random.nextInt(enrolledStudents.size()) + 1;
-                Collections.shuffle(enrolledStudents); // Mezcla la lista para seleccionar estudiantes aleatoriamente
+            if (!enrolledStudents.isEmpty()) {
+                int randomCount = random.nextInt(enrolledStudents.size()) + 1; // Mínimo 1 estudiante por clase
+                Collections.shuffle(enrolledStudents);
                 for (int j = 0; j < randomCount; j++) {
-                    Student student = enrolledStudents.get(j);
-                    clase.addStudent(student);
+                    clase.addStudent(enrolledStudents.get(j));
                 }
             }
             course.addClass(clase);

@@ -3,6 +3,8 @@ package org.finalProyect.models;
 
 import org.finalProyect.enums.TypeSpeciality;
 
+import java.util.Objects;
+
 public class Teacher extends AbstractPerson {
     private TypeSpeciality speciality;
 
@@ -38,5 +40,18 @@ public class Teacher extends AbstractPerson {
         return "Teacher{" +
                 "speciality=" + speciality +
                 "} " + super.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Teacher teacher = (Teacher) o;
+        return Objects.equals(getId(), teacher.getId());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId());
     }
 }
