@@ -11,7 +11,7 @@ public class   MainTest {
     public static void main(String[] args) throws IOException {
         Menu menu = new Menu();
 
-        CollectionPerformanceTest.main(args);
+//        CollectionPerformanceTest.main(args); // descomentar para ejecutar el test de rendimiento
 
         menu.showMenu();
 

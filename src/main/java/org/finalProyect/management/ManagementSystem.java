@@ -44,19 +44,20 @@ public class ManagementSystem {
 
     // Guardar los datos en archivos JSON
     public void saveData() {
+        System.out.println("Estudiantes: " + students.size());
+        System.out.println("Profesores: " + teachers.size());
+        System.out.println("Cursos: " + courses.size());
         fileDataManager.saveToFile(STUDENTS_FILE, students);
         fileDataManager.saveToFile(TEACHERS_FILE, teachers);
         fileDataManager.saveToFile(COURSES_FILE, courses);
     }
 
+
     // Cargar los datos desde archivos JSON
     private void loadData() {
-        this.students = fileDataManager.loadFromFile(STUDENTS_FILE, new TypeReference<>() {
-        });
-        this.teachers = fileDataManager.loadFromFile(TEACHERS_FILE, new TypeReference<>() {
-        });
-        this.courses = fileDataManager.loadFromFile(COURSES_FILE, new TypeReference<>() {
-        });
+        this.students = fileDataManager.loadFromFile("students.json", Student.class);
+        this.teachers = fileDataManager.loadFromFile("teachers.json", Teacher.class);
+        this.courses = fileDataManager.loadFromFile("courses.json", Course.class);
     }
 
     public void addStudent(Student student) {
@@ -99,15 +100,32 @@ public class ManagementSystem {
     }
 
     public void generateMockProgressData() {
+        if (students.isEmpty() || courses.isEmpty()) {
+            System.out.println("No se pueden generar progresos debido a que no hay estudiantes o cursos disponibles.");
+            return;
+        }
+        
         ProgressGenerator generator = new ProgressGenerator();
         List<Progress> mockProgresses = generator.generateProgresses(students, courses);
+
+        if (mockProgresses.isEmpty()) {
+            System.out.println("No se generó ningún progreso.");
+        } else {
+            System.out.println("Se generaron " + mockProgresses.size() + " progresos.");
+        }
+
         for (Progress progress : mockProgresses) {
             Student student = progress.getStudent();
-            student.addProgress(progress);
-            progresses.add(progress);
+            if (!student.getProgresses().contains(progress)) { // Evitar duplicados
+                student.addProgress(progress);
+                progresses.add(progress);
+            }
         }
-//        fileDataManager.saveToFile(STUDENTS_FILE, students); actualizar los cambios en el archivo
+        // Guardar los estudiantes con sus progresos actualizados
+        saveData();
+
     }
+
 
     public List<Progress> getProgresses() {
         return progresses;

@@ -21,7 +21,7 @@ public class Menu {
 
     public Menu() throws IOException {
         this.generatorJson = new GeneratorJson();
-        generatorJson.generateStudents(5000);
+        generatorJson.generateStudents(30);
         generatorJson.generateTeachers(30);
         generatorJson.generateCourses(20);
         this.managementSystem = new ManagementSystem();

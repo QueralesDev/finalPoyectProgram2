@@ -1,7 +1,9 @@
 package org.finalProyect.models;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@JsonIgnoreProperties({"student", "course"})
 public class Progress {
     @JsonBackReference
     private Student student;
