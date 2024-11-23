@@ -15,40 +15,59 @@ public class ProgressGenerator {
         System.out.println("Generando Progresos Aleatorios ");
 
         if (students == null || students.isEmpty()) {
-            System.out.println("Lista de estudiantes nula o vacia.");
+            System.out.println("Lista de estudiantes nula o vacía.");
             return progresses;
         }
 
         if (courses == null || courses.isEmpty()) {
-            System.out.println("Lista de Cursos nula o vacia.");
+            System.out.println("Lista de Cursos nula o vacía.");
             return progresses;
         }
 
         for (Course course : courses) {
             for (Student student : students) {
-                Progress progress = new Progress(student, course);
-                int attendedClasses = 0;
-
+                // Verificar si el estudiante está inscrito en el curso
+                boolean isEnrolled = false;
                 for (Clase clase : course.getClases()) {
                     if (clase.getEnrolledStudents() != null) {
                         for (Student enrolledStudent : clase.getEnrolledStudents()) {
                             if (enrolledStudent.getId().equals(student.getId())) {
-                                attendedClasses++;
+                                isEnrolled = true;
                                 break;
                             }
                         }
                     }
+                    if (isEnrolled) {
+                        break;
+                    }
                 }
 
-                int totalClasses = course.getClases().size();
-                double progressPercentage = (totalClasses > 0) ? ((double) attendedClasses / totalClasses) * 100 : 0;
+                // Solo generar progreso si el estudiante está inscrito
+                if (isEnrolled) {
+                    Progress progress = new Progress(student, course);
+                    int attendedClasses = 0;
 
-                if (progressPercentage < 0) {
-                    progressPercentage = 0;
+                    for (Clase clase : course.getClases()) {
+                        if (clase.getEnrolledStudents() != null) {
+                            for (Student enrolledStudent : clase.getEnrolledStudents()) {
+                                if (enrolledStudent.getId().equals(student.getId())) {
+                                    attendedClasses++;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+
+                    int totalClasses = course.getClases().size();
+                    double progressPercentage = (totalClasses > 0) ? ((double) attendedClasses / totalClasses) * 100 : 0;
+
+                    if (progressPercentage < 0) {
+                        progressPercentage = 0;
+                    }
+
+                    progress.setProgressPercentage(progressPercentage);
+                    progresses.add(progress);
                 }
-
-                progress.setProgressPercentage(progressPercentage);
-                progresses.add(progress);
             }
         }
 
