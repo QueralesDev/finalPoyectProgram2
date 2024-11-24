@@ -30,6 +30,8 @@ public class scenes_controllers {
     public scenes_controllers() throws IOException {
     }
 
+    private List<Student> students = new ArrayList<>();
+
     @FXML
     public void initialize() {
         initializeColumns();
@@ -39,21 +41,14 @@ public class scenes_controllers {
         updateTeacherButton.setOnAction(event -> updateTeacher());
         courseListView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
         onLoadCourses();
+        configureRowClickEvent();
+        students = StudentDataLoader.loadStudentsFromJson("students.json");
+
     }
 
     @FXML
     public void handleMyClassesAction() {
         showAlert("Gestion clases", "Aca se podran gestionar las clases.");
-    }
-
-    @FXML
-    public void handleTeachersAction() {
-        showAlert("Gestion profesores", "Aca se podran gestionar los profesores.");
-    }
-
-    @FXML
-    public void handleEvaluationsAndProgressAction() {
-        showAlert("Gestion evaluaciones y progreso", "Aca se podran gestionar las evaluaciones y progreso.");
     }
 
     private void showAlert(String title, String message) {
@@ -842,6 +837,69 @@ public class scenes_controllers {
             messageLabel.setText("");
         }
     }
+
+    @FXML
+    private ListView<String> progressListView = new ListView<>();
+    @FXML
+    private Label studentNameLabel = new Label();
+
+    @FXML
+    private void configureRowClickEvent() {
+        tableView.setOnMouseClicked(event -> {
+            if (event.getClickCount() == 2 && tableView.getSelectionModel().getSelectedItem() != null) {
+                showStudentProgress();
+            }
+        });
+    }
+
+
+
+    @FXML
+    public void loadStudentProgressScene(Student student) {
+        if (student != null) {
+            studentNameLabel.setText(student.getName() + " " + student.getLastName());
+            progressListView.getItems().clear();
+
+            List<Progress> progresses = student.getProgresses();
+            if (progresses != null && !progresses.isEmpty()) {
+                for (Progress progress : progresses) {
+                        String progressDetails = String.format(
+                                "Curso: %s, Progreso: %.2f%%",
+                                progress.getCourse().getName(),
+                                progress.getProgressPercentage()
+                        );
+                        progressListView.getItems().add(progressDetails);
+                }
+            } else {
+                progressListView.getItems().add("No hay progresos disponibles.");
+            }
+        }
+    }
+
+
+    @FXML
+    private void showStudentProgress() {
+        Student selectedStudent = tableView.getSelectionModel().getSelectedItem();
+        if (selectedStudent != null) {
+            try {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/scenes/students_scenes/course_progress_scene.fxml"));
+                Parent root = loader.load();
+
+                scenes_controllers controller = loader.getController();
+                controller.loadStudentProgressScene(selectedStudent);
+
+
+
+                Stage stage = new Stage();
+                stage.setTitle("Progreso del Estudiante");
+                stage.setScene(new Scene(root));
+                stage.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
 
 
 }

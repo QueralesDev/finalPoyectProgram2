@@ -36,22 +36,6 @@
                <Cursor fx:constant="HAND" />
             </cursor>
          </Button>
-            <Button onAction="#handleMyClassesAction" text="Clases">
-                <font>
-                    <Font size="13.0" />
-                </font>
-                <cursor>
-                    <Cursor fx:constant="HAND" />
-                </cursor>
-            </Button>
-            <Button layoutX="203.0" layoutY="10.0" onAction="#handleEvaluationsAndProgressAction" text="Evaluaciones y Progresos">
-                <font>
-                    <Font size="13.0" />
-                </font>
-                <cursor>
-                    <Cursor fx:constant="HAND" />
-                </cursor>
-            </Button>
         </ToolBar>
     </top>
     <center>
