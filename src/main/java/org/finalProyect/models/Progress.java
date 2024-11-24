@@ -2,6 +2,7 @@ package org.finalProyect.models;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties({"student", "course"})
 public class Progress {
@@ -25,6 +26,11 @@ public class Progress {
 
     public Course getCourse() {
         return course;
+    }
+
+    @JsonProperty("courseName") // Solo serializar el nombre del curso
+    public String getCourseName() {
+        return course != null ? course.getName() : null;
     }
 
     public double getProgressPercentage() {
