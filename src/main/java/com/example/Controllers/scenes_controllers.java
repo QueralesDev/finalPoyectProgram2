@@ -83,7 +83,7 @@ public class scenes_controllers {
     public void switchToShowStudents(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("/com/example/scenes/students_scenes/students_view_scene.fxml"));
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root, 780, 500);
+        Scene scene = new Scene(root, 700, 500);
         stage.setScene(scene);
         stage.show();
     }
@@ -282,7 +282,7 @@ public class scenes_controllers {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/com/example/scenes/courses_scenes/show_courses_scene.fxml"));
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-            Scene scene = new Scene(root, 594, 410);
+            Scene scene = new Scene(root, 550, 410);
             stage.setScene(scene);
             stage.show();
         } catch (IOException e) {

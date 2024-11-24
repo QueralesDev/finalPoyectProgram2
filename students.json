@@ -1,1285 +1,748 @@
 [ {
-  "id" : "aa53a87a-a758-4f3f-8896-d9d43e702c3d",
-  "name" : "Rosa",
+  "id" : "f2032520-2d5b-4f26-b9bf-39af64f743db",
+  "name" : "Diana",
+  "lastName" : "Quintero",
+  "dni" : "18798484",
+  "email" : "diana.quintero@outlook.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "cc9c4121-53a5-4e13-bfd3-39a7ec2411e4",
+  "name" : "Maria",
   "lastName" : "Perez",
-  "dni" : "96172898",
-  "email" : "rosa.perez@domain.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Técnicas Vocales Avanzadas"
-  } ]
-}, {
-  "id" : "b2af253c-bd90-4228-ac00-e97ddda7c8df",
-  "name" : "Luis",
-  "lastName" : "Navarro",
-  "dni" : "10108544",
-  "email" : "luis.navarro@yahoo.com",
+  "dni" : "52392876",
+  "email" : "maria.perez@mailfence.com",
   "level" : "INTERMEDIO",
   "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 90.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  }, {
     "progressPercentage" : 60.0,
     "courseName" : "Teoría Musical Avanzada"
-  } ]
-}, {
-  "id" : "1c79b72c-048b-44ac-8ff2-6dacaee894e0",
-  "name" : "Olga",
-  "lastName" : "Diaz",
-  "dni" : "76039890",
-  "email" : "olga.diaz@mailfence.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "30694bfb-ffe3-4d61-ae9f-623d5202e83d",
-  "name" : "Jorge",
-  "lastName" : "Herrera",
-  "dni" : "91691405",
-  "email" : "jorge.herrera@optonline.net",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
   }, {
-    "progressPercentage" : 60.0,
+    "progressPercentage" : 50.0,
     "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 90.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Dominando el Clarinete"
   } ]
 }, {
-  "id" : "5c862ade-a0ad-4ac9-880d-65716c988268",
-  "name" : "Esteban",
-  "lastName" : "Morales",
-  "dni" : "10203574",
-  "email" : "esteban.morales@posteo.net",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 100.0,
-    "courseName" : "Composición Musical con Piano"
-  } ]
-}, {
-  "id" : "2355214b-667d-47c1-b0c1-b5065e9685e7",
-  "name" : "Oscar",
-  "lastName" : "Medina",
-  "dni" : "58759871",
-  "email" : "oscar.medina@zohomail.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "5abf5f92-5c73-492d-9152-68813425a1df",
-  "name" : "Pablo",
-  "lastName" : "Gomez",
-  "dni" : "87248734",
-  "email" : "pablo.gomez@seznam.cz",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 30.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  } ]
-}, {
-  "id" : "38495563-8014-4f4c-afec-66533a3365ec",
-  "name" : "Pablo",
-  "lastName" : "Rivas",
-  "dni" : "18608823",
-  "email" : "pablo.rivas@verizon.net",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 10.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  } ]
-}, {
-  "id" : "ae0b3ede-754b-4fd8-a2d2-9126bc15aa88",
+  "id" : "93c09cca-5566-4ce9-bbb9-8f0158b34fd9",
   "name" : "Cecilia",
-  "lastName" : "Flores",
-  "dni" : "40969483",
-  "email" : "cecilia.flores@mailbox.org",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Dominando el Clarinete"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Interpretación de Clavecín Barroco"
-  } ]
-}, {
-  "id" : "69196060-a3ab-4bc4-a701-1f087347adc3",
-  "name" : "Gabriela",
-  "lastName" : "Ramirez",
-  "dni" : "78681023",
-  "email" : "gabriela.ramirez@mailfence.com",
+  "lastName" : "Gomez",
+  "dni" : "97440068",
+  "email" : "cecilia.gomez@hotmail.com",
   "level" : "AVANZADO",
   "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
   }, {
     "progressPercentage" : 90.0,
-    "courseName" : "Lecciones de Violín para Principiantes"
-  }, {
-    "progressPercentage" : 50.0,
     "courseName" : "Técnicas de Batería Rock"
-  } ]
-}, {
-  "id" : "b8779dfa-1949-47e9-b753-c7a61d81ff3f",
-  "name" : "Sofia",
-  "lastName" : "Navarro",
-  "dni" : "31800752",
-  "email" : "sofia.navarro@posteo.net",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "c7654e35-88aa-46a4-8baa-59aabf002474",
-  "name" : "Lorena",
-  "lastName" : "Soto",
-  "dni" : "83863243",
-  "email" : "lorena.soto@aol.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
   }, {
     "progressPercentage" : 30.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  } ]
-}, {
-  "id" : "224efe44-4caa-48d2-b518-4f75a42d83f4",
-  "name" : "Irene",
-  "lastName" : "Mejia",
-  "dni" : "51990182",
-  "email" : "irene.mejia@gmail.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "2922a085-3cb3-4fdb-94ca-3cd108433f58",
-  "name" : "Oscar",
-  "lastName" : "Diaz",
-  "dni" : "69664649",
-  "email" : "oscar.diaz@gmx.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Técnicas Vocales Avanzadas"
-  } ]
-}, {
-  "id" : "4f7a4f1d-a5ac-4c5d-8b6c-5acda3655e2c",
-  "name" : "Martin",
-  "lastName" : "Ramirez",
-  "dni" : "28123390",
-  "email" : "martin.ramirez@live.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 20.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  } ]
-}, {
-  "id" : "3978b200-23f5-42d4-b1c4-0ad442e62127",
-  "name" : "Oscar",
-  "lastName" : "Luna",
-  "dni" : "31694359",
-  "email" : "oscar.luna@laposte.net",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "f15ac2b4-3ef5-4eb2-b7fa-994a9ef19e79",
-  "name" : "Juliana",
-  "lastName" : "Pena",
-  "dni" : "75795721",
-  "email" : "juliana.pena@runbox.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "2090895e-01a8-4fa3-8f39-fcaed3e381e9",
-  "name" : "Claudia",
-  "lastName" : "Escobar",
-  "dni" : "68911175",
-  "email" : "claudia.escobar@gmail.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Teoría Musical Avanzada"
-  } ]
-}, {
-  "id" : "35247503-c26c-4fef-8c26-8aabb10c672e",
-  "name" : "Daniel",
-  "lastName" : "Ibarra",
-  "dni" : "74811949",
-  "email" : "daniel.ibarra@btinternet.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "7136750e-ca20-4328-ad69-080d4131e2ad",
-  "name" : "Felipe",
-  "lastName" : "Paredes",
-  "dni" : "87316545",
-  "email" : "felipe.paredes@seznam.cz",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Teoría Musical Avanzada"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas Vocales Avanzadas"
-  } ]
-}, {
-  "id" : "9507734d-8919-422d-a775-99cfd8d935fb",
-  "name" : "Martin",
-  "lastName" : "Villarreal",
-  "dni" : "81881115",
-  "email" : "martin.villarreal@gmx.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  } ]
-}, {
-  "id" : "724f49f1-c605-4db7-bbf0-6bda662bcd66",
-  "name" : "Lorena",
-  "lastName" : "Diaz",
-  "dni" : "50135541",
-  "email" : "lorena.diaz@outlook.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Dominando el Clarinete"
-  } ]
-}, {
-  "id" : "e8e36885-ac85-469b-91fc-9e1179038866",
-  "name" : "Carlos",
-  "lastName" : "Palacios",
-  "dni" : "53228805",
-  "email" : "carlos.palacios@yahoo.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  } ]
-}, {
-  "id" : "aa75a95d-84d4-465a-bdb7-c56beca4d6b6",
-  "name" : "Adriana",
-  "lastName" : "Torres",
-  "dni" : "54049941",
-  "email" : "adriana.torres@webmail.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "63ec2a58-0892-4651-b182-ec6ab2e8adb8",
-  "name" : "Angela",
-  "lastName" : "Lopez",
-  "dni" : "15452535",
-  "email" : "angela.lopez@verizon.net",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  } ]
-}, {
-  "id" : "9f0c05e9-a78b-43ce-a357-a10db316f111",
-  "name" : "Irene",
-  "lastName" : "Hernandez",
-  "dni" : "37519937",
-  "email" : "irene.hernandez@icloud.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 100.0,
     "courseName" : "Fundamentos de Composición de Canciones"
-  } ]
-}, {
-  "id" : "fe9d7ff9-2a8b-4990-9027-48fb87daa01f",
-  "name" : "Sara",
-  "lastName" : "Ortiz",
-  "dni" : "32077349",
-  "email" : "sara.ortiz@rocketmail.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Composición Musical con Piano"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Técnicas Vocales Avanzadas"
-  } ]
-}, {
-  "id" : "053c1113-d7ca-4a1a-84da-6580cda4b3be",
-  "name" : "Lucia",
-  "lastName" : "Mora",
-  "dni" : "55407558",
-  "email" : "lucia.mora@seznam.cz",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Técnicas de Batería Rock"
-  } ]
-}, {
-  "id" : "eeb927f4-47d5-4a45-b6a5-821d14bfbde9",
-  "name" : "Juliana",
-  "lastName" : "Quintero",
-  "dni" : "47470141",
-  "email" : "juliana.quintero@aol.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 30.0,
-    "courseName" : "Teoría Musical Avanzada"
-  } ]
-}, {
-  "id" : "fd4cfe71-5f90-479e-a8df-83130fa01040",
-  "name" : "Claudia",
-  "lastName" : "Salazar",
-  "dni" : "23976868",
-  "email" : "claudia.salazar@webmail.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Teoría Musical Avanzada"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  } ]
-}, {
-  "id" : "8b826254-b943-4415-b4df-7ce361b2ecea",
-  "name" : "Gustavo",
-  "lastName" : "Cruz",
-  "dni" : "87010434",
-  "email" : "gustavo.cruz@rocketmail.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Dominando el Clarinete"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Composición Musical con Piano"
-  } ]
-}, {
-  "id" : "b65106f5-fe96-4828-9356-89a44960f111",
-  "name" : "Laura",
-  "lastName" : "Palacios",
-  "dni" : "14501366",
-  "email" : "laura.palacios@mailfence.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "c64b0939-e702-4f0c-8048-72f8708246d5",
-  "name" : "Rafael",
-  "lastName" : "Ibarra",
-  "dni" : "66083431",
-  "email" : "rafael.ibarra@outlook.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "7ce08dc1-1c66-497b-8be3-03bdb4571ffa",
-  "name" : "Liliana",
-  "lastName" : "Rosales",
-  "dni" : "15058591",
-  "email" : "liliana.rosales@mail.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 20.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "176b824f-41c3-44fd-84b8-9ece48d16aec",
-  "name" : "Diana",
-  "lastName" : "Vargas",
-  "dni" : "59662158",
-  "email" : "diana.vargas@protonmail.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  } ]
-}, {
-  "id" : "0b74fb06-82ec-4c2a-8ee3-9cc4dd7545a1",
-  "name" : "Eduardo",
-  "lastName" : "Rivas",
-  "dni" : "61257719",
-  "email" : "eduardo.rivas@posteo.net",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  } ]
-}, {
-  "id" : "13e4f4fd-758e-43dd-9323-c25c0ecd5f56",
-  "name" : "Paula",
-  "lastName" : "Rodriguez",
-  "dni" : "32477801",
-  "email" : "paula.rodriguez@orange.fr",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Técnicas de Batería Rock"
-  } ]
-}, {
-  "id" : "fbf42901-e961-4ae2-84c2-1b18faa44582",
-  "name" : "Javier",
-  "lastName" : "Acosta",
-  "dni" : "97339611",
-  "email" : "javier.acosta@optonline.net",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Teoría Musical Avanzada"
-  } ]
-}, {
-  "id" : "baa83cd1-748c-4317-890a-5cd38deb1622",
-  "name" : "Elisa",
-  "lastName" : "Quintero",
-  "dni" : "85125685",
-  "email" : "elisa.quintero@webmail.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Dominando el Clarinete"
-  } ]
-}, {
-  "id" : "96026016-2b6f-4393-b844-c31cb62a22a1",
-  "name" : "Laura",
-  "lastName" : "Villarreal",
-  "dni" : "71676281",
-  "email" : "laura.villarreal@seznam.cz",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Dominando el Clarinete"
-  } ]
-}, {
-  "id" : "ecf98145-ce11-4af6-93ff-6e1b31188a55",
-  "name" : "Liliana",
-  "lastName" : "Matos",
-  "dni" : "41386293",
-  "email" : "liliana.matos@gmx.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
   }, {
     "progressPercentage" : 80.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  } ]
-}, {
-  "id" : "b1d3fae5-8d57-4887-8565-c265e97b660a",
-  "name" : "Sandra",
-  "lastName" : "Moreno",
-  "dni" : "13037576",
-  "email" : "sandra.moreno@mailbox.org",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "75dc3b34-459a-4ca4-a6fd-39588d2fa8b2",
-  "name" : "Gabriela",
-  "lastName" : "Rios",
-  "dni" : "89401650",
-  "email" : "gabriela.rios@gmx.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Teoría Musical Avanzada"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Lecciones de Violín para Principiantes"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  } ]
-}, {
-  "id" : "5186063b-1c5d-419a-9cc0-64521457d729",
-  "name" : "Lorena",
-  "lastName" : "Cortez",
-  "dni" : "51977476",
-  "email" : "lorena.cortez@mail.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "1e139d54-5b5c-46b0-92b7-775c5098479f",
-  "name" : "Isabel",
-  "lastName" : "Soto",
-  "dni" : "48089574",
-  "email" : "isabel.soto@webmail.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  } ]
-}, {
-  "id" : "7929b442-5634-42c3-81f5-1ea8e133e4e3",
-  "name" : "Javier",
-  "lastName" : "Santana",
-  "dni" : "85589856",
-  "email" : "javier.santana@mailbox.org",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 30.0,
-    "courseName" : "Dominando el Clarinete"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Composición Musical con Piano"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas Vocales Avanzadas"
-  } ]
-}, {
-  "id" : "718c4e84-3140-4e6a-baa1-c15f658da9f9",
-  "name" : "Pablo",
-  "lastName" : "Soto",
-  "dni" : "87848588",
-  "email" : "pablo.soto@domain.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "dbe66316-ff63-4cd2-8786-6e39df82413a",
-  "name" : "Bianca",
-  "lastName" : "Luna",
-  "dni" : "54159036",
-  "email" : "bianca.luna@yandex.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  }, {
-    "progressPercentage" : 80.0,
-    "courseName" : "Teoría Musical Avanzada"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Dominando el Clarinete"
-  } ]
-}, {
-  "id" : "6807d221-3225-412d-8f13-1d64ad6ffc13",
-  "name" : "Fernando",
-  "lastName" : "Medina",
-  "dni" : "87321988",
-  "email" : "fernando.medina@fastmail.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 30.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 80.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  } ]
-}, {
-  "id" : "0e76c5ad-9638-4f8c-a73b-60a588c1401b",
-  "name" : "Enrique",
-  "lastName" : "Silva",
-  "dni" : "32810782",
-  "email" : "enrique.silva@mail.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  } ]
-}, {
-  "id" : "7f170c5a-de3b-4220-896c-1824e15e8f71",
-  "name" : "Rosa",
-  "lastName" : "Ibarra",
-  "dni" : "34157084",
-  "email" : "rosa.ibarra@service.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 20.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Dominando el Clarinete"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Percusión para Principiantes"
-  } ]
-}, {
-  "id" : "d3eb5799-c4f7-407f-a978-b27e82b40057",
-  "name" : "Sergio",
-  "lastName" : "Salazar",
-  "dni" : "28610366",
-  "email" : "sergio.salazar@protonmail.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 20.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Dominando el Clarinete"
-  } ]
-}, {
-  "id" : "a6e8747b-b743-4317-9e06-ca2b48f948b8",
-  "name" : "Diana",
-  "lastName" : "Zambrano",
-  "dni" : "62314217",
-  "email" : "diana.zambrano@live.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Lecciones de Violín para Principiantes"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Interpretación de Clavecín Barroco"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Técnicas Vocales Avanzadas"
-  } ]
-}, {
-  "id" : "08d24f38-01cc-4e86-b745-db33f88b1a7d",
-  "name" : "Beatriz",
-  "lastName" : "Luna",
-  "dni" : "97138260",
-  "email" : "beatriz.luna@service.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "87bc3792-98e7-4077-9503-d936eeb7c770",
-  "name" : "Pablo",
-  "lastName" : "Miranda",
-  "dni" : "59921819",
-  "email" : "pablo.miranda@zohomail.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Dominando el Clarinete"
-  } ]
-}, {
-  "id" : "42d774e2-8cff-46ce-87d8-0d1c21112d4f",
-  "name" : "Enrique",
-  "lastName" : "Lopez",
-  "dni" : "85787395",
-  "email" : "enrique.lopez@verizon.net",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 100.0,
-    "courseName" : "Improvisación para Músicos de Jazz"
-  }, {
-    "progressPercentage" : 100.0,
-    "courseName" : "Arpa Celta para Principiantes"
-  }, {
-    "progressPercentage" : 100.0,
     "courseName" : "Producción de Música Electrónica"
   } ]
 }, {
-  "id" : "2ef62fdd-65a3-48dc-8bc9-f00da6b035cc",
-  "name" : "Valeria",
-  "lastName" : "Cabrera",
-  "dni" : "85509078",
-  "email" : "valeria.cabrera@verizon.net",
+  "id" : "544bad5a-9b57-46d1-b05f-c81eeb1f1d97",
+  "name" : "Paula",
+  "lastName" : "Pena",
+  "dni" : "35623755",
+  "email" : "paula.pena@gmail.com",
   "level" : "PRINCIPIANTE",
   "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Teoría Musical Avanzada"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  } ]
-}, {
-  "id" : "5d7170a8-842a-42c5-a9f5-bcf5f38a7bf8",
-  "name" : "Oscar",
-  "lastName" : "Campos",
-  "dni" : "14039850",
-  "email" : "oscar.campos@email.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "eb948115-fec1-4c8d-a47f-0e3f88e7533a",
-  "name" : "Francisco",
-  "lastName" : "Quintero",
-  "dni" : "90079350",
-  "email" : "francisco.quintero@mailfence.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
+    "progressPercentage" : 30.0,
     "courseName" : "Introducción al Piano Clásico"
   }, {
     "progressPercentage" : 40.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Dominando el Clarinete"
-  } ]
-}, {
-  "id" : "11ebc8c6-4fcb-4b83-983f-34a68e5d1fdd",
-  "name" : "Alicia",
-  "lastName" : "Querales",
-  "dni" : "15812412",
-  "email" : "alicia.querales@protonmail.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 20.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  } ]
-}, {
-  "id" : "3ec34a00-f55f-4c11-bdb4-430170974059",
-  "name" : "Francisco",
-  "lastName" : "Querales",
-  "dni" : "44883326",
-  "email" : "francisco.querales@btinternet.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Dominando el Clarinete"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Técnicas Vocales Avanzadas"
-  } ]
-}, {
-  "id" : "9aa42f9f-48e0-4b5b-8096-dda93531de46",
-  "name" : "Gustavo",
-  "lastName" : "Ramirez",
-  "dni" : "54786259",
-  "email" : "gustavo.ramirez@zohomail.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  } ]
-}, {
-  "id" : "ab1ab8b7-5ecf-473c-a883-9aa93afbcaf7",
-  "name" : "Diego",
-  "lastName" : "Flores",
-  "dni" : "15136208",
-  "email" : "diego.flores@mail.ru",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Teoría Musical Avanzada"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Dominando el Clarinete"
-  } ]
-}, {
-  "id" : "151a5a2c-8748-46a3-ab43-e7a4a97a35c1",
-  "name" : "Sergio",
-  "lastName" : "Mejia",
-  "dni" : "61599093",
-  "email" : "sergio.mejia@zohomail.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
     "courseName" : "Lecciones de Violín para Principiantes"
   }, {
     "progressPercentage" : 60.0,
     "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
   } ]
 }, {
-  "id" : "2f6be4ac-f4a7-4c7b-aa47-6a1acd61aa56",
-  "name" : "Daniel",
-  "lastName" : "Hernandez",
-  "dni" : "95746804",
-  "email" : "daniel.hernandez@optonline.net",
+  "id" : "f5a5dc73-3152-4b4d-9f58-77eb3d726dbd",
+  "name" : "Sofia",
+  "lastName" : "Silva",
+  "dni" : "94470082",
+  "email" : "sofia.silva@provider.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 10.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  } ]
+}, {
+  "id" : "ea70494b-e971-4856-80a6-3ddbc928624b",
+  "name" : "Martin",
+  "lastName" : "Acosta",
+  "dni" : "41392248",
+  "email" : "martin.acosta@mail.ru",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Composición Musical con Piano"
+  } ]
+}, {
+  "id" : "c3078135-fe64-42fe-bc9c-25909739234f",
+  "name" : "Pedro",
+  "lastName" : "Querales",
+  "dni" : "52508566",
+  "email" : "pedro.querales@aol.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 100.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "47361f0c-a05a-405a-93a6-dacabdf6f8fb",
+  "name" : "Jorge",
+  "lastName" : "Gomez",
+  "dni" : "48749319",
+  "email" : "jorge.gomez@rocketmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "b23e93c8-abdb-44a2-a99a-2de1e939f3f2",
+  "name" : "Luis",
+  "lastName" : "Santana",
+  "dni" : "29415126",
+  "email" : "luis.santana@icloud.com",
   "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "18df51ec-55bc-464e-bd39-d74e4bc756d3",
+  "name" : "Isabel",
+  "lastName" : "Quintero",
+  "dni" : "21073377",
+  "email" : "isabel.quintero@domain.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "e4423d55-b75d-489f-94db-6d2dcef79567",
+  "name" : "Sofia",
+  "lastName" : "Palacios",
+  "dni" : "88118877",
+  "email" : "sofia.palacios@zohomail.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  } ]
+}, {
+  "id" : "48438783-a4b1-4c25-a6b8-67f4b3dc8cdd",
+  "name" : "Alfonso",
+  "lastName" : "Santana",
+  "dni" : "48200113",
+  "email" : "alfonso.santana@domain.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  } ]
+}, {
+  "id" : "3ad3f74d-417c-47e3-a3c5-586302274ca8",
+  "name" : "Monica",
+  "lastName" : "Chavez",
+  "dni" : "67360781",
+  "email" : "monica.chavez@domain.com",
+  "level" : "INTERMEDIO",
   "progresses" : [ {
     "progressPercentage" : 50.0,
     "courseName" : "Introducción al Piano Clásico"
   }, {
     "progressPercentage" : 70.0,
     "courseName" : "Teoría Musical Avanzada"
-  }, {
-    "progressPercentage" : 20.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
   } ]
 }, {
-  "id" : "f856e469-7fc8-4dfc-8d7f-94b48051bb3e",
-  "name" : "Roberto",
-  "lastName" : "Querales",
-  "dni" : "11817359",
-  "email" : "roberto.querales@rocketmail.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  } ]
-}, {
-  "id" : "7a77b324-ca86-41c4-87b0-cca30f195cdd",
-  "name" : "Valeria",
-  "lastName" : "Rivas",
-  "dni" : "66187210",
-  "email" : "valeria.rivas@runbox.com",
+  "id" : "66541d1e-7220-4dda-919a-d4d3ec176f2b",
+  "name" : "Daniel",
+  "lastName" : "Chavez",
+  "dni" : "56342319",
+  "email" : "daniel.chavez@yahoo.com",
   "level" : "AVANZADO",
   "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  } ]
-}, {
-  "id" : "e83fb4af-23a5-4825-8dbe-460ab81f342c",
-  "name" : "John",
-  "lastName" : "Querales",
-  "dni" : "61531437",
-  "email" : "john.querales@zohomail.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  }, {
-    "progressPercentage" : 30.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  } ]
-}, {
-  "id" : "c6e99bca-09b1-47bd-ac22-4f71763c3189",
-  "name" : "Mateo",
-  "lastName" : "Ortiz",
-  "dni" : "13895177",
-  "email" : "mateo.ortiz@service.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  }, {
     "progressPercentage" : 70.0,
     "courseName" : "Técnicas de Batería Rock"
-  } ]
-}, {
-  "id" : "8238a5a2-eae7-4c09-a323-5131e773a7cb",
-  "name" : "Alberto",
-  "lastName" : "Chavez",
-  "dni" : "60464468",
-  "email" : "alberto.chavez@inbox.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 20.0,
-    "courseName" : "Introducción al Piano Clásico"
   }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Técnicas de Batería Rock"
-  } ]
-}, {
-  "id" : "b1c697c4-5712-4aa7-ae66-563806ae8c5e",
-  "name" : "Ricardo",
-  "lastName" : "Querales",
-  "dni" : "54489816",
-  "email" : "ricardo.querales@webmail.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
     "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 20.0,
     "courseName" : "Práctica Intermedia de Saxofón"
   }, {
-    "progressPercentage" : 80.0,
-    "courseName" : "Dominando el Clarinete"
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Composición Musical con Piano"
   } ]
 }, {
-  "id" : "9ce77039-647c-47ab-837e-d47aa2845ea8",
-  "name" : "Vladimir",
-  "lastName" : "Vargas",
-  "dni" : "60906488",
-  "email" : "vladimir.vargas@gmx.com",
+  "id" : "7e444e84-9660-45fb-b757-ae1a4374c1ba",
+  "name" : "Elena",
+  "lastName" : "Doe",
+  "dni" : "98047734",
+  "email" : "elena.doe@hushmail.com",
   "level" : "INTERMEDIO",
   "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "33433cda-118e-4442-830e-9a12491119c3",
-  "name" : "Alicia",
-  "lastName" : "Navarro",
-  "dni" : "42602964",
-  "email" : "alicia.navarro@hotmail.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
   }, {
     "progressPercentage" : 60.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  } ]
-}, {
-  "id" : "56b868e3-a077-48ff-ace0-3a5a293d8e87",
-  "name" : "Nicolas",
-  "lastName" : "Castillo",
-  "dni" : "31894257",
-  "email" : "nicolas.castillo@aol.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
     "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
     "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
   }, {
     "progressPercentage" : 50.0,
     "courseName" : "Composición Musical con Piano"
   } ]
 }, {
-  "id" : "bce110b7-d88a-491f-b94d-78cb3a588bea",
-  "name" : "Valeria",
-  "lastName" : "Zambrano",
-  "dni" : "55081631",
-  "email" : "valeria.zambrano@rocketmail.com",
-  "level" : "INTERMEDIO",
+  "id" : "3d20cc51-6126-48b2-a921-4f7de7ae1f71",
+  "name" : "Pedro",
+  "lastName" : "Gomez",
+  "dni" : "72780098",
+  "email" : "pedro.gomez@runbox.com",
+  "level" : "PRINCIPIANTE",
   "progresses" : [ {
-    "progressPercentage" : 50.0,
+    "progressPercentage" : 20.0,
     "courseName" : "Introducción al Piano Clásico"
   }, {
-    "progressPercentage" : 30.0,
+    "progressPercentage" : 70.0,
     "courseName" : "Fundamentos de la Guitarra Jazz"
   }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Teoría Musical Avanzada"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Lecciones de Violín para Principiantes"
+    "progressPercentage" : 80.0,
+    "courseName" : "Técnicas de Batería Rock"
   } ]
 }, {
-  "id" : "5c8f67de-035f-427f-8a06-c82df02fea2d",
-  "name" : "Fernando",
-  "lastName" : "Diaz",
-  "dni" : "50097658",
-  "email" : "fernando.diaz@icloud.com",
-  "level" : "INTERMEDIO",
+  "id" : "c8136011-e197-4067-85c8-459514a17905",
+  "name" : "Esteban",
+  "lastName" : "Mora",
+  "dni" : "13528813",
+  "email" : "esteban.mora@fastmail.com",
+  "level" : "AVANZADO",
   "progresses" : [ {
     "progressPercentage" : 40.0,
     "courseName" : "Introducción al Piano Clásico"
   } ]
 }, {
-  "id" : "23a67bac-25d2-45b9-8e76-022f62b4cbe5",
-  "name" : "Isabel",
-  "lastName" : "Valenzuela",
-  "dni" : "48285452",
-  "email" : "isabel.valenzuela@mailbox.org",
+  "id" : "1b6a42f5-72e9-4436-92e8-7a0cd35f33eb",
+  "name" : "Fernando",
+  "lastName" : "Figueroa",
+  "dni" : "67842446",
+  "email" : "fernando.figueroa@provider.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "aeb56f89-f42f-4ef6-b199-23ba7c7af31d",
+  "name" : "Elena",
+  "lastName" : "Sanchez",
+  "dni" : "12352933",
+  "email" : "elena.sanchez@service.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "b4544580-2e0f-45fc-90f0-906bfff76bf0",
+  "name" : "Alberto",
+  "lastName" : "Garcia",
+  "dni" : "46255489",
+  "email" : "alberto.garcia@mail.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "b0c29ac7-b982-4227-b8cc-5e16b3bb7267",
+  "name" : "Mateo",
+  "lastName" : "Peña",
+  "dni" : "43054044",
+  "email" : "mateo.peña@rocketmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "5eeea729-6f47-41fc-850e-113c583c8d21",
+  "name" : "Vladimir",
+  "lastName" : "Alvarez",
+  "dni" : "79758077",
+  "email" : "vladimir.alvarez@laposte.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  } ]
+}, {
+  "id" : "c69e3018-6837-4b66-a1b8-2e18ad6304db",
+  "name" : "Alberto",
+  "lastName" : "Pena",
+  "dni" : "91312111",
+  "email" : "alberto.pena@inbox.com",
   "level" : "AVANZADO",
   "progresses" : [ {
     "progressPercentage" : 40.0,
     "courseName" : "Introducción al Piano Clásico"
   }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "bad6eb0c-6c5f-44b7-8f5d-a042d30cdcbb",
+  "name" : "Pablo",
+  "lastName" : "Mora",
+  "dni" : "36589881",
+  "email" : "pablo.mora@rocketmail.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  } ]
+}, {
+  "id" : "0ee7bc78-9115-47f1-bc54-d5d6f5158bc8",
+  "name" : "Patricia",
+  "lastName" : "Maldonado",
+  "dni" : "80310214",
+  "email" : "patricia.maldonado@rocketmail.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "4a48cd32-e97b-4ad4-a2f4-3631525ffbac",
+  "name" : "Beatriz",
+  "lastName" : "Acosta",
+  "dni" : "55014577",
+  "email" : "beatriz.acosta@hotmail.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 90.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "d28d1dd6-d5a7-404f-a18a-6441293240c3",
+  "name" : "Sergio",
+  "lastName" : "Matos",
+  "dni" : "48101116",
+  "email" : "sergio.matos@verizon.net",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "0f062415-9e36-4a14-b207-2bec2db86d1c",
+  "name" : "Lorena",
+  "lastName" : "Valenzuela",
+  "dni" : "95730013",
+  "email" : "lorena.valenzuela@aol.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Composición Musical con Piano"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Producción de Música Electrónica"
+  } ]
+}, {
+  "id" : "4bc12c08-5ff0-49df-937c-3e3fb03247f5",
+  "name" : "Enrique",
+  "lastName" : "Cruz",
+  "dni" : "21544104",
+  "email" : "enrique.cruz@laposte.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Composición Musical con Piano"
+  }, {
+    "progressPercentage" : 100.0,
+    "courseName" : "Arpa Celta para Principiantes"
+  } ]
+}, {
+  "id" : "99f4284f-07a5-411d-9a82-86534353d2da",
+  "name" : "Lucia",
+  "lastName" : "Pena",
+  "dni" : "66007431",
+  "email" : "lucia.pena@btinternet.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "59bc9202-d3d0-4b85-9411-019551654b3f",
+  "name" : "John",
+  "lastName" : "Diaz",
+  "dni" : "21852610",
+  "email" : "john.diaz@zohomail.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 20.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  } ]
+}, {
+  "id" : "c21c81f4-5461-46a7-96e2-78688e78a335",
+  "name" : "Alberto",
+  "lastName" : "Rodriguez",
+  "dni" : "72759268",
+  "email" : "alberto.rodriguez@hushmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  } ]
+}, {
+  "id" : "b54199de-4323-4751-b395-c0414ecc6cc1",
+  "name" : "Adriana",
+  "lastName" : "Chavez",
+  "dni" : "13504744",
+  "email" : "adriana.chavez@yandex.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Improvisación para Músicos de Jazz"
+  } ]
+}, {
+  "id" : "ea2f9e73-31a6-4520-ac10-237aba8e9c94",
+  "name" : "Olga",
+  "lastName" : "Rosales",
+  "dni" : "82687902",
+  "email" : "olga.rosales@orange.fr",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "597e1fef-6d10-4896-ac2e-0d1a2924a259",
+  "name" : "Claudia",
+  "lastName" : "Hernandez",
+  "dni" : "22883988",
+  "email" : "claudia.hernandez@aol.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "42e65365-6483-4f3c-af06-75e44a70c9e0",
+  "name" : "Gabriel",
+  "lastName" : "Cruz",
+  "dni" : "17286698",
+  "email" : "gabriel.cruz@rocketmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "78a728b2-452b-4db3-863c-42bf6c1140b1",
+  "name" : "Gustavo",
+  "lastName" : "Garcia",
+  "dni" : "80978247",
+  "email" : "gustavo.garcia@mailfence.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "e98503b9-92a3-4547-9cc4-b31b3738f33c",
+  "name" : "Roberto",
+  "lastName" : "Santana",
+  "dni" : "95842568",
+  "email" : "roberto.santana@optonline.net",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 90.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "da597a09-fe12-4c4e-ad5c-804c17a45fd6",
+  "name" : "John",
+  "lastName" : "Sanchez",
+  "dni" : "64652005",
+  "email" : "john.sanchez@rocketmail.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "0f3527bc-f4c1-436a-a0af-b87ad55d0a30",
+  "name" : "Cristina",
+  "lastName" : "Cabrera",
+  "dni" : "44322090",
+  "email" : "cristina.cabrera@mail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  } ]
+}, {
+  "id" : "e657a9de-5584-4284-9b15-6ae7e9181652",
+  "name" : "Irene",
+  "lastName" : "Miranda",
+  "dni" : "93305107",
+  "email" : "irene.miranda@gmail.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  } ]
+}, {
+  "id" : "81d38d06-82d0-4305-a99c-06012fb138c9",
+  "name" : "Gabriel",
+  "lastName" : "Lopez",
+  "dni" : "11266777",
+  "email" : "gabriel.lopez@outlook.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  } ]
+}, {
+  "id" : "d0cea6bb-9082-44b2-ac80-4360795d1dfc",
+  "name" : "Elena",
+  "lastName" : "Mora",
+  "dni" : "16859715",
+  "email" : "elena.mora@btinternet.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "4f9efa73-ad93-4bbd-a6fc-eb920c5b7fa1",
+  "name" : "Isabel",
+  "lastName" : "Alvarez",
+  "dni" : "13762923",
+  "email" : "isabel.alvarez@posteo.net",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
     "progressPercentage" : 70.0,
     "courseName" : "Teoría Musical Avanzada"
   }, {
@@ -1290,23 +753,766 @@
     "courseName" : "Guitarra Flamenca para Principiantes"
   } ]
 }, {
-  "id" : "327ce9d3-f813-4feb-8797-e392555b897f",
-  "name" : "Nicolas",
-  "lastName" : "Blanco",
-  "dni" : "67852398",
-  "email" : "nicolas.blanco@email.com",
+  "id" : "ae108be9-019b-48ae-856a-aeb7b8374e1e",
+  "name" : "Pedro",
+  "lastName" : "Quintero",
+  "dni" : "99635161",
+  "email" : "pedro.quintero@laposte.net",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "3b3e261a-1ad4-4ccf-af46-a812614c7457",
+  "name" : "Lorena",
+  "lastName" : "Aguirre",
+  "dni" : "53263327",
+  "email" : "lorena.aguirre@orange.fr",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  } ]
+}, {
+  "id" : "af6d12a1-73be-4d35-86a2-59be5b13c8fc",
+  "name" : "Andres",
+  "lastName" : "Rivas",
+  "dni" : "77805166",
+  "email" : "andres.rivas@verizon.net",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "a125a22a-4960-480b-a6d1-c8ebaf625b30",
+  "name" : "Ignacio",
+  "lastName" : "Castro",
+  "dni" : "86922349",
+  "email" : "ignacio.castro@yahoo.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "e3671428-5a1c-4ced-935a-f20951fce688",
+  "name" : "Victoria",
+  "lastName" : "Escobar",
+  "dni" : "11038974",
+  "email" : "victoria.escobar@icloud.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 100.0,
+    "courseName" : "Percusión para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Composición Musical con Piano"
+  } ]
+}, {
+  "id" : "56992831-7f59-49a9-aea5-6674a8bb3706",
+  "name" : "Felipe",
+  "lastName" : "Ramirez",
+  "dni" : "86543896",
+  "email" : "felipe.ramirez@seznam.cz",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  } ]
+}, {
+  "id" : "0ac252b1-7198-4839-adf5-c84d6e3be2e2",
+  "name" : "Veronica",
+  "lastName" : "Maldonado",
+  "dni" : "83240863",
+  "email" : "veronica.maldonado@optonline.net",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Composición Musical con Piano"
+  }, {
+    "progressPercentage" : 100.0,
+    "courseName" : "Improvisación para Músicos de Jazz"
+  } ]
+}, {
+  "id" : "43cdad68-f1e5-4aa5-9a75-4e0a5f786384",
+  "name" : "Sergio",
+  "lastName" : "Moreno",
+  "dni" : "35622383",
+  "email" : "sergio.moreno@live.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "e82f87a2-2503-451d-a3e3-72fece36af56",
+  "name" : "Angela",
+  "lastName" : "Mendoza",
+  "dni" : "81742840",
+  "email" : "angela.mendoza@q.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "845a5dcb-2db4-472a-a31e-d51a505b85e0",
+  "name" : "Maria",
+  "lastName" : "Flores",
+  "dni" : "52011661",
+  "email" : "maria.flores@aol.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 90.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "d888f140-b039-4f81-8c24-46ce02532ff7",
+  "name" : "Andres",
+  "lastName" : "Aguirre",
+  "dni" : "12767476",
+  "email" : "andres.aguirre@mail.ru",
   "level" : "PRINCIPIANTE",
   "progresses" : [ {
     "progressPercentage" : 30.0,
     "courseName" : "Introducción al Piano Clásico"
   } ]
 }, {
-  "id" : "63dd9781-7646-49f6-ad65-87ff9a6ea2b4",
-  "name" : "Laura",
-  "lastName" : "Vega",
-  "dni" : "79678477",
-  "email" : "laura.vega@email.com",
+  "id" : "afaf0f43-b9ab-43d8-82fc-7ddf26d96f44",
+  "name" : "Camila",
+  "lastName" : "Mora",
+  "dni" : "59859153",
+  "email" : "camila.mora@verizon.net",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  } ]
+}, {
+  "id" : "42d3ac05-0b53-463a-be2a-b2e49d854495",
+  "name" : "Beatriz",
+  "lastName" : "Querales",
+  "dni" : "30595474",
+  "email" : "beatriz.querales@service.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  } ]
+}, {
+  "id" : "747837e9-d110-481c-8ff8-7a6ffa45388a",
+  "name" : "Victoria",
+  "lastName" : "Miranda",
+  "dni" : "37615757",
+  "email" : "victoria.miranda@mailbox.org",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  } ]
+}, {
+  "id" : "7864107b-186e-4a18-b83c-f73318272873",
+  "name" : "Sofia",
+  "lastName" : "Santana",
+  "dni" : "23501982",
+  "email" : "sofia.santana@icloud.com",
   "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  } ]
+}, {
+  "id" : "a3c57203-4fc3-465f-a786-a9b8d74501e1",
+  "name" : "Sandra",
+  "lastName" : "Blanco",
+  "dni" : "13555501",
+  "email" : "sandra.blanco@comcast.net",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 90.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Composición Musical con Piano"
+  } ]
+}, {
+  "id" : "92c0ee54-0632-4b47-ae08-1eabc945b220",
+  "name" : "Eduardo",
+  "lastName" : "Cruz",
+  "dni" : "78716482",
+  "email" : "eduardo.cruz@btinternet.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "74c91f1b-fb29-41e5-912c-04d85a0fb743",
+  "name" : "Luis",
+  "lastName" : "Luna",
+  "dni" : "70189648",
+  "email" : "luis.luna@rocketmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "d3dae446-ebd8-4b7f-8718-f729471bbdf2",
+  "name" : "Cristina",
+  "lastName" : "Navarro",
+  "dni" : "42752607",
+  "email" : "cristina.navarro@laposte.net",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  } ]
+}, {
+  "id" : "44d243a1-a183-460f-a2e9-db3aa50b5219",
+  "name" : "John",
+  "lastName" : "Palacios",
+  "dni" : "82515603",
+  "email" : "john.palacios@domain.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "c0528193-70d7-43f3-880b-4b318c999939",
+  "name" : "Alfonso",
+  "lastName" : "Diaz",
+  "dni" : "77660801",
+  "email" : "alfonso.diaz@inbox.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "ef1f2e58-41f3-4d3d-8a24-0cc4cc17957f",
+  "name" : "Ana",
+  "lastName" : "Sanchez",
+  "dni" : "99622717",
+  "email" : "ana.sanchez@service.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "eb19718a-81e7-4e4a-bb67-5f1e69f9030b",
+  "name" : "Patricia",
+  "lastName" : "Rosales",
+  "dni" : "98504137",
+  "email" : "patricia.rosales@yandex.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "14f53c6d-f0e6-4da6-aa7c-9440036ba5e6",
+  "name" : "Elena",
+  "lastName" : "Castillo",
+  "dni" : "76736554",
+  "email" : "elena.castillo@mailbox.org",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "14b045bc-eca6-43e9-b1f4-d2f747c7f2de",
+  "name" : "Felipe",
+  "lastName" : "Rivas",
+  "dni" : "20644308",
+  "email" : "felipe.rivas@provider.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "58f47593-43b8-4515-b7f6-4ed8a6b4dfaf",
+  "name" : "Monica",
+  "lastName" : "Zambrano",
+  "dni" : "83398227",
+  "email" : "monica.zambrano@posteo.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "1547ca4c-a721-4132-8ac1-2cbb7598df45",
+  "name" : "Angela",
+  "lastName" : "Cabrera",
+  "dni" : "98452037",
+  "email" : "angela.cabrera@mail.ru",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  } ]
+}, {
+  "id" : "8c131247-c639-4785-b88d-24e4e68d8dde",
+  "name" : "Liliana",
+  "lastName" : "Ramirez",
+  "dni" : "67830046",
+  "email" : "liliana.ramirez@domain.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "b22f0492-0dfb-4852-b6b1-6a77e095f2c9",
+  "name" : "Victoria",
+  "lastName" : "Acosta",
+  "dni" : "65364140",
+  "email" : "victoria.acosta@protonmail.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  } ]
+}, {
+  "id" : "1d41fb9e-b8c5-4545-8f48-7e431467724e",
+  "name" : "Felipe",
+  "lastName" : "Rios",
+  "dni" : "47447197",
+  "email" : "felipe.rios@aol.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "a7383397-eb44-46f5-8a5d-06c1e10614a9",
+  "name" : "Raul",
+  "lastName" : "Rodriguez",
+  "dni" : "33769919",
+  "email" : "raul.rodriguez@verizon.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "edae969f-c5ed-43b9-bfad-8884f74880c5",
+  "name" : "Olga",
+  "lastName" : "Aguirre",
+  "dni" : "37922456",
+  "email" : "olga.aguirre@live.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  } ]
+}, {
+  "id" : "7dffb790-5b0d-4880-8df1-e64f0b2dd3e2",
+  "name" : "Carlos",
+  "lastName" : "Medina",
+  "dni" : "21339354",
+  "email" : "carlos.medina@zohomail.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  } ]
+}, {
+  "id" : "f4bd46ad-c21b-49e1-9f07-8e5563c73469",
+  "name" : "Silvia",
+  "lastName" : "Mora",
+  "dni" : "12657480",
+  "email" : "silvia.mora@gmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "a063e124-13df-4249-8f44-f76457ba26f1",
+  "name" : "Emilio",
+  "lastName" : "Rios",
+  "dni" : "77109104",
+  "email" : "emilio.rios@inbox.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 20.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "a3a3ef00-d9ec-47e1-b84e-83c04040e8e2",
+  "name" : "Rafael",
+  "lastName" : "Villarreal",
+  "dni" : "81724777",
+  "email" : "rafael.villarreal@mailfence.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "c1cd094f-816b-44a1-b177-732c161bf8b1",
+  "name" : "Pedro",
+  "lastName" : "Gomez",
+  "dni" : "92042031",
+  "email" : "pedro.gomez@seznam.cz",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  } ]
+}, {
+  "id" : "9b11c623-31d2-4160-b130-94352ae3c3d2",
+  "name" : "Nicolas",
+  "lastName" : "Flores",
+  "dni" : "24309966",
+  "email" : "nicolas.flores@btinternet.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "91230986-3abb-4709-989b-a9ecbb7e9009",
+  "name" : "Angela",
+  "lastName" : "Soto",
+  "dni" : "44320964",
+  "email" : "angela.soto@laposte.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  } ]
+}, {
+  "id" : "8719ad04-cbef-49ce-98fb-2ac4588df79a",
+  "name" : "Nicolas",
+  "lastName" : "Vega",
+  "dni" : "91790149",
+  "email" : "nicolas.vega@service.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "916f2d15-1836-46ef-bf20-f2950b2f38bc",
+  "name" : "Beatriz",
+  "lastName" : "Ramirez",
+  "dni" : "30930865",
+  "email" : "beatriz.ramirez@comcast.net",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "b17e7ee2-0518-44bd-a5ed-d8f40196ee89",
+  "name" : "Roberto",
+  "lastName" : "Ibarra",
+  "dni" : "76017998",
+  "email" : "roberto.ibarra@yandex.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  } ]
+}, {
+  "id" : "b04d1989-c77d-4217-a646-fd824acf8bed",
+  "name" : "Ignacio",
+  "lastName" : "Medina",
+  "dni" : "20110570",
+  "email" : "ignacio.medina@hotmail.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "617a4808-f953-4816-a2be-0a7ef7e3ae59",
+  "name" : "Juliana",
+  "lastName" : "Morales",
+  "dni" : "42586024",
+  "email" : "juliana.morales@posteo.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "76ec9d3c-218d-4cd4-88af-694d490cdce4",
+  "name" : "Camila",
+  "lastName" : "Rosales",
+  "dni" : "33311736",
+  "email" : "camila.rosales@mail.ru",
+  "level" : "PRINCIPIANTE",
   "progresses" : [ {
     "progressPercentage" : 10.0,
     "courseName" : "Introducción al Piano Clásico"
@@ -1314,346 +1520,197 @@
     "progressPercentage" : 50.0,
     "courseName" : "Fundamentos de la Guitarra Jazz"
   }, {
-    "progressPercentage" : 40.0,
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "391e4c22-7a40-418d-aeab-4e90633e3302",
+  "name" : "Adriana",
+  "lastName" : "Contreras",
+  "dni" : "19952506",
+  "email" : "adriana.contreras@verizon.net",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 100.0,
+    "courseName" : "Dominando el Clarinete"
+  } ]
+}, {
+  "id" : "f0f90f73-af29-4627-acc9-e293611a3adf",
+  "name" : "Victoria",
+  "lastName" : "Sanchez",
+  "dni" : "97087227",
+  "email" : "victoria.sanchez@fastmail.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 20.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 10.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  } ]
+}, {
+  "id" : "b4b9c265-788b-4a26-9fe9-adaacec81244",
+  "name" : "Elena",
+  "lastName" : "Mora",
+  "dni" : "48474200",
+  "email" : "elena.mora@live.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 90.0,
     "courseName" : "Técnicas de Batería Rock"
   } ]
 }, {
-  "id" : "a4b1b946-b028-4920-88b9-84a688a600e5",
-  "name" : "David",
-  "lastName" : "Quintero",
-  "dni" : "36641259",
-  "email" : "david.quintero@example.com",
+  "id" : "031068c1-a408-4248-bdba-6e469a4aef80",
+  "name" : "Alfonso",
+  "lastName" : "Aguirre",
+  "dni" : "34425639",
+  "email" : "alfonso.aguirre@hushmail.com",
   "level" : "PRINCIPIANTE",
   "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
     "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
+    "courseName" : "Fundamentos de Composición de Canciones"
   }, {
     "progressPercentage" : 50.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  } ]
-}, {
-  "id" : "7f8b14a9-127a-4f21-bc4e-da418f78ca07",
-  "name" : "Alicia",
-  "lastName" : "Ramirez",
-  "dni" : "71276188",
-  "email" : "alicia.ramirez@btinternet.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
+    "courseName" : "Interpretación de Clavecín Barroco"
   }, {
-    "progressPercentage" : 30.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Dominando el Clarinete"
-  }, {
-    "progressPercentage" : 80.0,
-    "courseName" : "Composición Musical con Piano"
-  }, {
-    "progressPercentage" : 60.0,
+    "progressPercentage" : 100.0,
     "courseName" : "Técnicas Vocales Avanzadas"
   } ]
 }, {
-  "id" : "0c0d48b1-bd5e-49d4-8f03-41b9be706d99",
-  "name" : "Esteban",
-  "lastName" : "Bermudez",
-  "dni" : "92131463",
-  "email" : "esteban.bermudez@protonmail.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 30.0,
-    "courseName" : "Teoría Musical Avanzada"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  } ]
-}, {
-  "id" : "9e674d16-3d08-4a9e-af9e-f60f5cec74dd",
+  "id" : "6f80d6b8-e972-461c-868e-16ef02799e49",
   "name" : "Ignacio",
-  "lastName" : "Rivas",
-  "dni" : "58416925",
-  "email" : "ignacio.rivas@orange.fr",
-  "level" : "INTERMEDIO",
+  "lastName" : "Figueroa",
+  "dni" : "49170860",
+  "email" : "ignacio.figueroa@live.com",
+  "level" : "AVANZADO",
   "progresses" : [ {
-    "progressPercentage" : 50.0,
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 40.0,
     "courseName" : "Fundamentos de la Guitarra Jazz"
   }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Dominando el Clarinete"
-  }, {
-    "progressPercentage" : 80.0,
-    "courseName" : "Interpretación de Clavecín Barroco"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Percusión para Principiantes"
-  } ]
-}, {
-  "id" : "d668e470-16be-4515-9e74-c1592958b455",
-  "name" : "Gustavo",
-  "lastName" : "Pena",
-  "dni" : "47762282",
-  "email" : "gustavo.pena@fastmail.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Práctica Intermedia de Saxofón"
-  } ]
-}, {
-  "id" : "2f6b15db-4774-4e5a-babb-f966177002df",
-  "name" : "Pedro",
-  "lastName" : "Romero",
-  "dni" : "85872281",
-  "email" : "pedro.romero@domain.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "45f39b65-1b87-4468-83dc-4f3388cccf84",
-  "name" : "Rosa",
-  "lastName" : "Figueroa",
-  "dni" : "86473024",
-  "email" : "rosa.figueroa@mailfence.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  } ]
-}, {
-  "id" : "cf7951b6-e10a-4085-8f7e-c765bcbd736d",
-  "name" : "Miguel",
-  "lastName" : "Quintero",
-  "dni" : "52766621",
-  "email" : "miguel.quintero@laposte.net",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
+    "progressPercentage" : 70.0,
     "courseName" : "Teoría Musical Avanzada"
   }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Dominando el Clarinete"
-  } ]
-}, {
-  "id" : "6eb12aeb-d2a9-4225-a6df-8b5c06b0be79",
-  "name" : "Silvia",
-  "lastName" : "Diaz",
-  "dni" : "53972514",
-  "email" : "silvia.diaz@icloud.com",
-  "level" : "PRINCIPIANTE",
-  "progresses" : [ {
     "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
+    "courseName" : "Lecciones de Violín para Principiantes"
   } ]
 }, {
-  "id" : "f65106cd-eb52-49a3-bb68-a1814af2215b",
-  "name" : "Felipe",
-  "lastName" : "Rosales",
-  "dni" : "88814426",
-  "email" : "felipe.rosales@provider.com",
+  "id" : "a189ebeb-9bdd-436f-8c91-987e728ecddd",
+  "name" : "Vladimir",
+  "lastName" : "Soto",
+  "dni" : "46620611",
+  "email" : "vladimir.soto@yandex.com",
   "level" : "INTERMEDIO",
   "progresses" : [ {
-    "progressPercentage" : 40.0,
+    "progressPercentage" : 50.0,
     "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
   } ]
 }, {
-  "id" : "e314f655-62e2-4746-a9f9-31602152d087",
-  "name" : "Paula",
-  "lastName" : "Gomez",
-  "dni" : "31074179",
-  "email" : "paula.gomez@comcast.net",
+  "id" : "18259ff3-2868-44a8-810a-ce5212ee6a85",
+  "name" : "Gabriel",
+  "lastName" : "Paredes",
+  "dni" : "24155910",
+  "email" : "gabriel.paredes@orange.fr",
   "level" : "PRINCIPIANTE",
   "progresses" : [ {
     "progressPercentage" : 30.0,
     "courseName" : "Introducción al Piano Clásico"
   }, {
     "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 20.0,
     "courseName" : "Técnicas de Batería Rock"
   } ]
 }, {
-  "id" : "a8f4177b-cd3c-423f-843b-255cce0e0c3e",
-  "name" : "Nicolas",
-  "lastName" : "Quintero",
-  "dni" : "77227240",
-  "email" : "nicolas.quintero@service.com",
-  "level" : "INTERMEDIO",
+  "id" : "81634769-a579-477e-9cd5-e5aad1509419",
+  "name" : "Lorena",
+  "lastName" : "Navarro",
+  "dni" : "93187334",
+  "email" : "lorena.navarro@runbox.com",
+  "level" : "PRINCIPIANTE",
   "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
     "progressPercentage" : 60.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  } ]
-}, {
-  "id" : "ecda1718-c77f-4057-97bd-14366a158645",
-  "name" : "Maria",
-  "lastName" : "Figueroa",
-  "dni" : "39713659",
-  "email" : "maria.figueroa@mailfence.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 40.0,
-    "courseName" : "Introducción al Piano Clásico"
+    "courseName" : "Teoría Musical Avanzada"
   }, {
-    "progressPercentage" : 50.0,
+    "progressPercentage" : 90.0,
     "courseName" : "Técnicas de Batería Rock"
   }, {
-    "progressPercentage" : 70.0,
+    "progressPercentage" : 40.0,
     "courseName" : "Práctica Intermedia de Saxofón"
   }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Dominando el Clarinete"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Interpretación de Clavecín Barroco"
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
   } ]
 }, {
-  "id" : "d3d56bf1-92cf-4454-8e29-34377beb56d7",
-  "name" : "Eduardo",
-  "lastName" : "Valencia",
-  "dni" : "52695158",
-  "email" : "eduardo.valencia@mail.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  } ]
-}, {
-  "id" : "a3b2e1e9-4575-46c6-a6dc-aa9ed5ab7ad6",
-  "name" : "Sergio",
-  "lastName" : "Miranda",
-  "dni" : "55495370",
-  "email" : "sergio.miranda@gmail.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  } ]
-}, {
-  "id" : "cf3db0b7-f5dc-446b-b53c-e0ad8f04b820",
-  "name" : "Roberto",
-  "lastName" : "Querales",
-  "dni" : "97637157",
-  "email" : "roberto.querales@outlook.com",
-  "level" : "INTERMEDIO",
-  "progresses" : [ {
-    "progressPercentage" : 60.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 70.0,
-    "courseName" : "Guitarra Flamenca para Principiantes"
-  } ]
-}, {
-  "id" : "f73253bb-a2de-4d62-bd87-17afb84d0591",
-  "name" : "Daniel",
-  "lastName" : "Contreras",
-  "dni" : "56893000",
-  "email" : "daniel.contreras@fastmail.com",
-  "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 30.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 40.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 80.0,
-    "courseName" : "Dominando el Clarinete"
-  }, {
-    "progressPercentage" : 60.0,
-    "courseName" : "Percusión para Principiantes"
-  } ]
-}, {
-  "id" : "18add81f-4f9f-4bac-b31d-f19d0d499bf9",
+  "id" : "85d95d3f-3f87-403c-b763-a996f2cff164",
   "name" : "David",
-  "lastName" : "Figueroa",
-  "dni" : "10891165",
-  "email" : "david.figueroa@laposte.net",
+  "lastName" : "Paredes",
+  "dni" : "69157909",
+  "email" : "david.paredes@hushmail.com",
   "level" : "AVANZADO",
-  "progresses" : [ {
-    "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Fundamentos de la Guitarra Jazz"
-  } ]
-}, {
-  "id" : "772da968-bad6-4302-976a-084b01fbfeec",
-  "name" : "John",
-  "lastName" : "Cabrera",
-  "dni" : "68804083",
-  "email" : "john.cabrera@zohomail.com",
-  "level" : "INTERMEDIO",
   "progresses" : [ {
     "progressPercentage" : 40.0,
     "courseName" : "Introducción al Piano Clásico"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
-  }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Dominando el Clarinete"
   } ]
 }, {
-  "id" : "06119cd2-2761-40bf-84ee-d1a6bb2681b6",
-  "name" : "Olga",
-  "lastName" : "Flores",
-  "dni" : "31820906",
-  "email" : "olga.flores@gmail.com",
-  "level" : "INTERMEDIO",
+  "id" : "468a8fe0-0666-48ce-9158-c04942487e16",
+  "name" : "Sergio",
+  "lastName" : "Mejia",
+  "dni" : "63223467",
+  "email" : "sergio.mejia@seznam.cz",
+  "level" : "AVANZADO",
   "progresses" : [ {
     "progressPercentage" : 50.0,
     "courseName" : "Teoría Musical Avanzada"
   }, {
-    "progressPercentage" : 50.0,
-    "courseName" : "Técnicas de Batería Rock"
+    "progressPercentage" : 60.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
   } ]
 }, {
-  "id" : "c906c84e-b135-4656-9a2b-9e13e1b714d4",
-  "name" : "Victoria",
-  "lastName" : "Mora",
-  "dni" : "53187513",
-  "email" : "victoria.mora@seznam.cz",
+  "id" : "585f49b3-fbb3-47c8-bd27-c1610bb4f9f9",
+  "name" : "Francisco",
+  "lastName" : "Querales",
+  "dni" : "13263122",
+  "email" : "francisco.querales@yahoo.com",
   "level" : "AVANZADO",
   "progresses" : [ {
     "progressPercentage" : 50.0,
-    "courseName" : "Introducción al Piano Clásico"
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
   } ]
 } ]

@@ -1,8 +1,6 @@
 package org.finalProyect.utilities.Generators;
 
-import org.finalProyect.management.ManagementSystem;
 import org.finalProyect.models.Clase;
-import org.finalProyect.models.Student;
 import org.finalProyect.models.Teacher;
 import org.finalProyect.utilities.JsonReader;
 
@@ -12,8 +10,7 @@ import java.util.List;
 public class ClaseGenerator {
     private int classIndex = 0;
 
-    ManagementSystem managementSystem = new ManagementSystem();
-
+    // Datos de prueba
     String[] nameClass ={"Clase 1", "Clase 2", "Clase 3", "Clase 4", "Clase 5", "Clase 6", "Clase 7", "Clase 8", "Clase 9", "Clase 10"};
     String[] date ={"Nov 14, 2024, 12:00:00 AM",
             "Dec 25, 2024, 03:15:30 PM",
@@ -27,16 +24,29 @@ public class ClaseGenerator {
             "Jun 21, 2500, 02:22:22 AM"};
 
 
+    /**
+    * Genera un nombre para la clase
+    * @return El nombre de la clase generado
+    */
     public String generateNameClass(){
         String className = nameClass[classIndex];
         classIndex = (classIndex + 1) % nameClass.length;
         return className;
     }
 
+    /**
+    * Genera una fecha
+    * @return La fecha generada
+    */
     public String generateDate(){
         return date[PersonGenerator.random.nextInt(date.length)];
     }
 
+    /**
+    * Crea una instancia de Clase
+    * @return La instancia de Clase creada
+    * @throws IOException Si ocurre un error al leer el archivo
+    */
     public Clase createClase() throws IOException {
 
         List<Teacher> teachers = JsonReader.readTeachers("teachers.json");
