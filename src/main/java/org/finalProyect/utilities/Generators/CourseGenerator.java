@@ -14,14 +14,16 @@ public class CourseGenerator {
     private final ClaseGenerator claseGenerator;
     private final Level[] levels;
     private final Random random;
-    private final Map<Student, Integer> studentCourseCounts;
+    private final Map<Student, Integer> studentCourseCounts; // Cursos actuales
+    private final Map<Student, Integer> studentCourseLimits; // Límite de cursos por estudiante
 
     public CourseGenerator() {
         didacticMaterialGenerator = new DidacticMaterialGenerator();
         claseGenerator = new ClaseGenerator();
         levels = Level.values();
         random = new Random();
-        studentCourseCounts = new HashMap<>(); // Inicializa aquí el mapa
+        studentCourseCounts = new HashMap<>();
+        studentCourseLimits = new HashMap<>();
     }
 
     public Course createCourse() throws IOException {
@@ -37,15 +39,18 @@ public class CourseGenerator {
         // Agregar material didáctico al curso
         course.addDidacticMaterial(didacticMaterialGenerator.createDidacticMaterial());
 
-        // Inicializar contador de cursos por estudiante
+        // Inicializar contadores y límites para los estudiantes
         for (Student student : students) {
             studentCourseCounts.putIfAbsent(student, 0);
+            studentCourseLimits.putIfAbsent(student, random.nextInt(5) + 1); // Límite aleatorio entre 1 y 5
         }
 
-        // Filtrar estudiantes elegibles (aquellos con menos de 5 cursos)
+        // Filtrar estudiantes elegibles según su límite
         List<Student> eligibleStudents = new ArrayList<>();
         for (Student student : students) {
-            if (studentCourseCounts.get(student) < 5) {
+            int currentCount = studentCourseCounts.get(student);
+            int maxLimit = studentCourseLimits.get(student);
+            if (currentCount < maxLimit) {
                 eligibleStudents.add(student);
             }
         }
@@ -66,7 +71,7 @@ public class CourseGenerator {
         // Asignar estudiantes adicionales al curso
         int randomStudentCount = random.nextInt(eligibleStudents.size()) + 1; // Número aleatorio de estudiantes
         Set<Student> addedStudents = new HashSet<>();
-        addedStudents.add(initialStudent); // Incluimos al estudiante inicial
+        addedStudents.add(initialStudent);
 
         for (Student student : eligibleStudents) {
             if (addedStudents.size() >= randomStudentCount) {
@@ -97,4 +102,3 @@ public class CourseGenerator {
         return course;
     }
 }
-

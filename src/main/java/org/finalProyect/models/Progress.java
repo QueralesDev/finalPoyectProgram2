@@ -2,6 +2,9 @@ package org.finalProyect.models;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import java.util.Random;
 
 @JsonIgnoreProperties({"student", "course"})
 public class Progress {
@@ -25,6 +28,11 @@ public class Progress {
 
     public Course getCourse() {
         return course;
+    }
+
+    @JsonProperty("courseName") // Solo serializar el nombre del curso
+    public String getCourseName() {
+        return course != null ? course.getName() : null;
     }
 
     public double getProgressPercentage() {
@@ -60,5 +68,38 @@ public class Progress {
                 ", course=" + course +
                 ", progressPercentage=" + progressPercentage +
                 '}';
+    }
+
+    public static String getRandomCourse() {
+        // Lista de cursos
+        String[] courses = {
+                "Introducción al Piano Clásico",
+                "Fundamentos de la Guitarra Jazz",
+                "Teoría Musical Avanzada",
+                "Lecciones de Violín para Principiantes",
+                "Técnicas de Batería Rock",
+                "Guitarra Flamenca para Principiantes",
+                "Práctica Intermedia de Saxofón",
+                "Dominando el Clarinete",
+                "Fundamentos de Composición de Canciones",
+                "Interpretación de Clavecín Barroco",
+                "Percusión para Principiantes",
+                "Composición Musical con Piano",
+                "Técnicas Vocales Avanzadas",
+                "Improvisación para Músicos de Jazz",
+                "Arpa Celta para Principiantes",
+                "Producción de Música Electrónica",
+                "Composición de Canciones Pop",
+                "Introducción a la Dirección Musical",
+                "Interpretación de Cuarteto de Cuerdas",
+                "Composición y Armonización para Cine"
+        };
+
+        // Generar un índice aleatorio
+        Random random = new Random();
+        int index = random.nextInt(courses.length);
+
+        // Devolver el curso correspondiente
+        return courses[index];
     }
 }

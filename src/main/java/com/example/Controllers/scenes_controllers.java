@@ -30,8 +30,6 @@ public class scenes_controllers {
     public scenes_controllers() throws IOException {
     }
 
-    private List<Student> students = new ArrayList<>();
-
     @FXML
     public void initialize() {
         initializeColumns();
@@ -42,7 +40,6 @@ public class scenes_controllers {
         courseListView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
         onLoadCourses();
         configureRowClickEvent();
-        students = StudentDataLoader.loadStudentsFromJson("students.json");
 
     }
 
@@ -857,24 +854,34 @@ public class scenes_controllers {
     @FXML
     public void loadStudentProgressScene(Student student) {
         if (student != null) {
+            // Establece el nombre completo del estudiante
             studentNameLabel.setText(student.getName() + " " + student.getLastName());
             progressListView.getItems().clear();
 
+            // Obtén la lista de progresos del estudiante
             List<Progress> progresses = student.getProgresses();
             if (progresses != null && !progresses.isEmpty()) {
                 for (Progress progress : progresses) {
-                        String progressDetails = String.format(
-                                "Curso: %s, Progreso: %.2f%%",
-                                progress.getCourse().getName(),
-                                progress.getProgressPercentage()
-                        );
-                        progressListView.getItems().add(progressDetails);
+                    // Usa getCourseName para obtener el nombre del curso
+                    String courseName = progress.getRandomCourse();
+                    String progressDetails = (courseName != null)
+                            ? String.format(
+                            "Curso: %s, Progreso: %.2f%%",
+                            courseName,
+                            progress.getProgressPercentage()
+                    )
+                            : String.format(
+                            "Curso no asignado, Progreso: %.2f%%",
+                            progress.getProgressPercentage()
+                    );
+                    progressListView.getItems().add(progressDetails);
                 }
             } else {
                 progressListView.getItems().add("No hay progresos disponibles.");
             }
         }
     }
+
 
 
     @FXML

@@ -27,6 +27,5 @@
         <Label text="Clases del Curso" />
         <ListView fx:id="classesListView" />
    
-              <Button onAction="#switchToCoursesMenu" prefHeight="26.0" prefWidth="189.0" text="Volver" />
     </VBox>
 </AnchorPane>
