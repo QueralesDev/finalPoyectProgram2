@@ -16,10 +16,16 @@ public class JsonReader {
 
     public JsonReader(){};
 
+
+    /**
+     * Lee un archivo JSON y devuelve una lista de objetos Student.
+     * @param filePath Ruta del archivo JSON a leer
+     * @return Lista de objetos Student leída del archivo JSON
+     */
     public List<Student> readJsonFile(String filePath) {
         Gson gson = new Gson();
         List<Student> persons = null;
-
+        //Intento leer el archivo si no existe mando un mensaje de error
         try (FileReader reader = new FileReader(filePath)) {
             Type personListType = new TypeToken<List<Student>>() {}.getType();
             persons = gson.fromJson(reader, personListType);
@@ -30,10 +36,16 @@ public class JsonReader {
         return persons;
     }
 
+
+    /**
+     * Lee un archivo JSON y devuelve una lista de objetos Teacher.
+     * @param filePath Ruta del archivo JSON a leer
+     * @return Lista de objetos Teacher leída del archivo JSON
+     */
     public List<Teacher> readJsonFileTeacher(String filePath) {
         Gson gson = new Gson();
         List<Teacher> persons = null;
-
+        //Intento leer el archivo si no existe mando un mensaje de error
         try (FileReader reader = new FileReader(filePath)) {
             Type personListType = new TypeToken<List<Teacher>>() {}.getType();
             persons = gson.fromJson(reader, personListType);

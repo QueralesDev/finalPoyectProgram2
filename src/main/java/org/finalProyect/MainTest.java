@@ -1,14 +1,20 @@
 package org.finalProyect;
 
+import org.finalProyect.management.ManagementSystem;
+import org.finalProyect.models.Student;
+import org.finalProyect.utilities.CollectionPerformanceTest;
+
 import java.io.IOException;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class   MainTest {
     public static void main(String[] args) throws IOException {
         Menu menu = new Menu();
 
+//        CollectionPerformanceTest.main(args); // descomentar para ejecutar el test de rendimiento
+
         menu.showMenu();
+
 
     }
 }

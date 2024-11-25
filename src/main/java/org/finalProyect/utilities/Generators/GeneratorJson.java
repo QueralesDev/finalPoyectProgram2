@@ -16,9 +16,12 @@ import java.util.List;
 public class GeneratorJson {
 
     PersonGenerator personGenerator = new PersonGenerator();
-    ClaseGenerator claseGenerator = new ClaseGenerator();
     CourseGenerator courseGenerator = new CourseGenerator();
 
+    /**
+    * Genera una lista de estudiantes y los guarda en un archivo JSON
+    * `@param` count La cantidad de estudiantes a generar
+    */
     public void generateStudents(int count) {
         List<Student> students = new ArrayList<>();
 
@@ -30,6 +33,10 @@ public class GeneratorJson {
         saveToFile(students, "students.json");
     }
 
+    /**
+    * Genera una lista de profesores y los guarda en un archivo JSON
+    * `@param` count La cantidad de profesores a generar
+    */
     public void generateTeachers(int count) {
         List<Teacher> teachers = new ArrayList<>();
 
@@ -40,6 +47,11 @@ public class GeneratorJson {
         saveToFile(teachers, "teachers.json");
     }
 
+    /**
+    * Genera una lista de cursos con nombres predefinidos y los guarda en un archivo JSON
+    * `@param` count La cantidad de cursos a generar
+    * `@throws` IOException Si ocurre un error al escribir en el archivo
+    */
     public void generateCourses(int count) throws IOException {
         List<Course> courses = new ArrayList<>();
         String[] coursesNames ={"Introducción al Piano Clásico",
@@ -71,12 +83,25 @@ public class GeneratorJson {
         saveToFile(courses, "courses.json");
     }
 
-
+    /**
+     * Guarda una lista de datos en un archivo JSON.
+     *
+     * @param <T>      El tipo de los elementos en la lista.
+     * @param data     La lista de datos que se quiere guardar.
+     * @param fileName El nombre del archivo donde se guardarán los datos.
+     *
+     * Este metodo utiliza la biblioteca Gson para convertir la lista de datos
+     * a formato JSON y escribirla en un archivo. El archivo se cierra automáticamente
+     * después de la escritura gracias al uso de try-with-resources.
+     * Si ocurre un error durante la escritura, se captura la excepción IOException
+     * y se imprime el stack trace.
+     */
     private <T> void saveToFile(List<T> data, String fileName) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        //Intenta escribir en el archivo si no puede imprime la excepción
         try (FileWriter writer = new FileWriter(fileName)) {
             gson.toJson(data, writer);
-            System.out.println("Saved to " + fileName);
+            System.out.println("Guardado en: " + fileName);
         } catch (IOException e) {
             e.printStackTrace();
         }

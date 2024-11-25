@@ -1,82 +1,1719 @@
-[
-  {
-    "level": "INTERMEDIO",
-    "id": "45c9116c-7c6f-4e51-9574-ba92b32f3411",
-    "name": "Gustavo",
-    "lastName": "Alvarez",
-    "dni": "24989790",
-    "email": "gustavo.alvarez@domain.com"
-  },
-  {
-    "level": "PRINCIPIANTE",
-    "id": "23797507-2467-4d7e-8a6d-2c5aa6483e37",
-    "name": "Miguel",
-    "lastName": "Vargas",
-    "dni": "10405547",
-    "email": "miguel.vargas@service.com"
-  },
-  {
-    "level": "INTERMEDIO",
-    "id": "711cf0b5-0e5d-45fb-8677-10c37ab3f50e",
-    "name": "Sandra",
-    "lastName": "Mora",
-    "dni": "21530074",
-    "email": "sandra.mora@icloud.com"
-  },
-  {
-    "level": "PRINCIPIANTE",
-    "id": "b74bf611-2f4e-4ac9-8a63-d87c06464ce5",
-    "name": "Luis",
-    "lastName": "Santana",
-    "dni": "35182015",
-    "email": "luis.santana@mailbox.org"
-  },
-  {
-    "level": "AVANZADO",
-    "id": "be56c435-c63a-4711-bdc5-1712b6e0159e",
-    "name": "Vladimir",
-    "lastName": "Vega",
-    "dni": "69592724",
-    "email": "vladimir.vega@gmx.com"
-  },
-  {
-    "level": "INTERMEDIO",
-    "id": "328d843a-8558-41ec-9400-8191551921c4",
-    "name": "Miguel",
-    "lastName": "Herrera",
-    "dni": "91357895",
-    "email": "miguel.herrera@provider.com"
-  },
-  {
-    "level": "INTERMEDIO",
-    "id": "74519f41-7fa0-40db-ab3c-b3c6001413db",
-    "name": "Alfonso",
-    "lastName": "Peña",
-    "dni": "71328941",
-    "email": "alfonso.peña@laposte.net"
-  },
-  {
-    "level": "PRINCIPIANTE",
-    "id": "03b3c0a8-e37f-48a7-a9e8-e4cc1aa81c1d",
-    "name": "Liliana",
-    "lastName": "Martinez",
-    "dni": "21109686",
-    "email": "liliana.martinez@hotmail.com"
-  },
-  {
-    "level": "AVANZADO",
-    "id": "fadac0d3-3b6a-4c14-ac64-afd2a8fe1a56",
-    "name": "Esteban",
-    "lastName": "Villalobos",
-    "dni": "84863749",
-    "email": "esteban.villalobos@zohomail.com"
-  },
-  {
-    "level": "PRINCIPIANTE",
-    "id": "ceb344c6-6aff-4378-9077-1a58e222e266",
-    "name": "Victoria",
-    "lastName": "Diaz",
-    "dni": "92557787",
-    "email": "victoria.diaz@live.com"
-  }
-]
+[ {
+  "id" : "2cd89779-cc25-4ba9-b72b-8c1520995feb",
+  "name" : "Isabel",
+  "lastName" : "Chavez",
+  "dni" : "87988843",
+  "email" : "isabel.chavez@protonmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "c3f448e0-c257-4f3b-bb8f-666e7c380cf5",
+  "name" : "Isabel",
+  "lastName" : "Ortiz",
+  "dni" : "81384543",
+  "email" : "isabel.ortiz@provider.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "57b3d484-e71f-42da-bcfc-5aaa456a4170",
+  "name" : "Enrique",
+  "lastName" : "Castro",
+  "dni" : "71133797",
+  "email" : "enrique.castro@orange.fr",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "3c1879fe-2dbf-4bdb-9e1e-9096e63e796a",
+  "name" : "Alfonso",
+  "lastName" : "Villalobos",
+  "dni" : "39035648",
+  "email" : "alfonso.villalobos@gmx.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Dominando el Clarinete"
+  } ]
+}, {
+  "id" : "6bd60c90-c0c5-4032-b5a8-f657b8f73352",
+  "name" : "Roberto",
+  "lastName" : "Garcia",
+  "dni" : "86112536",
+  "email" : "roberto.garcia@protonmail.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "1e2e193a-6ca8-429b-b653-7804c6c31085",
+  "name" : "Elena",
+  "lastName" : "Figueroa",
+  "dni" : "49810437",
+  "email" : "elena.figueroa@protonmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 90.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "93a2f1aa-cfce-4df7-bda7-bfa0ef9ed959",
+  "name" : "Lucia",
+  "lastName" : "Mejia",
+  "dni" : "21832109",
+  "email" : "lucia.mejia@posteo.net",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "f3b2e453-19dd-4ece-98f7-aed883eae061",
+  "name" : "Fernando",
+  "lastName" : "Guerrero",
+  "dni" : "83423776",
+  "email" : "fernando.guerrero@seznam.cz",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "6fce2658-c7b8-4083-8565-de1fe8f164a2",
+  "name" : "Irene",
+  "lastName" : "Ramirez",
+  "dni" : "45875372",
+  "email" : "irene.ramirez@verizon.net",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "be0eddaa-13b6-4df8-8a8c-080935dde673",
+  "name" : "Raul",
+  "lastName" : "Villarreal",
+  "dni" : "62408176",
+  "email" : "raul.villarreal@yandex.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 20.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "36eda05a-c43f-4d38-b51f-c8909d351a4e",
+  "name" : "Isabel",
+  "lastName" : "Ramirez",
+  "dni" : "35789142",
+  "email" : "isabel.ramirez@example.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "b4c0720a-f584-4928-b28b-320e81225482",
+  "name" : "Pedro",
+  "lastName" : "Lopez",
+  "dni" : "60481233",
+  "email" : "pedro.lopez@gmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "ca805eca-e0a3-40ed-8549-1bbd13d6e0d9",
+  "name" : "Sofia",
+  "lastName" : "Sanchez",
+  "dni" : "42862741",
+  "email" : "sofia.sanchez@domain.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "c672a62e-83d0-474f-862a-83ecaddad272",
+  "name" : "Jorge",
+  "lastName" : "Villarreal",
+  "dni" : "30985802",
+  "email" : "jorge.villarreal@q.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "8dcba1b3-84eb-4964-8b6e-49e04d896827",
+  "name" : "Bianca",
+  "lastName" : "Vega",
+  "dni" : "21898585",
+  "email" : "bianca.vega@mail.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 20.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Dominando el Clarinete"
+  } ]
+}, {
+  "id" : "7ad51472-f269-448f-b615-cc123c0927db",
+  "name" : "Liliana",
+  "lastName" : "Herrera",
+  "dni" : "22065223",
+  "email" : "liliana.herrera@aol.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "04335668-d9a1-493a-9413-bd6446802bc7",
+  "name" : "Adriana",
+  "lastName" : "Gonzalez",
+  "dni" : "21673533",
+  "email" : "adriana.gonzalez@mail.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "de24ae0e-c6de-41e2-b345-10c093ea7005",
+  "name" : "Hugo",
+  "lastName" : "Zambrano",
+  "dni" : "74247562",
+  "email" : "hugo.zambrano@comcast.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "6a02b7a4-4b2a-4c82-95a5-fbf20a774a8b",
+  "name" : "John",
+  "lastName" : "Rivas",
+  "dni" : "70404469",
+  "email" : "john.rivas@seznam.cz",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Dominando el Clarinete"
+  } ]
+}, {
+  "id" : "fa44c604-9caa-4830-9674-dcdb064cd199",
+  "name" : "Alberto",
+  "lastName" : "Miranda",
+  "dni" : "66843574",
+  "email" : "alberto.miranda@yandex.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "ec7848d2-244c-400b-8705-cc10ae1025da",
+  "name" : "Liliana",
+  "lastName" : "Escobar",
+  "dni" : "70386765",
+  "email" : "liliana.escobar@mail.ru",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "efc928c6-11bd-4338-8c47-79e74e60223b",
+  "name" : "Cecilia",
+  "lastName" : "Ramirez",
+  "dni" : "67709961",
+  "email" : "cecilia.ramirez@live.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "f1fee6fb-ffce-4a80-8741-63806b2f991d",
+  "name" : "Lucia",
+  "lastName" : "Salazar",
+  "dni" : "34979777",
+  "email" : "lucia.salazar@optonline.net",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "c715f8a8-ad40-4df7-9b46-6dec4aa8e24a",
+  "name" : "Roberto",
+  "lastName" : "Matos",
+  "dni" : "89969232",
+  "email" : "roberto.matos@btinternet.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 80.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 100.0,
+    "courseName" : "Fundamentos de Composición de Canciones"
+  }, {
+    "progressPercentage" : 100.0,
+    "courseName" : "Interpretación de Clavecín Barroco"
+  } ]
+}, {
+  "id" : "475b416e-414f-4355-a80d-97c611cadc8c",
+  "name" : "Francisco",
+  "lastName" : "Miranda",
+  "dni" : "56347789",
+  "email" : "francisco.miranda@protonmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "f37430d8-ecac-4403-bcef-bd937e7c08c1",
+  "name" : "Lorena",
+  "lastName" : "Acosta",
+  "dni" : "86215552",
+  "email" : "lorena.acosta@seznam.cz",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "15edc2a3-6399-4eee-8943-531c08df4aca",
+  "name" : "Emilio",
+  "lastName" : "Valencia",
+  "dni" : "35075292",
+  "email" : "emilio.valencia@laposte.net",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "4877d356-3fcc-4e1c-8193-e22e8b393be4",
+  "name" : "Diana",
+  "lastName" : "Maldonado",
+  "dni" : "34647867",
+  "email" : "diana.maldonado@optonline.net",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "413c2e76-1e02-43e7-9d9a-65fd99ff1e0c",
+  "name" : "Sandra",
+  "lastName" : "Bermudez",
+  "dni" : "64507506",
+  "email" : "sandra.bermudez@comcast.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "fb94c351-b626-4f7d-b55f-089a2cd889b7",
+  "name" : "Claudia",
+  "lastName" : "Bermudez",
+  "dni" : "35295290",
+  "email" : "claudia.bermudez@tutanota.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "8165a676-c883-4a13-96c3-d3d66a77d8b5",
+  "name" : "Juliana",
+  "lastName" : "Chavez",
+  "dni" : "76507815",
+  "email" : "juliana.chavez@provider.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "6aa97274-68d2-4911-ad2b-527a56200f31",
+  "name" : "Emilio",
+  "lastName" : "Flores",
+  "dni" : "81465325",
+  "email" : "emilio.flores@laposte.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "ac7ec263-54f1-4f93-975f-a7a337ff3dd7",
+  "name" : "Monica",
+  "lastName" : "Morales",
+  "dni" : "20645658",
+  "email" : "monica.morales@aol.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "ad90ae7d-1d82-4cac-b9bf-e0936ace2fa3",
+  "name" : "Roberto",
+  "lastName" : "Mendoza",
+  "dni" : "98095995",
+  "email" : "roberto.mendoza@hushmail.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Dominando el Clarinete"
+  } ]
+}, {
+  "id" : "6edf5453-b0f8-4e9f-91bb-2eb158b3d6f4",
+  "name" : "Emilio",
+  "lastName" : "Luna",
+  "dni" : "18196639",
+  "email" : "emilio.luna@provider.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "fdb88b8d-36d6-41a8-9b87-803e32822d26",
+  "name" : "David",
+  "lastName" : "Vargas",
+  "dni" : "42897990",
+  "email" : "david.vargas@yahoo.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "b4bbb211-d96e-4cd9-b102-5e2d7ffd1cd2",
+  "name" : "Liliana",
+  "lastName" : "Salazar",
+  "dni" : "72902669",
+  "email" : "liliana.salazar@runbox.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 20.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "3637ff78-88a7-49a2-b265-9d672044a174",
+  "name" : "Pedro",
+  "lastName" : "Diaz",
+  "dni" : "30871930",
+  "email" : "pedro.diaz@mailfence.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Dominando el Clarinete"
+  } ]
+}, {
+  "id" : "1145d549-b7d9-4af3-a18e-a89268f0ee56",
+  "name" : "Victoria",
+  "lastName" : "Rosales",
+  "dni" : "77656499",
+  "email" : "victoria.rosales@example.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "6af2e4a8-84ae-4041-96f7-6a92ff1eb9a6",
+  "name" : "Gabriela",
+  "lastName" : "Matos",
+  "dni" : "47698291",
+  "email" : "gabriela.matos@mailbox.org",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "96c6dc06-2d19-4921-871e-1ae5168d7a06",
+  "name" : "Silvia",
+  "lastName" : "Chavez",
+  "dni" : "15365188",
+  "email" : "silvia.chavez@mail.ru",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "9f1b4c73-187b-45b6-a54c-cf24837ead96",
+  "name" : "Enrique",
+  "lastName" : "Cabrera",
+  "dni" : "27558197",
+  "email" : "enrique.cabrera@service.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "7e7f69d1-8020-485b-a53e-ef2e28992f9b",
+  "name" : "Alberto",
+  "lastName" : "Campos",
+  "dni" : "41159364",
+  "email" : "alberto.campos@yandex.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "2af2ffe6-99d3-457b-b077-01ad88443964",
+  "name" : "Gabriel",
+  "lastName" : "Vega",
+  "dni" : "48975939",
+  "email" : "gabriel.vega@service.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 10.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "544887b7-0c6d-4be9-96e0-e19c80a02838",
+  "name" : "Laura",
+  "lastName" : "Ramirez",
+  "dni" : "35274716",
+  "email" : "laura.ramirez@protonmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "5f805a2d-69e4-4d5b-9ac4-ec11fa7b8478",
+  "name" : "Silvia",
+  "lastName" : "Pena",
+  "dni" : "82990696",
+  "email" : "silvia.pena@btinternet.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 20.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "adcb9319-2d8f-4f20-987a-99440baef185",
+  "name" : "Roberto",
+  "lastName" : "Valencia",
+  "dni" : "23813799",
+  "email" : "roberto.valencia@mail.ru",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 90.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "7f52d525-68fa-4399-bdcc-8aa4dcfbedcb",
+  "name" : "Miguel",
+  "lastName" : "Navarro",
+  "dni" : "22707058",
+  "email" : "miguel.navarro@verizon.net",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "13305148-1466-45c9-a314-63c6c1ecadc7",
+  "name" : "Andres",
+  "lastName" : "Salazar",
+  "dni" : "54679640",
+  "email" : "andres.salazar@icloud.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 20.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 20.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "41e50194-7bf1-478b-8236-f1c62c230695",
+  "name" : "Felipe",
+  "lastName" : "Chavez",
+  "dni" : "80378630",
+  "email" : "felipe.chavez@yahoo.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 20.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "3e04be94-ace6-46de-9cb7-20507182d2c5",
+  "name" : "Javier",
+  "lastName" : "Acosta",
+  "dni" : "70874316",
+  "email" : "javier.acosta@example.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "337b7cc6-a67b-4b01-910d-1a9f856b53b9",
+  "name" : "Angela",
+  "lastName" : "Ortiz",
+  "dni" : "30682220",
+  "email" : "angela.ortiz@seznam.cz",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Práctica Intermedia de Saxofón"
+  } ]
+}, {
+  "id" : "fa0580ea-d6a0-4958-a3ac-9981403d688e",
+  "name" : "Martin",
+  "lastName" : "Luna",
+  "dni" : "84641613",
+  "email" : "martin.luna@tutanota.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "7dfc395c-76e4-426b-8996-0bdc234ac119",
+  "name" : "Pedro",
+  "lastName" : "Silva",
+  "dni" : "80552658",
+  "email" : "pedro.silva@optonline.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 90.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "5135e0d5-1ff4-4833-97df-9c981e009df9",
+  "name" : "Martin",
+  "lastName" : "Palacios",
+  "dni" : "59437440",
+  "email" : "martin.palacios@live.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "a071964c-e115-44d3-87c1-0bcf76401fdf",
+  "name" : "Adriana",
+  "lastName" : "Acosta",
+  "dni" : "20485559",
+  "email" : "adriana.acosta@mailfence.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "f1d5f8b7-d691-4aba-9b70-0e93c36c1d6c",
+  "name" : "Enrique",
+  "lastName" : "Quintero",
+  "dni" : "23583635",
+  "email" : "enrique.quintero@protonmail.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "60cb36ee-6a12-414d-a05c-18c21c61208f",
+  "name" : "Pedro",
+  "lastName" : "Martinez",
+  "dni" : "97613110",
+  "email" : "pedro.martinez@mail.ru",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "d8d3a4dd-34cb-4e4f-998e-4667a93af2ae",
+  "name" : "Elisa",
+  "lastName" : "Ortiz",
+  "dni" : "64951900",
+  "email" : "elisa.ortiz@verizon.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "5ed0156e-f5ec-4321-9a8c-317daaf0bef0",
+  "name" : "Maria",
+  "lastName" : "Morales",
+  "dni" : "87080091",
+  "email" : "maria.morales@icloud.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "66e1bd67-7d1f-46ed-a921-9437925ae965",
+  "name" : "Roberto",
+  "lastName" : "Querales",
+  "dni" : "71652032",
+  "email" : "roberto.querales@runbox.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 90.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "dcee9e74-1ff1-41ac-bd13-58b086add342",
+  "name" : "Mateo",
+  "lastName" : "Moreno",
+  "dni" : "79164131",
+  "email" : "mateo.moreno@runbox.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "367ec002-b48e-41a1-a287-455c08ce1695",
+  "name" : "Jorge",
+  "lastName" : "Vargas",
+  "dni" : "49144145",
+  "email" : "jorge.vargas@laposte.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "d9254220-5b24-4f84-9a4b-1ce6e35fb922",
+  "name" : "Raul",
+  "lastName" : "Rosales",
+  "dni" : "12628643",
+  "email" : "raul.rosales@mailfence.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "967ec1df-5a6d-4b39-8989-b5ce7f682b9a",
+  "name" : "Luis",
+  "lastName" : "Medina",
+  "dni" : "11072606",
+  "email" : "luis.medina@icloud.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 90.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "52b75942-a85a-45db-973a-4b14fda185a3",
+  "name" : "Nicolas",
+  "lastName" : "Reyes",
+  "dni" : "71288534",
+  "email" : "nicolas.reyes@btinternet.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "ebc818a2-4df5-4308-8979-cd00a9a9b60c",
+  "name" : "Isabel",
+  "lastName" : "Fernandez",
+  "dni" : "91419423",
+  "email" : "isabel.fernandez@gmx.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Dominando el Clarinete"
+  } ]
+}, {
+  "id" : "89a2d6e9-86c3-4ce9-87c2-810c6524806d",
+  "name" : "Carlos",
+  "lastName" : "Valencia",
+  "dni" : "20372407",
+  "email" : "carlos.valencia@mailbox.org",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "4da31578-0933-488c-a48c-19ede842a68b",
+  "name" : "Valeria",
+  "lastName" : "Sanchez",
+  "dni" : "10205339",
+  "email" : "valeria.sanchez@mail.ru",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 90.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "07e72fec-dbb1-4816-bf39-c27e895be373",
+  "name" : "Emilio",
+  "lastName" : "Ortiz",
+  "dni" : "90831670",
+  "email" : "emilio.ortiz@outlook.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "59eca0a7-dc5f-4236-941a-59f5f5065bd7",
+  "name" : "Andres",
+  "lastName" : "Mora",
+  "dni" : "91598883",
+  "email" : "andres.mora@fastmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "fa9cd5f5-1005-4094-87ab-77a5954a6a8e",
+  "name" : "Gabriel",
+  "lastName" : "Sanchez",
+  "dni" : "84514885",
+  "email" : "gabriel.sanchez@comcast.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "a0e28062-226a-4d00-96e9-bbe20a0699ac",
+  "name" : "Isabel",
+  "lastName" : "Mendoza",
+  "dni" : "92940504",
+  "email" : "isabel.mendoza@tutanota.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "88a912ce-c00d-4594-b1db-f4c0608d930f",
+  "name" : "Juliana",
+  "lastName" : "Mora",
+  "dni" : "28587477",
+  "email" : "juliana.mora@yahoo.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "b422dd2d-3e69-4ddb-ab74-97ce41be3dc3",
+  "name" : "Isabel",
+  "lastName" : "Hernandez",
+  "dni" : "94399648",
+  "email" : "isabel.hernandez@provider.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "6f4b4d0f-42b4-4ab8-89ab-669cd3dbe889",
+  "name" : "Alicia",
+  "lastName" : "Torres",
+  "dni" : "96694252",
+  "email" : "alicia.torres@live.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "a5577729-fef4-4036-adb2-ee0e408fe69c",
+  "name" : "Roberto",
+  "lastName" : "Ramirez",
+  "dni" : "63705755",
+  "email" : "roberto.ramirez@mailbox.org",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "db4323f1-6c12-45c2-ab29-13204791a7f9",
+  "name" : "Lorena",
+  "lastName" : "Herrera",
+  "dni" : "62480934",
+  "email" : "lorena.herrera@hushmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "7bdc910a-ceee-4cc5-9138-4aa707429d77",
+  "name" : "Daniel",
+  "lastName" : "Morales",
+  "dni" : "56144121",
+  "email" : "daniel.morales@outlook.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 90.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "ddc59ed0-897b-46f0-85cf-8da3162af55d",
+  "name" : "Esteban",
+  "lastName" : "Garcia",
+  "dni" : "10354815",
+  "email" : "esteban.garcia@optonline.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "647715c9-1f05-4cd6-b885-2c8ad4a04871",
+  "name" : "Laura",
+  "lastName" : "Miranda",
+  "dni" : "16218538",
+  "email" : "laura.miranda@protonmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "0b743a80-5291-4abc-97c8-ad2c9014043e",
+  "name" : "Bianca",
+  "lastName" : "Campos",
+  "dni" : "68037955",
+  "email" : "bianca.campos@laposte.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "4a08c267-6f38-4560-ac15-99cfb5d0c9af",
+  "name" : "Alicia",
+  "lastName" : "Gomez",
+  "dni" : "25368240",
+  "email" : "alicia.gomez@live.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "89ca5302-07ca-4b00-be99-af2e4e0727d9",
+  "name" : "Paula",
+  "lastName" : "Lopez",
+  "dni" : "60668842",
+  "email" : "paula.lopez@rocketmail.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "521a5981-4237-4394-a412-45dc45320295",
+  "name" : "Alfonso",
+  "lastName" : "Mora",
+  "dni" : "33602694",
+  "email" : "alfonso.mora@mailfence.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "6b770f58-4bbf-4062-ae73-5d5d1c11d487",
+  "name" : "Nicolas",
+  "lastName" : "Figueroa",
+  "dni" : "45445704",
+  "email" : "nicolas.figueroa@protonmail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "e518bb0c-ed9f-4e1d-95bd-f6caa0486480",
+  "name" : "Liliana",
+  "lastName" : "Lopez",
+  "dni" : "70755396",
+  "email" : "liliana.lopez@hushmail.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 20.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "819e7ae8-beb1-4ed5-be79-2bb95bde74b6",
+  "name" : "Vladimir",
+  "lastName" : "Matos",
+  "dni" : "61380749",
+  "email" : "vladimir.matos@laposte.net",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "44c4fe7c-b2bd-402c-b394-3093f8565c33",
+  "name" : "Felipe",
+  "lastName" : "Bautista",
+  "dni" : "51854485",
+  "email" : "felipe.bautista@protonmail.com",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "7832376c-96b9-4a3a-9f6c-178596fd49f7",
+  "name" : "Ignacio",
+  "lastName" : "Rivas",
+  "dni" : "38671168",
+  "email" : "ignacio.rivas@btinternet.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "0c4a4b9b-c147-4013-bb46-3ddb59aaf0f2",
+  "name" : "Diego",
+  "lastName" : "Santana",
+  "dni" : "26609905",
+  "email" : "diego.santana@runbox.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "691ff0dd-1e03-4a17-94bb-5d89f40f697b",
+  "name" : "Ana",
+  "lastName" : "Montoya",
+  "dni" : "57951481",
+  "email" : "ana.montoya@example.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  } ]
+}, {
+  "id" : "ebb87084-6508-4c34-b900-add68a4d152b",
+  "name" : "Alberto",
+  "lastName" : "Mendoza",
+  "dni" : "63123064",
+  "email" : "alberto.mendoza@mail.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  } ]
+}, {
+  "id" : "37238812-5203-496d-b449-3f60d2400452",
+  "name" : "Andres",
+  "lastName" : "Navarro",
+  "dni" : "65206321",
+  "email" : "andres.navarro@comcast.net",
+  "level" : "PRINCIPIANTE",
+  "progresses" : [ {
+    "progressPercentage" : 70.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "7813cd7c-cf76-4ce4-8405-da5efaace96b",
+  "name" : "Bianca",
+  "lastName" : "Luna",
+  "dni" : "46908178",
+  "email" : "bianca.luna@mail.ru",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 60.0,
+    "courseName" : "Técnicas de Batería Rock"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Guitarra Flamenca para Principiantes"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Dominando el Clarinete"
+  } ]
+}, {
+  "id" : "8fe8e28e-17ee-4712-b3a2-720d4b5fc583",
+  "name" : "Veronica",
+  "lastName" : "Hernandez",
+  "dni" : "20685511",
+  "email" : "veronica.hernandez@icloud.com",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 30.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 70.0,
+    "courseName" : "Teoría Musical Avanzada"
+  } ]
+}, {
+  "id" : "f5ec855c-17a5-4765-b0be-97e24d7e4927",
+  "name" : "Veronica",
+  "lastName" : "Perez",
+  "dni" : "28098814",
+  "email" : "veronica.perez@orange.fr",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "cd0d0ce6-941e-4b8b-ad1f-10a405c92a5a",
+  "name" : "Laura",
+  "lastName" : "Lopez",
+  "dni" : "94435775",
+  "email" : "laura.lopez@verizon.net",
+  "level" : "INTERMEDIO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+}, {
+  "id" : "87e9cd48-8238-403a-b44d-47586cb44214",
+  "name" : "Diego",
+  "lastName" : "Mejia",
+  "dni" : "54876838",
+  "email" : "diego.mejia@email.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Introducción al Piano Clásico"
+  }, {
+    "progressPercentage" : 30.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  }, {
+    "progressPercentage" : 80.0,
+    "courseName" : "Teoría Musical Avanzada"
+  }, {
+    "progressPercentage" : 50.0,
+    "courseName" : "Lecciones de Violín para Principiantes"
+  }, {
+    "progressPercentage" : 40.0,
+    "courseName" : "Técnicas de Batería Rock"
+  } ]
+}, {
+  "id" : "40de61d5-be70-4070-90d4-d6fa7667fded",
+  "name" : "Cecilia",
+  "lastName" : "Villarreal",
+  "dni" : "20159188",
+  "email" : "cecilia.villarreal@hushmail.com",
+  "level" : "AVANZADO",
+  "progresses" : [ {
+    "progressPercentage" : 50.0,
+    "courseName" : "Fundamentos de la Guitarra Jazz"
+  } ]
+} ]

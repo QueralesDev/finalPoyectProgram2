@@ -1,6 +1,5 @@
 package com.example.Controllers;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -15,19 +14,19 @@ import javafx.stage.Stage;
 import org.finalProyect.enums.Level;
 import org.finalProyect.enums.TypeSpeciality;
 import org.finalProyect.management.ManagementSystem;
-import org.finalProyect.models.Course;
-import org.finalProyect.models.JsonReader;
-import org.finalProyect.models.Student;
-import org.finalProyect.models.Teacher;
+import org.finalProyect.models.*;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 
 public class scenes_controllers {
 
     ManagementSystem managementSystem = new ManagementSystem();
+
+    public scenes_controllers() throws IOException {
+    }
 
     @FXML
     public void initialize() {
@@ -38,22 +37,8 @@ public class scenes_controllers {
         updateTeacherButton.setOnAction(event -> updateTeacher());
         courseListView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
         onLoadCourses();
+        configureRowClickEvent();
 
-    }
-
-    @FXML
-    public void handleMyClassesAction() {
-        showAlert("Gestion clases", "Aca se podran gestionar las clases.");
-    }
-
-    @FXML
-    public void handleTeachersAction() {
-        showAlert("Gestion profesores", "Aca se podran gestionar los profesores.");
-    }
-
-    @FXML
-    public void handleEvaluationsAndProgressAction() {
-        showAlert("Gestion evaluaciones y progreso", "Aca se podran gestionar las evaluaciones y progreso.");
     }
 
     private void showAlert(String title, String message) {
@@ -83,7 +68,7 @@ public class scenes_controllers {
     public void switchToShowStudents(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("/com/example/scenes/students_scenes/students_view_scene.fxml"));
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root, 780, 500);
+        Scene scene = new Scene(root, 700, 500);
         stage.setScene(scene);
         stage.show();
     }
@@ -278,11 +263,25 @@ public class scenes_controllers {
     }
 
     @FXML
+    public void switchToCPT(ActionEvent event) {
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/com/example/scenes/collection_performance_test_scene.fxml"));
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            Scene scene = new Scene(root, 470, 450);
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+            showAlert("Error", "No se pudo cargar la escena.");
+        }
+    }
+
+    @FXML
     public void switchToShowCourses(ActionEvent event) {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/com/example/scenes/courses_scenes/show_courses_scene.fxml"));
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-            Scene scene = new Scene(root, 594, 410);
+            Scene scene = new Scene(root, 550, 410);
             stage.setScene(scene);
             stage.show();
         } catch (IOException e) {
@@ -332,13 +331,43 @@ public class scenes_controllers {
         String email = emailField.getText().trim();
         String levelStr = levelComboBox.getValue();
 
-        if(managementSystem.doesDniExist("students.json", dni)) {
+        if (firstName.isEmpty()) {
+            mensajeLabel.setText("El nombre no puede estar vacío");
+            return;
+        }
+        if (!firstName.matches("[a-zA-Z]+")) {
+            mensajeLabel.setText("El nombre solo puede contener letras");
+            return;
+        }
+
+        if (lastName.isEmpty()) {
+            mensajeLabel.setText("El apellido no puede estar vacío");
+            return;
+        }
+        if (!lastName.matches("[a-zA-Z]+")) {
+            mensajeLabel.setText("El apellido solo puede contener letras");
+            return;
+        }
+
+        if (dni.isEmpty()){
+            mensajeLabel.setText("El dni no puede estar vacio");
+        }
+
+        if (!dni.matches("\\d+")) {
+            mensajeLabel.setText("El DNI debe contener solo números");
+            return;
+        }
+        if (managementSystem.doesDniExist("students.json", dni)) {
             mensajeLabel.setText("El DNI ya existe. Por favor, ingrese uno diferente.");
             return;
         }
 
-        if (!email.contains("@") && !email.contains(".")) {
-            mensajeLabel.setText("Ingrese un email valido");
+        if (email.isEmpty()) {
+            mensajeLabel.setText("El email no puede estar vacío");
+            return;
+        }
+        if (!email.contains("@") || !email.contains(".")) {
+            mensajeLabel.setText("Ingrese un email válido");
             return;
         }
 
@@ -359,6 +388,7 @@ public class scenes_controllers {
         }
     }
 
+
     @FXML
     private TableView<Student> tableView = new TableView<>();
     @FXML
@@ -374,7 +404,7 @@ public class scenes_controllers {
     @FXML
     private TableColumn<Student, String> levelColumn;
 
-
+    @FXML
     ObservableList<Student> studentList = FXCollections.observableArrayList();
 
     @FXML
@@ -503,6 +533,7 @@ public class scenes_controllers {
     @FXML
     private ComboBox<String> specialityComboBox;
 
+
     @FXML
     private void createProfessor() {
         String firstName = firstNameField.getText().trim();
@@ -511,18 +542,48 @@ public class scenes_controllers {
         String email = emailField.getText().trim();
         String specialityStr = specialityComboBox.getValue();
 
-        if(managementSystem.doesDniExist("teachers.json", dni)) {
+        if (firstName.isEmpty()) {
+            mensajeLabel.setText("El nombre no puede estar vacío");
+            return;
+        }
+        if (!firstName.matches("[a-zA-Z]+")) {
+            mensajeLabel.setText("El nombre solo puede contener letras");
+            return;
+        }
+
+        if (lastName.isEmpty()) {
+            mensajeLabel.setText("El apellido no puede estar vacío");
+            return;
+        }
+        if (!lastName.matches("[a-zA-Z]+")) {
+            mensajeLabel.setText("El apellido solo puede contener letras");
+            return;
+        }
+
+        if (dni.isEmpty()){
+            mensajeLabel.setText("El dni no puede estar vacio");
+        }
+
+        if (!dni.matches("\\d+")) {
+            mensajeLabel.setText("El DNI debe contener solo números");
+            return;
+        }
+        if (managementSystem.doesDniExist("students.json", dni)) {
             mensajeLabel.setText("El DNI ya existe. Por favor, ingrese uno diferente.");
             return;
         }
 
-        if (!email.contains("@") && !email.contains(".")) {
-            mensajeLabel.setText("Ingrese un email valido");
+        if (email.isEmpty()) {
+            mensajeLabel.setText("El email no puede estar vacío");
+            return;
+        }
+        if (!email.contains("@") || !email.contains(".")) {
+            mensajeLabel.setText("Ingrese un email válido");
             return;
         }
 
         if (specialityStr == null) {
-            mensajeLabel.setText("Por favor, seleccione un nivel.");
+            mensajeLabel.setText("Por favor, seleccione una especialidad");
             return;
         }
         try {
@@ -690,7 +751,43 @@ public class scenes_controllers {
             }
         });
 
+        courseListView.setOnMouseClicked(event -> {
+            Course selectedCourse = courseListView.getSelectionModel().getSelectedItem();
+            if (selectedCourse != null) {
+                openCourseDetailsWindow(selectedCourse);
+            }
+        });
     }
+
+    @FXML
+    private ListView<Clase> classesListView = new ListView<>();
+
+    public void setCourse(Course course) {
+        classesListView.getItems().setAll(course.getClases());
+        ObservableList<Student> enrolledStudents = FXCollections.observableArrayList(course.getEnrolledStudents());
+        tableViewStudents.setItems(enrolledStudents);
+    }
+
+    @FXML
+    private TableView<Student> tableViewStudents = new TableView<>();
+
+    private void openCourseDetailsWindow(Course course) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/scenes/courses_scenes/course_details_scene.fxml"));
+            Parent root = loader.load();
+
+            scenes_controllers controller = loader.getController();
+            controller.setCourse(course);
+
+            Stage stage = new Stage();
+            stage.setTitle("Detalles del Curso: " + course.getName());
+            stage.setScene(new Scene(root));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     @FXML
     private Label messageLabel;
@@ -745,7 +842,84 @@ public class scenes_controllers {
         }
     }
 
+    @FXML
+    private ListView<String> progressListView = new ListView<>();
+    @FXML
+    private Label studentNameLabel = new Label();
+
+    @FXML
+    private void configureRowClickEvent() {
+        tableView.setOnMouseClicked(event -> {
+            if (event.getClickCount() == 2 && tableView.getSelectionModel().getSelectedItem() != null) {
+                showStudentProgress();
+            }
+        });
+    }
+
+
+
+    @FXML
+    public void loadStudentProgressScene(Student student) {
+        if (student != null) {
+            // Establece el nombre completo del estudiante
+            studentNameLabel.setText(student.getName() + " " + student.getLastName());
+            progressListView.getItems().clear();
+
+            // Obtén la lista de progresos del estudiante
+            List<Progress> progresses = student.getProgresses();
+            if (progresses != null && !progresses.isEmpty()) {
+                for (Progress progress : progresses) {
+                    // Usa getCourseName para obtener el nombre del curso
+                    String courseName = progress.getRandomCourse();
+                    String progressDetails = (courseName != null)
+                            ? String.format(
+                            "Curso: %s, Progreso: %.2f%%",
+                            courseName,
+                            progress.getProgressPercentage()
+                    )
+                            : String.format(
+                            "Curso no asignado, Progreso: %.2f%%",
+                            progress.getProgressPercentage()
+                    );
+                    progressListView.getItems().add(progressDetails);
+                }
+            } else {
+                progressListView.getItems().add("No hay progresos disponibles.");
+            }
+        }
+    }
+
+
+
+    @FXML
+    private void showStudentProgress() {
+        Student selectedStudent = tableView.getSelectionModel().getSelectedItem();
+        if (selectedStudent != null) {
+            try {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/scenes/students_scenes/course_progress_scene.fxml"));
+                Parent root = loader.load();
+
+                scenes_controllers controller = loader.getController();
+                controller.loadStudentProgressScene(selectedStudent);
+
+
+
+                Stage stage = new Stage();
+                stage.setTitle("Progreso del Estudiante");
+                stage.setScene(new Scene(root));
+                stage.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+
+
 }
+
+
+
 
 
 

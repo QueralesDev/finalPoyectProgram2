@@ -36,30 +36,22 @@
                <Cursor fx:constant="HAND" />
             </cursor>
          </Button>
-            <Button onAction="#handleMyClassesAction" text="Clases">
-                <font>
-                    <Font size="13.0" />
-                </font>
-                <cursor>
-                    <Cursor fx:constant="HAND" />
-                </cursor>
-            </Button>
-            <Button layoutX="203.0" layoutY="10.0" onAction="#handleEvaluationsAndProgressAction" text="Evaluaciones y Progresos">
-                <font>
-                    <Font size="13.0" />
-                </font>
-                <cursor>
-                    <Cursor fx:constant="HAND" />
-                </cursor>
-            </Button>
+         <Button layoutX="176.0" layoutY="10.0" onAction="#switchToCPT" text="CPT">
+            <font>
+               <Font size="13.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </Button>
         </ToolBar>
     </top>
     <center>
         <VBox alignment="CENTER" prefHeight="254.0" prefWidth="466.0" spacing="20" styleClass="v-box">
             <children>
-                <ImageView fitHeight="174.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fitHeight="223.0" fitWidth="239.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../../../images/cogs.png" />
+                        <Image url="@../../../images/notes.png" />
                     </image>
                 </ImageView>
             </children>
