@@ -1,4 +1,5 @@
 [ {
+<<<<<<< HEAD
   "id" : "1e3cf61f-a9c3-41bc-93be-10ee28324379",
   "name" : "Angela",
   "lastName" : "Doe",
@@ -698,4 +699,705 @@
   "dni" : "99603876",
   "email" : "juliana.mejia@comcast.net",
   "speciality" : "CONTRABAJO"
+=======
+  "id" : "dc5c777d-6ec6-4efc-8788-b52d4ef98ec1",
+  "name" : "Sandra",
+  "lastName" : "Rosales",
+  "dni" : "92339005",
+  "email" : "sandra.rosales@gmail.com",
+  "speciality" : "TIMBALES"
+}, {
+  "id" : "46fb66a8-85ad-47c8-882f-8f80dd73ef29",
+  "name" : "Adriana",
+  "lastName" : "Navarro",
+  "dni" : "65454739",
+  "email" : "adriana.navarro@hotmail.com",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "f664ad38-607d-4e26-a4a1-9584edd362e3",
+  "name" : "Andres",
+  "lastName" : "Mejia",
+  "dni" : "20874439",
+  "email" : "andres.mejia@hushmail.com",
+  "speciality" : "CAMPANAS_TUBULARES"
+}, {
+  "id" : "43a62896-6be1-4a32-ba85-1ede64dba921",
+  "name" : "Andres",
+  "lastName" : "Figueroa",
+  "dni" : "64449385",
+  "email" : "andres.figueroa@orange.fr",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "a3f8bafa-d994-4207-bd3b-5cf41711a2f1",
+  "name" : "Francisco",
+  "lastName" : "Mejia",
+  "dni" : "17983660",
+  "email" : "francisco.mejia@live.com",
+  "speciality" : "ARPA"
+}, {
+  "id" : "3102e4a1-cdb9-4208-b0de-c557bfd891c5",
+  "name" : "Silvia",
+  "lastName" : "Rosales",
+  "dni" : "77104799",
+  "email" : "silvia.rosales@yandex.com",
+  "speciality" : "TIMBALES"
+}, {
+  "id" : "6b7ca884-abfd-43f2-aebc-ae9ec930375a",
+  "name" : "Eduardo",
+  "lastName" : "Gomez",
+  "dni" : "26807292",
+  "email" : "eduardo.gomez@btinternet.com",
+  "speciality" : "VIOLA"
+}, {
+  "id" : "1f7548d3-cf1e-4d5c-a3da-7cfc73d63323",
+  "name" : "Maria",
+  "lastName" : "Navarro",
+  "dni" : "57631501",
+  "email" : "maria.navarro@btinternet.com",
+  "speciality" : "CLAVECIN"
+}, {
+  "id" : "d7cd398c-12f5-42f6-b72c-e31879e8b14f",
+  "name" : "Ignacio",
+  "lastName" : "Matos",
+  "dni" : "46960358",
+  "email" : "ignacio.matos@icloud.com",
+  "speciality" : "BAJO"
+}, {
+  "id" : "01901a16-e49b-4d40-b944-62c06a305d21",
+  "name" : "Cecilia",
+  "lastName" : "Sanchez",
+  "dni" : "78424800",
+  "email" : "cecilia.sanchez@live.com",
+  "speciality" : "XILOFONO"
+}, {
+  "id" : "880cabda-a068-4944-8859-5a7554fc74c9",
+  "name" : "Carlos",
+  "lastName" : "Silva",
+  "dni" : "20088650",
+  "email" : "carlos.silva@outlook.com",
+  "speciality" : "PIANO"
+}, {
+  "id" : "b94d6ff5-a1d8-4b34-b1f7-2484729e105d",
+  "name" : "Sara",
+  "lastName" : "Zambrano",
+  "dni" : "56917809",
+  "email" : "sara.zambrano@email.com",
+  "speciality" : "TROMPETA"
+}, {
+  "id" : "9e69cf8b-638f-4df1-bf94-19e42732f5ed",
+  "name" : "Sofia",
+  "lastName" : "Romero",
+  "dni" : "67103948",
+  "email" : "sofia.romero@btinternet.com",
+  "speciality" : "VIOLIN"
+}, {
+  "id" : "0a48c23c-8a77-43ac-8db3-3281bc27e573",
+  "name" : "Pablo",
+  "lastName" : "Medina",
+  "dni" : "79012471",
+  "email" : "pablo.medina@mail.ru",
+  "speciality" : "CAMPANAS_TUBULARES"
+}, {
+  "id" : "9fae2612-4086-408d-a0b3-490687aa028c",
+  "name" : "Mateo",
+  "lastName" : "Mora",
+  "dni" : "69741358",
+  "email" : "mateo.mora@gmail.com",
+  "speciality" : "FLAUTA"
+}, {
+  "id" : "f119e8b5-3e63-48f4-8e23-d1fcb4a80752",
+  "name" : "Angela",
+  "lastName" : "Moreno",
+  "dni" : "99250894",
+  "email" : "angela.moreno@btinternet.com",
+  "speciality" : "PIANO"
+}, {
+  "id" : "53d6d1d0-83c8-4157-8ebc-ca6873021925",
+  "name" : "Camila",
+  "lastName" : "Bermudez",
+  "dni" : "96919968",
+  "email" : "camila.bermudez@service.com",
+  "speciality" : "UKELELE"
+}, {
+  "id" : "afdac425-e415-42a7-b30f-073ba6bf8f76",
+  "name" : "Francisco",
+  "lastName" : "Garcia",
+  "dni" : "38743619",
+  "email" : "francisco.garcia@zohomail.com",
+  "speciality" : "BAJO"
+}, {
+  "id" : "8a1f9746-828f-40b8-a630-a9b4fbf03cb4",
+  "name" : "Enrique",
+  "lastName" : "Rosales",
+  "dni" : "71972408",
+  "email" : "enrique.rosales@mail.com",
+  "speciality" : "VIOLIN"
+}, {
+  "id" : "8886020b-fa94-4188-9c0c-e6ff66ef9bb3",
+  "name" : "Isabel",
+  "lastName" : "Aguirre",
+  "dni" : "36013436",
+  "email" : "isabel.aguirre@runbox.com",
+  "speciality" : "VIOLA"
+}, {
+  "id" : "d5904874-f4a7-4742-8015-69604a1b5e09",
+  "name" : "Mateo",
+  "lastName" : "Castro",
+  "dni" : "11967891",
+  "email" : "mateo.castro@live.com",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "fe453bb7-9034-40c4-be4d-5733454f043b",
+  "name" : "Claudia",
+  "lastName" : "Soto",
+  "dni" : "19786090",
+  "email" : "claudia.soto@hotmail.com",
+  "speciality" : "BAJO"
+}, {
+  "id" : "b40ff673-d45c-46fb-a6ac-bd86fef5c12c",
+  "name" : "Adriana",
+  "lastName" : "Valenzuela",
+  "dni" : "75068261",
+  "email" : "adriana.valenzuela@gmx.com",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "fe18e617-a09d-4570-9aee-8b82d524e339",
+  "name" : "Rafael",
+  "lastName" : "Castro",
+  "dni" : "35407865",
+  "email" : "rafael.castro@hotmail.com",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "041910ff-896a-46e2-94f3-ab472ec81abe",
+  "name" : "Raul",
+  "lastName" : "Ibarra",
+  "dni" : "62325621",
+  "email" : "raul.ibarra@yahoo.com",
+  "speciality" : "FLAUTA"
+}, {
+  "id" : "adaebab7-964f-4082-9051-eac8681f16cc",
+  "name" : "Claudia",
+  "lastName" : "Ramirez",
+  "dni" : "63104128",
+  "email" : "claudia.ramirez@hushmail.com",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "3737f97e-ef21-476d-9a3e-e9dfad671ec6",
+  "name" : "Miguel",
+  "lastName" : "Silva",
+  "dni" : "53790055",
+  "email" : "miguel.silva@rocketmail.com",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "b294a84c-a1bb-4397-be1d-e9bf494d6178",
+  "name" : "Sara",
+  "lastName" : "Perez",
+  "dni" : "10653570",
+  "email" : "sara.perez@live.com",
+  "speciality" : "ARPA"
+}, {
+  "id" : "93b9d531-8e52-41d3-94ae-cb0746c0dc0d",
+  "name" : "Andres",
+  "lastName" : "Valenzuela",
+  "dni" : "20905658",
+  "email" : "andres.valenzuela@yahoo.com",
+  "speciality" : "VIOLIN"
+}, {
+  "id" : "b09d5d30-f23b-4e47-92a9-28e8397fd47a",
+  "name" : "Sofia",
+  "lastName" : "Figueroa",
+  "dni" : "26250340",
+  "email" : "sofia.figueroa@fastmail.com",
+  "speciality" : "ARPA"
+}, {
+  "id" : "a6fdb106-0154-4db0-b7d2-bd9450f3ebda",
+  "name" : "Carlos",
+  "lastName" : "Pena",
+  "dni" : "63025687",
+  "email" : "carlos.pena@outlook.com",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "6d23557f-94ac-46f6-9226-5584899b1452",
+  "name" : "Ricardo",
+  "lastName" : "Rivas",
+  "dni" : "46803534",
+  "email" : "ricardo.rivas@gmail.com",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "aeef5937-2823-40c3-92ce-d4d7b26752fe",
+  "name" : "David",
+  "lastName" : "Romero",
+  "dni" : "59585316",
+  "email" : "david.romero@mailfence.com",
+  "speciality" : "VIOLA"
+}, {
+  "id" : "b89aedb1-c1d0-4617-9fdf-adc6d82f09f6",
+  "name" : "Miguel",
+  "lastName" : "Rivas",
+  "dni" : "83937036",
+  "email" : "miguel.rivas@aol.com",
+  "speciality" : "CONTRABAJO"
+}, {
+  "id" : "7e64fdb4-f923-476e-8204-e97d7fc46cff",
+  "name" : "Pablo",
+  "lastName" : "Pena",
+  "dni" : "94688187",
+  "email" : "pablo.pena@mail.com",
+  "speciality" : "TROMPETA"
+}, {
+  "id" : "530e994f-2fa8-4854-85d4-d02eff0c5086",
+  "name" : "Ana",
+  "lastName" : "Rosales",
+  "dni" : "16787423",
+  "email" : "ana.rosales@mailfence.com",
+  "speciality" : "UKELELE"
+}, {
+  "id" : "b8505089-8362-4afa-8d7a-03e0b5f2f00a",
+  "name" : "Raul",
+  "lastName" : "Guerrero",
+  "dni" : "84068952",
+  "email" : "raul.guerrero@posteo.net",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "d1c3742b-9a4e-4e7b-8e82-0b7142d64f85",
+  "name" : "Diana",
+  "lastName" : "Ibarra",
+  "dni" : "62739354",
+  "email" : "diana.ibarra@example.com",
+  "speciality" : "CLAVECIN"
+}, {
+  "id" : "287ad86a-4a4b-451e-aec7-37cd966e3510",
+  "name" : "Sergio",
+  "lastName" : "Rivas",
+  "dni" : "89196017",
+  "email" : "sergio.rivas@q.com",
+  "speciality" : "TROMPETA"
+}, {
+  "id" : "2417f643-430b-49fb-ba19-2e125c50656d",
+  "name" : "Juliana",
+  "lastName" : "Miranda",
+  "dni" : "63616687",
+  "email" : "juliana.miranda@runbox.com",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "56d4f4c3-1a66-4909-8c19-7951b0756772",
+  "name" : "Diego",
+  "lastName" : "Reyes",
+  "dni" : "28892144",
+  "email" : "diego.reyes@yahoo.com",
+  "speciality" : "UKELELE"
+}, {
+  "id" : "173fa5fa-f255-42db-a36f-ba953e8f6785",
+  "name" : "Juliana",
+  "lastName" : "Martinez",
+  "dni" : "35296264",
+  "email" : "juliana.martinez@gmail.com",
+  "speciality" : "VIOLIN"
+}, {
+  "id" : "40e45e94-0519-407c-bad7-c2d751ac062e",
+  "name" : "Javier",
+  "lastName" : "Figueroa",
+  "dni" : "97830233",
+  "email" : "javier.figueroa@verizon.net",
+  "speciality" : "BAJO"
+}, {
+  "id" : "4804298a-fee6-485b-84f4-a781ba25058b",
+  "name" : "Beatriz",
+  "lastName" : "Escobar",
+  "dni" : "49461241",
+  "email" : "beatriz.escobar@seznam.cz",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "49758a65-e402-44ad-8f8d-45c42e53f6dd",
+  "name" : "John",
+  "lastName" : "Castillo",
+  "dni" : "51062742",
+  "email" : "john.castillo@verizon.net",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "169e824e-1cd8-486e-92cd-c23a4deef223",
+  "name" : "Elisa",
+  "lastName" : "Palacios",
+  "dni" : "89161918",
+  "email" : "elisa.palacios@tutanota.com",
+  "speciality" : "CLAVECIN"
+}, {
+  "id" : "9a4692ac-5a38-42ba-b145-fd33b79664ee",
+  "name" : "Valeria",
+  "lastName" : "Moreno",
+  "dni" : "95016275",
+  "email" : "valeria.moreno@verizon.net",
+  "speciality" : "BAJO"
+}, {
+  "id" : "d7c949b4-48c8-447c-a232-7a34f5aa1db6",
+  "name" : "Miguel",
+  "lastName" : "Perez",
+  "dni" : "81845753",
+  "email" : "miguel.perez@mailfence.com",
+  "speciality" : "UKELELE"
+}, {
+  "id" : "3f6658dc-8d1d-4006-97de-d671ff4156e3",
+  "name" : "Esteban",
+  "lastName" : "Martinez",
+  "dni" : "98731975",
+  "email" : "esteban.martinez@outlook.com",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "b6fa3d0f-ec37-4e57-8dbe-b0c07a3152fa",
+  "name" : "Irene",
+  "lastName" : "Castillo",
+  "dni" : "79321141",
+  "email" : "irene.castillo@zohomail.com",
+  "speciality" : "TROMPETA"
+}, {
+  "id" : "b55a01b1-a3aa-4979-b134-7870347d5a19",
+  "name" : "Diego",
+  "lastName" : "Medina",
+  "dni" : "48208495",
+  "email" : "diego.medina@laposte.net",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "901b1190-df84-4798-91d0-c269fdca2b9f",
+  "name" : "Nicolas",
+  "lastName" : "Salazar",
+  "dni" : "45249712",
+  "email" : "nicolas.salazar@verizon.net",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "83511b31-9baa-4b4e-ac46-9c06570e1085",
+  "name" : "Cecilia",
+  "lastName" : "Ramirez",
+  "dni" : "33363688",
+  "email" : "cecilia.ramirez@inbox.com",
+  "speciality" : "CAMPANAS_TUBULARES"
+}, {
+  "id" : "9b034d68-6091-4cba-9bab-ad05df01733a",
+  "name" : "Pedro",
+  "lastName" : "Luna",
+  "dni" : "50733373",
+  "email" : "pedro.luna@live.com",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "8eb97db2-1e31-4d41-b8ed-11e1ef714b7b",
+  "name" : "Juliana",
+  "lastName" : "Chavez",
+  "dni" : "95524898",
+  "email" : "juliana.chavez@aol.com",
+  "speciality" : "MARIMBA"
+}, {
+  "id" : "07b56614-edb2-4ae8-af5d-d5a8658a1bd5",
+  "name" : "Alicia",
+  "lastName" : "Romero",
+  "dni" : "90584749",
+  "email" : "alicia.romero@btinternet.com",
+  "speciality" : "UKELELE"
+}, {
+  "id" : "73954e17-88de-4e2f-9392-393a89b02713",
+  "name" : "Ricardo",
+  "lastName" : "Matos",
+  "dni" : "62688720",
+  "email" : "ricardo.matos@posteo.net",
+  "speciality" : "BAJO"
+}, {
+  "id" : "e51ef083-f594-4582-b6a0-c9b57e1a52e5",
+  "name" : "Carlos",
+  "lastName" : "Alvarez",
+  "dni" : "81987420",
+  "email" : "carlos.alvarez@inbox.com",
+  "speciality" : "GUITARRA"
+}, {
+  "id" : "2ba56daf-04fc-4f35-81e9-3615e92afb05",
+  "name" : "Bianca",
+  "lastName" : "Fernandez",
+  "dni" : "99372579",
+  "email" : "bianca.fernandez@mail.com",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "df2b706a-e7a9-48e3-8406-045771cbe89d",
+  "name" : "Alberto",
+  "lastName" : "Valenzuela",
+  "dni" : "27706504",
+  "email" : "alberto.valenzuela@rocketmail.com",
+  "speciality" : "TROMBON"
+}, {
+  "id" : "765098f9-314b-4285-85df-74392fc53bfd",
+  "name" : "Vladimir",
+  "lastName" : "Vega",
+  "dni" : "10447532",
+  "email" : "vladimir.vega@q.com",
+  "speciality" : "UKELELE"
+}, {
+  "id" : "f85b9dd1-2baf-424b-b736-1f49c8184594",
+  "name" : "Cristina",
+  "lastName" : "Luna",
+  "dni" : "53666517",
+  "email" : "cristina.luna@webmail.com",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "2b91b193-d178-42ce-bbdc-4a66a3e36401",
+  "name" : "Sergio",
+  "lastName" : "Mejia",
+  "dni" : "79790181",
+  "email" : "sergio.mejia@hushmail.com",
+  "speciality" : "UKELELE"
+}, {
+  "id" : "11561bdd-e094-4869-ab9f-ecfb932d4502",
+  "name" : "Silvia",
+  "lastName" : "Rios",
+  "dni" : "45700587",
+  "email" : "silvia.rios@btinternet.com",
+  "speciality" : "SAXOFON"
+}, {
+  "id" : "a041a309-9d27-4c9d-82b3-a760194d75cd",
+  "name" : "Bianca",
+  "lastName" : "Alvarez",
+  "dni" : "16095377",
+  "email" : "bianca.alvarez@yahoo.com",
+  "speciality" : "PIANO"
+}, {
+  "id" : "ad42bb3b-92a6-4889-ab14-68ba6a84510a",
+  "name" : "Victoria",
+  "lastName" : "Martinez",
+  "dni" : "67900099",
+  "email" : "victoria.martinez@aol.com",
+  "speciality" : "MARIMBA"
+}, {
+  "id" : "f173c42e-0f97-45fd-bd19-987f6f98fbb5",
+  "name" : "Nicolas",
+  "lastName" : "Santana",
+  "dni" : "83414958",
+  "email" : "nicolas.santana@laposte.net",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "e7636a7a-0cf5-4d10-9303-52ba74bc405f",
+  "name" : "Fernando",
+  "lastName" : "Maldonado",
+  "dni" : "29389133",
+  "email" : "fernando.maldonado@yahoo.com",
+  "speciality" : "BAJO"
+}, {
+  "id" : "8f0a6bd5-75ea-4df4-ab56-0d046f6d6752",
+  "name" : "Maria",
+  "lastName" : "Aguirre",
+  "dni" : "61469536",
+  "email" : "maria.aguirre@zohomail.com",
+  "speciality" : "VIOLA"
+}, {
+  "id" : "a2753119-c5df-470f-977a-3fd59d2b0059",
+  "name" : "Nicolas",
+  "lastName" : "Peña",
+  "dni" : "19877600",
+  "email" : "nicolas.peña@domain.com",
+  "speciality" : "GUITARRA"
+}, {
+  "id" : "57f0e240-b54d-43fb-9354-90e5df137009",
+  "name" : "Elisa",
+  "lastName" : "Morales",
+  "dni" : "70080085",
+  "email" : "elisa.morales@rocketmail.com",
+  "speciality" : "CONTRABAJO"
+}, {
+  "id" : "9f3bd8bc-7ccc-4392-9269-b07af1c30cc0",
+  "name" : "Martin",
+  "lastName" : "Moreno",
+  "dni" : "64703549",
+  "email" : "martin.moreno@mailbox.org",
+  "speciality" : "XILOFONO"
+}, {
+  "id" : "e1fbe5c9-67be-4124-9137-673e8fac6cf1",
+  "name" : "Elena",
+  "lastName" : "Torres",
+  "dni" : "23144274",
+  "email" : "elena.torres@provider.com",
+  "speciality" : "XILOFONO"
+}, {
+  "id" : "f2e14be6-e26e-45bf-8210-a01321c656fd",
+  "name" : "Ricardo",
+  "lastName" : "Flores",
+  "dni" : "49691366",
+  "email" : "ricardo.flores@mailfence.com",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "34434c41-a7b2-40df-a05f-f4dbf4a3e867",
+  "name" : "Fernando",
+  "lastName" : "Moreno",
+  "dni" : "75688601",
+  "email" : "fernando.moreno@aol.com",
+  "speciality" : "PIANO"
+}, {
+  "id" : "fd404983-36ab-48b3-8e1e-1646b4e7cc9f",
+  "name" : "Mateo",
+  "lastName" : "Romero",
+  "dni" : "66862679",
+  "email" : "mateo.romero@gmx.com",
+  "speciality" : "UKELELE"
+}, {
+  "id" : "dff3e71c-dc45-45d3-be84-42be949f01c8",
+  "name" : "Isabel",
+  "lastName" : "Pena",
+  "dni" : "80129315",
+  "email" : "isabel.pena@icloud.com",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "6e2eeaa9-24e0-41da-9471-84d38f00c741",
+  "name" : "Isabel",
+  "lastName" : "Santana",
+  "dni" : "59449104",
+  "email" : "isabel.santana@laposte.net",
+  "speciality" : "CLAVECIN"
+}, {
+  "id" : "cb4ab1ea-c9b6-4975-88f9-654dc56d05ab",
+  "name" : "Emilio",
+  "lastName" : "Gomez",
+  "dni" : "89708701",
+  "email" : "emilio.gomez@seznam.cz",
+  "speciality" : "XILOFONO"
+}, {
+  "id" : "6a79ae62-14cd-47c8-a25b-662c9039480b",
+  "name" : "Andres",
+  "lastName" : "Campos",
+  "dni" : "83585237",
+  "email" : "andres.campos@mail.com",
+  "speciality" : "CLAVECIN"
+}, {
+  "id" : "145109d8-cc98-43f4-a5ca-6dd7cfe7eaec",
+  "name" : "Sofia",
+  "lastName" : "Morales",
+  "dni" : "27641179",
+  "email" : "sofia.morales@btinternet.com",
+  "speciality" : "ARPA"
+}, {
+  "id" : "03a6b979-a2ed-4bd0-add0-6400bfc2e9e2",
+  "name" : "Gabriel",
+  "lastName" : "Quintero",
+  "dni" : "60538814",
+  "email" : "gabriel.quintero@hushmail.com",
+  "speciality" : "CONTRABAJO"
+}, {
+  "id" : "9a998733-c15e-44b1-bf7c-9bbca04954d0",
+  "name" : "Mateo",
+  "lastName" : "Garcia",
+  "dni" : "74261632",
+  "email" : "mateo.garcia@outlook.com",
+  "speciality" : "UKELELE"
+}, {
+  "id" : "e41f7194-1ba9-407d-a6f4-5847c366b02b",
+  "name" : "Diego",
+  "lastName" : "Valencia",
+  "dni" : "37037125",
+  "email" : "diego.valencia@orange.fr",
+  "speciality" : "UKELELE"
+}, {
+  "id" : "bd5e09f1-7e25-411b-a0d4-cc85fde959f2",
+  "name" : "Lorena",
+  "lastName" : "Mendoza",
+  "dni" : "44219576",
+  "email" : "lorena.mendoza@service.com",
+  "speciality" : "CLAVECIN"
+}, {
+  "id" : "500c7cfb-9997-43eb-ac86-5e61ef0df99d",
+  "name" : "Elena",
+  "lastName" : "Contreras",
+  "dni" : "14620083",
+  "email" : "elena.contreras@domain.com",
+  "speciality" : "CONTRABAJO"
+}, {
+  "id" : "07e8990f-ca18-493b-aa9e-b40673e034ef",
+  "name" : "Laura",
+  "lastName" : "Miranda",
+  "dni" : "67773081",
+  "email" : "laura.miranda@q.com",
+  "speciality" : "PIANO"
+}, {
+  "id" : "2e9b89b2-4eb9-44a9-a781-dc1544d92666",
+  "name" : "Elena",
+  "lastName" : "Ortiz",
+  "dni" : "32436306",
+  "email" : "elena.ortiz@yahoo.com",
+  "speciality" : "MARIMBA"
+}, {
+  "id" : "c2b877ea-66fd-407c-bd33-0b59d155bfe9",
+  "name" : "Lucia",
+  "lastName" : "Bautista",
+  "dni" : "10965560",
+  "email" : "lucia.bautista@tutanota.com",
+  "speciality" : "CONTRABAJO"
+}, {
+  "id" : "e3179137-bf45-458c-af79-8481b069fa8a",
+  "name" : "Rosa",
+  "lastName" : "Diaz",
+  "dni" : "41880829",
+  "email" : "rosa.diaz@yahoo.com",
+  "speciality" : "BANJO"
+}, {
+  "id" : "59cdf066-8ba4-40bf-bd98-95ff02c10c85",
+  "name" : "Liliana",
+  "lastName" : "Quintero",
+  "dni" : "34089296",
+  "email" : "liliana.quintero@yandex.com",
+  "speciality" : "PIANO"
+}, {
+  "id" : "1d2ce2f3-5bca-4622-9379-7829f1c045d5",
+  "name" : "Gabriela",
+  "lastName" : "Cortez",
+  "dni" : "81136834",
+  "email" : "gabriela.cortez@zohomail.com",
+  "speciality" : "PIANO"
+}, {
+  "id" : "25b397d9-97ca-42b4-8ceb-5459492e3188",
+  "name" : "Victoria",
+  "lastName" : "Paredes",
+  "dni" : "48212420",
+  "email" : "victoria.paredes@service.com",
+  "speciality" : "CLAVECIN"
+}, {
+  "id" : "bc663199-6275-4f0c-8a9d-d4c20f83ba1c",
+  "name" : "Sergio",
+  "lastName" : "Bautista",
+  "dni" : "90036080",
+  "email" : "sergio.bautista@mail.ru",
+  "speciality" : "GUITARRA"
+}, {
+  "id" : "f18a07ba-191f-43e1-8161-144743fb0661",
+  "name" : "Sara",
+  "lastName" : "Palacios",
+  "dni" : "23307032",
+  "email" : "sara.palacios@hotmail.com",
+  "speciality" : "GUITARRA"
+}, {
+  "id" : "ef352c50-8fc0-4ccf-b497-d8672b237d38",
+  "name" : "Bianca",
+  "lastName" : "Castillo",
+  "dni" : "76772475",
+  "email" : "bianca.castillo@btinternet.com",
+  "speciality" : "BAJO"
+}, {
+  "id" : "6c7c6965-40be-4764-be8a-a311626b0048",
+  "name" : "Fernando",
+  "lastName" : "Zambrano",
+  "dni" : "69809527",
+  "email" : "fernando.zambrano@icloud.com",
+  "speciality" : "TROMPETA"
+}, {
+  "id" : "bb6bb695-7b01-44b7-bed2-9a142a8e70f0",
+  "name" : "Oscar",
+  "lastName" : "Zambrano",
+  "dni" : "58869583",
+  "email" : "oscar.zambrano@runbox.com",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "09a496ab-f82a-4783-87b9-00b47ec92e64",
+  "name" : "Carlos",
+  "lastName" : "Hernandez",
+  "dni" : "59323530",
+  "email" : "carlos.hernandez@yahoo.com",
+  "speciality" : "VIOLONCHELO"
+}, {
+  "id" : "d2949b9a-0cfd-449c-b196-a5dc7d3558a1",
+  "name" : "Jorge",
+  "lastName" : "Castro",
+  "dni" : "38835778",
+  "email" : "jorge.castro@email.com",
+  "speciality" : "ARPA"
+>>>>>>> 85fffe644e234283f1851d639aee8aafd6782f2d
 } ]

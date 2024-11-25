@@ -18,7 +18,7 @@ public class Main extends Application {
 
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/scenes/MAIN_MENU.fxml"));
 
-        Scene scene = new Scene(fxmlLoader. load(), 453, 295);
+        Scene scene = new Scene(fxmlLoader. load(), 600, 400);
 
         Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/images/icon.png")));
         stage.getIcons().add(icon);

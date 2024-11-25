@@ -16,33 +16,62 @@ public class Progress {
     public Progress(){
 
     }
+    /**
+     * Constructor de la clase Progress.
+     * @param student El estudiante relacionado con el progreso.
+     * @param course El curso relacionado con el progreso.
+     */
     public Progress(Student student, Course course) {
         this.student = student;
         this.course = course;
         this.progressPercentage = calculateProgressPercentage();
     }
 
+    /**
+     * Obtiene el estudiante asociado con el progreso.
+     * @return El estudiante.
+     */
     public Student getStudent() {
         return student;
     }
 
+    /**
+     * Obtiene el curso asociado con el progreso.
+     * @return El curso.
+     */
     public Course getCourse() {
         return course;
     }
 
-    @JsonProperty("courseName") // Solo serializar el nombre del curso
+    /**
+     * Obtiene el nombre del curso para la serialización JSON.
+     * @return El nombre del curso o null si el curso es null.
+     */
+    @JsonProperty("courseName")
     public String getCourseName() {
         return course != null ? course.getName() : null;
     }
 
+    /**
+     * Obtiene el porcentaje de progreso.
+     * @return El porcentaje de progreso.
+     */
     public double getProgressPercentage() {
         return progressPercentage;
     }
 
+    /**
+     * Establece el porcentaje de progreso.
+     * @param progressPercentage El nuevo porcentaje de progreso.
+     */
     public void setProgressPercentage(double progressPercentage) {
         this.progressPercentage = progressPercentage;
     }
 
+    /**
+     * Calcula el porcentaje de progreso con base en las clases asistidas.
+     * @return El porcentaje de progreso calculado.
+     */
     private double calculateProgressPercentage() {
         int totalClasses = course.getClases().size();
         int attendedClasses = 0;
@@ -56,11 +85,18 @@ public class Progress {
         return (totalClasses > 0) ? ((double) attendedClasses / totalClasses) * 100 : 0;
     }
 
+    /**
+     * Muestra el progreso del estudiante en el curso.
+     */
     public void show() {
         this.progressPercentage = calculateProgressPercentage();
         System.out.println("El progreso del estudiante " + student.getName() + " en el curso " + course.getName() + " es del " + progressPercentage + "%");
     }
 
+    /**
+     * Retorna una representación en cadena del objeto Progress.
+     * @return Una cadena que representa el progreso.
+     */
     @Override
     public String toString() {
         return "Progress{" +
