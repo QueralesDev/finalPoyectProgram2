@@ -1,6 +1,5 @@
 package com.example.Controllers;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -20,7 +19,6 @@ import org.finalProyect.models.*;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 
 public class scenes_controllers {
@@ -41,11 +39,6 @@ public class scenes_controllers {
         onLoadCourses();
         configureRowClickEvent();
 
-    }
-
-    @FXML
-    public void handleMyClassesAction() {
-        showAlert("Gestion clases", "Aca se podran gestionar las clases.");
     }
 
     private void showAlert(String title, String message) {
@@ -261,6 +254,20 @@ public class scenes_controllers {
             Parent root = FXMLLoader.load(getClass().getResource("/com/example/scenes/courses_scenes/courses_menu_scene.fxml"));
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             Scene scene = new Scene(root, 408, 257);
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+            showAlert("Error", "No se pudo cargar la escena.");
+        }
+    }
+
+    @FXML
+    public void switchToCPT(ActionEvent event) {
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/com/example/scenes/collection_performance_test_scene.fxml"));
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            Scene scene = new Scene(root, 470, 450);
             stage.setScene(scene);
             stage.show();
         } catch (IOException e) {

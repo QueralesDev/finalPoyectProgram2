@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="450.0" prefWidth="457.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.Controllers.CollectionPerformanceController">
+    <children>
+        <!-- Área de texto para mostrar resultados -->
+        <TextArea fx:id="resultsArea" layoutX="25.0" layoutY="25.0" prefHeight="300.0" prefWidth="400.0" wrapText="true" />
+
+        <!-- Botón para ejecutar todas las pruebas -->
+        <Button fx:id="btnRunTests" layoutX="125.0" layoutY="350.0" prefHeight="40.0" prefWidth="200.0" text="Ejecutar Pruebas de Rendimiento" />
+      <Button layoutX="183.0" layoutY="410.0" onAction="#switchToScene1" prefHeight="12.0" prefWidth="91.0" text="Volver" />
+    </children>
+</AnchorPane>
