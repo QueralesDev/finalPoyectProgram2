@@ -267,7 +267,7 @@ public class scenes_controllers {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/com/example/scenes/collection_performance_test_scene.fxml"));
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-            Scene scene = new Scene(root, 470, 450);
+            Scene scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
         } catch (IOException e) {

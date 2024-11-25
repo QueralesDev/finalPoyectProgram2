@@ -4,10 +4,10 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="450.0" prefWidth="457.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.Controllers.CollectionPerformanceController">
+<AnchorPane prefHeight="448.0" prefWidth="458.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controllers.CollectionPerformanceController">
     <children>
         <!-- Área de texto para mostrar resultados -->
-        <TextArea fx:id="resultsArea" layoutX="25.0" layoutY="25.0" prefHeight="300.0" prefWidth="400.0" wrapText="true" />
+        <TextArea fx:id="resultsArea" layoutY="25.0" prefHeight="300.0" prefWidth="458.0" wrapText="true" />
 
         <!-- Botón para ejecutar todas las pruebas -->
         <Button fx:id="btnRunTests" layoutX="125.0" layoutY="350.0" prefHeight="40.0" prefWidth="200.0" text="Ejecutar Pruebas de Rendimiento" />
