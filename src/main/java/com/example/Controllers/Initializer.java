@@ -24,8 +24,8 @@ public class Initializer {
 */
 public Initializer() throws IOException {
         this.generatorJson = new GeneratorJson();
-        generatorJson.generateStudents(100);
-        generatorJson.generateTeachers(100);
+        generatorJson.generateStudents(2000);
+        generatorJson.generateTeachers(80);
         generatorJson.generateCourses(20);
         this.managementSystem = new ManagementSystem();
         managementSystem.generateMockProgressData();
